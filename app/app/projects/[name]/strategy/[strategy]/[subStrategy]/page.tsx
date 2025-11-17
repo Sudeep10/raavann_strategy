@@ -122,10 +122,9 @@ const CircleComponent = ({
           y1={relCenterY}
           x2={0}
           y2={0}
-          stroke={step.color}
           strokeWidth={1.5}
-          strokeLinecap="round"
           opacity={0.45}
+          className="stroke-foreground"
         />
 
         <g>
@@ -137,7 +136,7 @@ const CircleComponent = ({
                   alt=""
                   width="128"
                   height="128"
-                  className="rounded-full border-2 shadow-md transition-all hover:scale-105"
+                  className="p-0.5 bg-white rounded-full border-2 shadow-md transition-all hover:scale-105"
                 />
               </TooltipTrigger>
               <TooltipContent className="max-w-sm text-pretty">

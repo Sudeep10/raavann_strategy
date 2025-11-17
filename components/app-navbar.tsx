@@ -7,6 +7,7 @@ import { HomeIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { useUserStore } from "@/store/user";
 import { Button } from "./ui/button";
+import { ModeToggle } from "./mode-toggle";
 
 export default function AppNavbar() {
   const teamName = useUserStore((state) => state.team);
@@ -78,9 +79,12 @@ export default function AppNavbar() {
               <Input placeholder="Search" className="max-w-[150px]" />
             </div>
             <div></div>
-            <Button variant={"outline"}>
-              <UserIcon />
-            </Button>
+            <div className="flex gap-2 justify-center">
+              <Button variant={"outline"}>
+                <UserIcon />
+              </Button>
+              <ModeToggle />
+            </div>
           </div>
 
           <ul
