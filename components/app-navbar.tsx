@@ -28,9 +28,9 @@ export default function AppNavbar() {
     let lastTouchY = 0;
 
     const onWheel = (e: WheelEvent) => {
+      if (e.deltaY < 0) setHideTop(false);
       if (window.scrollY === 0) return;
       if (e.deltaY > 0) setHideTop(true);
-      else if (e.deltaY < 0) setHideTop(false);
     };
 
     const onTouchStart = (e: TouchEvent) => {
@@ -38,10 +38,10 @@ export default function AppNavbar() {
     };
 
     const onTouchMove = (e: TouchEvent) => {
-      if (window.scrollY === 0) return;
       const currentY = e.touches[0].clientY;
 
       if (currentY < lastTouchY) {
+        if (window.scrollY === 0) return;
         setHideTop(true);
       } else if (currentY > lastTouchY) {
         setHideTop(false);
