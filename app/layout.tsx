@@ -25,6 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          defer
+          src="https://analytics.raavann.com/script.js"
+          data-website-id="b62d2055-f35b-4f9d-b86a-4713ee15f2de"
+        ></script>
+      </head>
       <body
         className={`font-sans ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
