@@ -1,12 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { useSidebar } from "@/components/ui/sidebar";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Companies, StrategyExplanations } from "@/constants/companies";
+import { useUserStore } from "@/store/user";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -32,6 +34,7 @@ const CircleComponent = ({
       })),
   );
 
+  const { toggleSidebar, open, openMobile } = useSidebar();
   const [page, setPage] = useState(0);
   const limit = 7;
 
@@ -175,7 +178,23 @@ const CircleComponent = ({
             <TooltipContent className="max-w-sm text-pretty">
               <div className="flex flex-col p-2">
                 <p className="text-lg font-semibold">{step.name}</p>
-                <p className="text-sm">{step.text}</p>
+                <p className="text-xs">{step.text}</p>
+                <p
+                  className="relative mt-2 ml-auto text-xs cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-px after:w-0 after:bg-background after:transition-all after:duration-300 after:ease-out hover:after:w-full"
+                  onClick={() => {
+                    useUserStore.setState({
+                      companyId: step.id,
+                      companyName: step.name,
+                      strategy: strategy,
+                      subStrategy: subStrategy,
+                    });
+                    if (!open && !openMobile) {
+                      toggleSidebar();
+                    }
+                  }}
+                >
+                  View Company
+                </p>
               </div>
             </TooltipContent>
           </Tooltip>

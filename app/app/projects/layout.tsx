@@ -1,6 +1,8 @@
 "use client";
 
 import AppNavbar from "@/components/app-navbar";
+import { AppSidebar } from "@/components/app-sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 
 export default function ProjectsLayout({
   children,
@@ -8,9 +10,19 @@ export default function ProjectsLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex flex-col min-h-dvh">
-      <AppNavbar />
-      <main className="flex-1">{children}</main>
-    </div>
+    <SidebarProvider
+      style={
+        {
+          "--sidebar-width": "30rem",
+        } as React.CSSProperties
+      }
+      defaultOpen={false}
+    >
+      <div className="flex flex-col w-full min-h-dvh">
+        <AppNavbar />
+        <main className="flex-1">{children}</main>
+      </div>
+      <AppSidebar />
+    </SidebarProvider>
   );
 }

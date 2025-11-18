@@ -312,7 +312,7 @@ export const Companies: {
         {
           strategyType: "Competitive",
           subStrategyType: "Positioning Strategy",
-          text: "Honda Splendour Splendour Positions itself as a practical, fuel-efficient bike on which three people can sit, in contrast to sportier, more fuel-hungry options like the Pulsar, occupying a very different place in the buyer\u2019s mind.",
+          text: "Honda Splendour Splendour Positions itself as a practical, fuel-efficient bike on which three people can sit, in contrast to sportier, more fuel-hungry options like the Pulsar, occupying a very different place in the buyer’s mind.",
         },
       ],
     },
@@ -348,7 +348,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Uses an intentionally demanding production process, including sourcing water from its own cave, to build a differentiated, high-quality whiskey rather than choosing the most operationally efficient shortcuts.",
+          text: "The whiskey is made using Spring water from a Cave, which naturally filters iron and minerals. Maintaining these natural water conditions is highly unusual and inefficient. Jack Daniel’s also uses a unique charcoal mellowing step that predates many modern distillation techniques. Instead of barreling the raw spirit immediately after distillation, they slowly filter the whiskey through 10 feet of charcoal, a process lasting up to 10 days. It’s rare for distilleries to invest this much time and labor on filtration alone—many bypass it or use modern chemical filtration.",
         },
       ],
     },
@@ -360,7 +360,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Designs its cars using principles and golden ratios inspired by Leonardo da Vinci and classical architecture, emphasizing craftsmanship and design quality over simple production efficiency.",
+          text: "Designs its cars using principles and golden ratios inspired by Leonardo da Vinci and classical architecture, emphasizing craftsmanship and design quality over simple production efficiency. This deep mathematical integration into styling is uncommon and slows down design iteration but sets their cars apart visually.",
         },
       ],
     },
@@ -372,7 +372,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Supply Chain Strategy",
-          text: "Owns silk farms and crocodile farms and hand-stitches each product, tightly controlling its supply of key materials so it can maintain extremely high standards in its luxury goods.",
+          text: "Hermès’ way of working remains rooted in leathercraft techniques and artisanal principles established nearly 200 years ago. Hermès uses the traditional saddle stitch, which involves two needles. This creates a seam that is stronger than machine stitching—even if one thread snaps, the seam doesn’t unravel. This method demands intense manual skill, is slow, and causes hand fatigue, but cannot be replicated by machines. Hermès owns and manages its own silk farms. Hermes controls every stage, from the cultivation of silkworms to the processing of silk threads. They even own and raise saltwater crocodiles specifically for their leather. This is a highly unusual practice compared to other fashion brands, which typically source exotic skins or silk from third-party suppliers because its cost efficient and scalable.",
         },
       ],
     },
@@ -384,7 +384,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Builds handcrafted cars, accepting slow and intensive production processes as the cost of delivering distinctive, high-quality vehicles that stand apart from mass-produced alternatives.",
+          text: "The whole process to build a Ferrari car takes about 3 months; they accept slow, handcrafted production. In that same period Honda’s Suzuka plant could make ≈86,400 cars (1 car every 90 seconds).Ferrari even has its own in-house foundry where solid aluminium ingots are heated in two large melting furnaces for core engine components. In short, the seemingly inefficient, fully manual build process is what creates superior quality. ",
         },
       ],
     },
@@ -396,7 +396,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Handcrafts its cars much like Ferrari and Bugatti, using labor-intensive methods as a deliberate way to achieve a level of finish and distinctiveness associated with ultra-high-end vehicles.",
+          text: "Each Lamborghini is hand-assembled. Lamborghini has achieved complete vertical control over carbon fiber manufacturing, a differentiator virtually no competitor possesses.For testing the quality of the carbon fiber material produced in-house, Lamborghini partnered with the International Space Station and sent samples of the material into space to evaluate its performance under harsh environmental conditions. This experiment is exceptionally rare for an automaker.",
         },
       ],
     },
@@ -408,7 +408,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Produces handcrafted cars where meticulous build processes and attention to detail signal extreme quality, showing how operations can be tuned for excellence rather than cost efficiency.",
+          text: "Each Bugatti car is handmade, no conveyer belts or assembly lines are used. With a small team of only 20 people, Bugatti spends about six months constructing each Chiron. Each Bugatti Car is driven approx 350km or more before delievering it to the customer. Also, Bugatti's exhaust systems are made of titanium, this practice is not common in the general car industry.",
         },
       ],
     },
@@ -420,7 +420,7 @@ export const Companies: {
         {
           strategyType: "Operations",
           subStrategyType: "Quality & Reliability Strategy",
-          text: "Sources wood and dries it for years, then takes about a year to build each piano and even pounds every piano thousands of times before delivery, using a long, demanding process to ensure consistent quality.",
+          text: "It takes quality wood to produce quality sound. After the wood arrives at the factory, it is dried for more than 2 years. Water evaporates naturally.Then takes about a year to build each piano and even pounds every piano 3200 times before delivery.The manufacturing process has remained virtually unchanged for 150 years, where every piano is still handmade.",
         },
       ],
     },

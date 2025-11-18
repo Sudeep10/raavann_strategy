@@ -3,16 +3,18 @@
 import { Companies } from "@/constants/companies";
 import { useEffect, useState } from "react";
 import { Input } from "./ui/input";
-import { HomeIcon, UserIcon } from "lucide-react";
+import { HomeIcon, UserIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useUserStore } from "@/store/user";
 import { Button } from "./ui/button";
 import { ModeToggle } from "./mode-toggle";
+import { useSidebar } from "./ui/sidebar";
 
 export default function AppNavbar() {
   const teamName = useUserStore((state) => state.team);
   const [activeStrategy, setActiveStrategy] = useState<string | null>(null);
   const [hideTop, setHideTop] = useState(false);
+  const { toggleSidebar } = useSidebar();
 
   const subStrategies = [
     ...new Set(
@@ -84,6 +86,9 @@ export default function AppNavbar() {
                 <UserIcon />
               </Button>
               <ModeToggle />
+              {/* <Button variant={"outline"} onClick={toggleSidebar}> */}
+              {/*   <XIcon /> */}
+              {/* </Button> */}
             </div>
           </div>
 
