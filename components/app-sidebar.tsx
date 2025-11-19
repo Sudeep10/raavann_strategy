@@ -468,7 +468,15 @@ Your comparison MUST:
   };
 
   return (
-    <Dialog open={showCompareDialog} onOpenChange={setShowCompareDialog}>
+    <Dialog
+      open={showCompareDialog}
+      onOpenChange={(v) => {
+        setShowCompareDialog(v);
+        if (!v) {
+          setRows([]);
+        }
+      }}
+    >
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Compare Companies</DialogTitle>
