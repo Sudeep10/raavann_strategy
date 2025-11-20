@@ -13,7 +13,6 @@ import { useSidebar } from "./ui/sidebar";
 export default function AppNavbar() {
   const teamName = useUserStore((state) => state.team);
   const [activeStrategy, setActiveStrategy] = useState<string | null>(null);
-  const [hideTop, setHideTop] = useState(false);
   const { toggleSidebar } = useSidebar();
 
   const subStrategies = [
@@ -26,52 +25,11 @@ export default function AppNavbar() {
     ),
   ];
 
-  useEffect(() => {
-    let lastTouchY = 0;
-
-    const onWheel = (e: WheelEvent) => {
-      if (e.deltaY < 0) setHideTop(false);
-      if (window.scrollY === 0) return;
-      if (e.deltaY > 0) setHideTop(true);
-    };
-
-    const onTouchStart = (e: TouchEvent) => {
-      lastTouchY = e.touches[0].clientY;
-    };
-
-    const onTouchMove = (e: TouchEvent) => {
-      const currentY = e.touches[0].clientY;
-
-      if (currentY < lastTouchY) {
-        if (window.scrollY === 0) return;
-        setHideTop(true);
-      } else if (currentY > lastTouchY) {
-        setHideTop(false);
-      }
-
-      lastTouchY = currentY;
-    };
-
-    window.addEventListener("wheel", onWheel, { passive: true });
-    window.addEventListener("touchstart", onTouchStart, { passive: true });
-    window.addEventListener("touchmove", onTouchMove, { passive: true });
-
-    return () => {
-      window.removeEventListener("wheel", onWheel);
-      window.removeEventListener("touchstart", onTouchStart);
-      window.removeEventListener("touchmove", onTouchMove);
-    };
-  }, []);
-
   return (
     <div className="flex sticky top-0 z-50 flex-col shadow-sm backdrop-blur-md bg-background/50">
-      <div
-        className={`flex relative flex-col items-center px-4 ${hideTop ? "p-0" : "pt-4"}`}
-      >
+      <div className={`flex relative flex-col items-center px-4  pt-4`}>
         <div className="container flex flex-col">
-          <div
-            className={`flex justify-between items-center transition-all ${hideTop ? "h-0 opacity-0" : "opacity-100"}`}
-          >
+          <div className={`flex justify-between items-center transition-all`}>
             <div className="flex gap-2 items-center">
               <Link href={"/app/projects/" + teamName}>
                 <Button variant={"outline"}>

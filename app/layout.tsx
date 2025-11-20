@@ -34,7 +34,7 @@ export default function RootLayout({
         ></script>
       </head>
       <body
-        className={`font-sans ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`font-sans ${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
         <ThemeProvider
           attribute="class"

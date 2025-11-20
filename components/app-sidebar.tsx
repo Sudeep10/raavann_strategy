@@ -40,6 +40,13 @@ import {
   TableRow,
 } from "./ui/table";
 import { Spinner } from "./ui/spinner";
+import {
+  Empty,
+  EmptyDescription,
+  EmptyHeader,
+  EmptyMedia,
+  EmptyTitle,
+} from "./ui/empty";
 
 const FilterDialog = () => {
   const strategy = useUserStore((state) => state.strategy);
@@ -155,120 +162,6 @@ const FilterDialog = () => {
   );
 };
 
-const CompareFilterDialog = () => {
-  const strategy = useUserStore((state) => state.compareStrategy);
-  const subStrategy = useUserStore((state) => state.compareSubStrategy);
-  const strategyTypes = [
-    ...new Set(
-      Companies.flatMap((company) => company.data.map((d) => d.strategyType)),
-    ),
-  ];
-
-  return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button variant="outline">
-          <FunnelIcon />
-          Filter
-        </Button>
-      </DialogTrigger>
-
-      <DialogContent className="overflow-y-auto rounded-xl border shadow-lg max-h-[80vh] border-border/50">
-        <DialogHeader className="space-y-1.5">
-          <DialogTitle className="text-xl font-semibold tracking-tight">
-            Filter Options
-          </DialogTitle>
-          <DialogDescription className="text-sm text-muted-foreground">
-            Choose a strategy type to filter the data.
-          </DialogDescription>
-        </DialogHeader>
-
-        <div className="mt-6 space-y-8">
-          <div className="flex flex-col gap-3">
-            <h3 className="text-xs font-semibold tracking-wide uppercase text-muted-foreground">
-              Quick Filters
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              <Badge
-                variant={!strategy && !subStrategy ? "default" : "outline"}
-                className="py-1.5 px-4 text-sm rounded-full transition cursor-pointer hover:bg-primary hover:text-primary-foreground"
-                onClick={() => {
-                  useUserStore.setState({
-                    compareStrategy: undefined,
-                    compareSubStrategy: undefined,
-                  });
-                }}
-              >
-                All
-              </Badge>
-              {strategyTypes.map((type, idx) => (
-                <Badge
-                  key={`quick-${idx}`}
-                  variant={
-                    strategy === type && !subStrategy ? "default" : "outline"
-                  }
-                  className="py-1.5 px-4 text-sm rounded-full transition cursor-pointer hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => {
-                    useUserStore.setState({
-                      compareStrategy: type,
-                      compareSubStrategy: undefined,
-                    });
-                  }}
-                >
-                  {type}
-                </Badge>
-              ))}
-            </div>
-          </div>
-
-          {strategyTypes.map((type, idx) => (
-            <div key={idx} className="space-y-4">
-              <div className="flex justify-between items-center">
-                <h2 className="text-lg font-semibold">{type}</h2>
-                <div className="ml-4 w-full h-px bg-border/60"></div>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  ...new Set(
-                    Companies.flatMap((company) =>
-                      company.data
-                        .filter((d) => d.strategyType === type)
-                        .map((d) => d.subStrategyType),
-                    ),
-                  ),
-                ].map((subType, subIdx) => {
-                  const isActive = strategy === type && subStrategy === subType;
-
-                  return (
-                    <Badge
-                      key={`${type}-${subIdx}`}
-                      variant={isActive ? "default" : "outline"}
-                      className={`px-4 py-1.5 text-sm cursor-pointer rounded-full flex items-center gap-1.5 transition
-                    ${isActive
-                          ? "shadow-sm"
-                          : "hover:bg-accent hover:text-accent-foreground"
-                        }
-                  `}
-                      onClick={() => {
-                        useUserStore.setState({
-                          compareStrategy: type,
-                          compareSubStrategy: subType,
-                        });
-                      }}
-                    >
-                      {subType}
-                    </Badge>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
-        </div>
-      </DialogContent>
-    </Dialog>
-  );
-};
-
 const CompanySelectDialog = ({
   companySide,
   company,
@@ -283,6 +176,21 @@ const CompanySelectDialog = ({
   const strategy = useUserStore((state) => state.strategy);
   const subStrategy = useUserStore((state) => state.subStrategy);
   const [open, setOpen] = useState(false);
+
+  const filteredCompanies = Companies.filter((c) => c.name !== company).filter(
+    (c) => {
+      if (strategy && !subStrategy) {
+        return c.data.some((d) => d.strategyType === strategy);
+      }
+      if (strategy && subStrategy) {
+        return c.data.some(
+          (d) =>
+            d.strategyType === strategy && d.subStrategyType === subStrategy,
+        );
+      }
+      return false;
+    },
+  );
 
   const CompanyCard = ({ company }: { company: CompanyModel }) => {
     return (
@@ -362,31 +270,23 @@ const CompanySelectDialog = ({
         </DialogHeader>
         <div className="flex overflow-y-auto flex-col gap-2 max-h-[80vh]">
           <div className="grid grid-cols-1 gap-4 mt-4 mr-5 sm:grid-cols-2 lg:grid-cols-3">
-            {/* // Filtered using Strategy */}
-            {strategy &&
-              !subStrategy &&
-              Companies.filter((c) => c.name !== company)
-                .filter((company) =>
-                  company.data.some((d) => d.strategyType === strategy),
-                )
-                .map((company, idx) => (
-                  <CompanyCard key={"company-" + idx} company={company} />
-                ))}
-
-            {/* // Filtered using subStrategy */}
-            {strategy &&
-              subStrategy &&
-              Companies.filter((c) => c.name !== company)
-                .filter((company) =>
-                  company.data.some(
-                    (d) =>
-                      d.strategyType === strategy &&
-                      d.subStrategyType === subStrategy,
-                  ),
-                )
-                .map((company, idx) => (
-                  <CompanyCard key={"company-" + idx} company={company} />
-                ))}
+            {filteredCompanies.length === 0 ? (
+              <Empty className="col-span-full">
+                <EmptyHeader>
+                  <EmptyMedia variant="icon">
+                    <Building2Icon />
+                  </EmptyMedia>
+                  <EmptyTitle>No Compatible Companies Found</EmptyTitle>
+                  <EmptyDescription>
+                    Change filter to different strategy to see more companies.
+                  </EmptyDescription>
+                </EmptyHeader>
+              </Empty>
+            ) : (
+              filteredCompanies.map((company, idx) => (
+                <CompanyCard key={"company-" + idx} company={company} />
+              ))
+            )}
           </div>
         </div>
       </DialogContent>
