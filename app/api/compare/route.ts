@@ -22,7 +22,6 @@ const client = new OpenAI({
 
 export async function POST(req: Request) {
 	const { prompt } = await req.json();
-	console.log("Received prompt:", prompt);
 
 	const response = await client.responses.parse({
 		model: "gpt-5.1",
@@ -34,7 +33,6 @@ export async function POST(req: Request) {
 			format: zodTextFormat(RowsSchema, "rows"),
 		},
 	});
-	console.log("Generated response:", response.output_parsed);
 
 	return NextResponse.json(response.output_parsed);
 }

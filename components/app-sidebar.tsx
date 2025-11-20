@@ -304,7 +304,6 @@ const CompareDialog = () => {
 
   const compare = async () => {
     setLoading(true);
-    console.log(strategy, subStrategy);
     let companyADatapoints;
     let companyBDatapoints;
     if (strategy) {
@@ -356,8 +355,6 @@ Your comparison MUST:
     });
     const output = await res.json();
     setRows(output.rows);
-    console.log("Comparison Rows:", output.rows);
-
     setLoading(false);
   };
 
@@ -376,10 +373,10 @@ Your comparison MUST:
           <DialogTitle>Compare Companies</DialogTitle>
           <DialogDescription></DialogDescription>
         </DialogHeader>
-        <div className="overflow-y-auto h-[60vh]">
+        <div className="overflow-y-auto [&>div]:h-[60vh]">
           <Table className="w-full table-fixed">
             <TableHeader>
-              <TableRow>
+              <TableRow className="sticky top-0 bg-background">
                 {[companyA, companyB].map((company, idx) => (
                   <TableHead className="text-center" key={idx}>
                     <div className="relative mx-auto mb-5 w-16 h-16">
