@@ -13,6 +13,8 @@ import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const CircleComponent = ({
   strategy,
@@ -178,7 +180,9 @@ const CircleComponent = ({
             <TooltipContent className="max-w-sm text-pretty">
               <div className="flex flex-col p-2">
                 <p className="text-lg font-semibold">{step.name}</p>
-                <p className="text-xs">{step.text}</p>
+                <div className="text-xs! prose prose-invert dark:prose prose-li:marker:text-background dark:prose-li:marker:text-background max-h-[300px] overflow-y-auto scrollbar-thin pr-2">
+                  <Markdown remarkPlugins={[remarkGfm]}>{step.text}</Markdown>
+                </div>
                 <p
                   className="relative mt-2 ml-auto text-xs cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-px after:w-0 after:bg-background after:transition-all after:duration-300 after:ease-out hover:after:w-full"
                   onClick={() => {

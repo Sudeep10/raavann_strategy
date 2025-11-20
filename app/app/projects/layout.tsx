@@ -18,7 +18,7 @@ export default function ProjectsLayout({
       }
       defaultOpen={false}
     >
-      <div className="flex flex-col mb-2 w-full min-h-dvh">
+      <div className="flex flex-col pb-5 w-full min-h-dvh">
         <AppNavbar />
         <main className="flex-1">{children}</main>
       </div>

@@ -46,6 +46,8 @@ import {
   EmptyMedia,
   EmptyTitle,
 } from "./ui/empty";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const FilterDialog = () => {
   const strategy = useUserStore((state) => state.strategy);
@@ -128,30 +130,33 @@ const FilterDialog = () => {
                         .map((d) => d.subStrategyType),
                     ),
                   ),
-                ].map((subType, subIdx) => {
-                  const isActive = strategy === type && subStrategy === subType;
+                ]
+                  .sort((a, b) => a.localeCompare(b))
+                  .map((subType, subIdx) => {
+                    const isActive =
+                      strategy === type && subStrategy === subType;
 
-                  return (
-                    <Badge
-                      key={`${type}-${subIdx}`}
-                      variant={isActive ? "default" : "outline"}
-                      className={`px-4 py-1.5 text-sm cursor-pointer rounded-full flex items-center gap-1.5 transition
+                    return (
+                      <Badge
+                        key={`${type}-${subIdx}`}
+                        variant={isActive ? "default" : "outline"}
+                        className={`px-4 py-1.5 text-sm cursor-pointer rounded-full flex items-center gap-1.5 transition
                     ${isActive
-                          ? "shadow-sm"
-                          : "hover:bg-accent hover:text-accent-foreground"
-                        }
+                            ? "shadow-sm"
+                            : "hover:bg-accent hover:text-accent-foreground"
+                          }
                   `}
-                      onClick={() =>
-                        useUserStore.setState({
-                          strategy: type,
-                          subStrategy: subType,
-                        })
-                      }
-                    >
-                      {subType}
-                    </Badge>
-                  );
-                })}
+                        onClick={() =>
+                          useUserStore.setState({
+                            strategy: type,
+                            subStrategy: subType,
+                          })
+                        }
+                      >
+                        {subType}
+                      </Badge>
+                    );
+                  })}
               </div>
             </div>
           ))}
@@ -438,7 +443,9 @@ const DataTextCard = ({
   const subStrategy = useUserStore((state) => state.subStrategy);
   return (
     <div className="flex flex-col gap-2 p-4 rounded-md border h-fit bg-muted/40 hover:bg-muted">
-      <p>{text}</p>
+      <div className="prose dark:prose-invert text-sm! prose-li:marker:text-foreground prose-strong:text-sm!">
+        <Markdown remarkPlugins={[remarkGfm]}>{text}</Markdown>
+      </div>
       <div className="flex gap-2">
         {!strategy && !subStrategy && (
           <>

@@ -27,7 +27,7 @@ export default function AppNavbar() {
 
   return (
     <div className="flex sticky top-0 z-50 flex-col shadow-sm backdrop-blur-md bg-background/50">
-      <div className={`flex relative flex-col items-center px-4  pt-4`}>
+      <div className={`flex relative flex-col items-center px-4 pt-4`}>
         <div className="container flex flex-col">
           <div className={`flex justify-between items-center transition-all`}>
             <div className="flex gap-2 items-center">
