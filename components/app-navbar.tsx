@@ -78,17 +78,20 @@ export default function AppNavbar() {
             onMouseLeave={() => setActiveStrategy(null)}
           >
             <div className="container">
-              <div className="grid grid-rows-5 auto-cols-max py-4 space-y-2 space-x-5 id-flow-col">
-                {subStrategies.map((subStrategy, idx) => (
-                  <Link
-                    href={`/app/projects/${teamName}/strategy/${encodeURIComponent(activeStrategy)}/${encodeURIComponent(subStrategy)}`}
-                    key={idx}
-                    className="text-xs font-medium transition-all w-fit text-foreground/80 hover:text-foreground"
-                    onClick={() => setActiveStrategy(null)}
-                  >
-                    {subStrategy}
-                  </Link>
-                ))}
+              <div className="grid grid-rows-5 auto-cols-max pb-4 space-y-2 space-x-5 id-flow-col">
+                {subStrategies
+                  .slice()
+                  .sort((a, b) => a.localeCompare(b))
+                  .map((subStrategy, idx) => (
+                    <Link
+                      href={`/app/projects/${teamName}/strategy/${encodeURIComponent(activeStrategy)}/${encodeURIComponent(subStrategy)}`}
+                      key={idx}
+                      className="text-xs font-medium transition-all w-fit text-foreground/80 hover:text-foreground"
+                      onClick={() => setActiveStrategy(null)}
+                    >
+                      {subStrategy}
+                    </Link>
+                  ))}
               </div>
             </div>
           </div>

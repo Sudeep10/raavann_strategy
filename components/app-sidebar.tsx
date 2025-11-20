@@ -2,7 +2,12 @@
 
 import { Sidebar, useSidebar } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
-import { Building2Icon, FunnelIcon, XIcon } from "lucide-react";
+import {
+  Building2Icon,
+  CircleQuestionMarkIcon,
+  FunnelIcon,
+  XIcon,
+} from "lucide-react";
 import { useUserStore } from "@/store/user";
 import { Companies, CompanyModel } from "@/constants/companies";
 import Image from "next/image";
@@ -479,6 +484,14 @@ export function AppSidebar() {
     return 0;
   };
 
+  const filteredDataPoints = companyInfo?.data.filter((d) => {
+    if (!strategy && !subStrategy) return true;
+    if (strategy && !subStrategy) return d.strategyType === strategy;
+    if (strategy && subStrategy)
+      return d.strategyType === strategy && d.subStrategyType === subStrategy;
+    return false;
+  });
+
   return (
     <Sidebar
       side="right"
@@ -545,47 +558,30 @@ export function AppSidebar() {
               )}
             </div>
             <div className="flex overflow-y-auto flex-col flex-1 gap-5 pr-2 mt-5 min-h-0">
-              {/* Show all */}
-              {!strategy &&
-                !subStrategy &&
-                companyInfo.data.map((d, idx) => (
+              {filteredDataPoints && filteredDataPoints.length > 0 ? (
+                filteredDataPoints.map((d, idx) => (
                   <DataTextCard
                     key={"data-" + idx}
                     text={d.text}
                     textStrategy={d.strategyType}
                     textSubStrategy={d.subStrategyType}
                   />
-                ))}
-              {/* Filtered using Strategy */}
-              {strategy &&
-                !subStrategy &&
-                companyInfo.data
-                  .filter((d) => d.strategyType === strategy)
-                  .map((d, idx) => (
-                    <DataTextCard
-                      key={"data-" + idx}
-                      text={d.text}
-                      textStrategy={d.strategyType}
-                      textSubStrategy={d.subStrategyType}
-                    />
-                  ))}
-              {/* Filtered using subStrategy */}
-              {strategy &&
-                subStrategy &&
-                companyInfo.data
-                  .filter(
-                    (d) =>
-                      d.strategyType === strategy &&
-                      d.subStrategyType === subStrategy,
-                  )
-                  .map((d, idx) => (
-                    <DataTextCard
-                      key={"data-" + idx}
-                      text={d.text}
-                      textStrategy={d.strategyType}
-                      textSubStrategy={d.subStrategyType}
-                    />
-                  ))}
+                ))
+              ) : (
+                <div>
+                  <Empty>
+                    <EmptyHeader>
+                      <EmptyMedia variant="icon">
+                        <CircleQuestionMarkIcon />
+                      </EmptyMedia>
+                      <EmptyTitle>No Datapoints Available</EmptyTitle>
+                      <EmptyDescription>
+                        Change filter to different strategy to see datapoints.
+                      </EmptyDescription>
+                    </EmptyHeader>
+                  </Empty>
+                </div>
+              )}
             </div>
             {relatedCompanies.length > 0 && (
               <Accordion
