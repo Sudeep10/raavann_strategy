@@ -182,7 +182,7 @@ export const Companies: CompanyModel[] = [
       {
         strategyType: "Marketing",
         subStrategyType: "Brand Strategy",
-        text: "**Occupies the mental shelf space of searching**; whenever users want to\n- look up information,\n- check the weather,\n- search flights or hotels,\nGoogle is the product that pops into their head, and it reinforces this brand position by expanding from searching websites to *searching images, hotels, and research papers*.",
+        text: "**Occupies the mental shelf space of searching**; whenever users want to\n- look up information,\n- check the weather,\n- search flights or hotels\n\nGoogle is the product that pops into their head, and it reinforces this brand position by expanding from searching websites to *searching images, hotels, and research papers*.",
       },
     ],
   },
