@@ -25,6 +25,7 @@ export default function Page() {
                     companyName: company.name,
                     strategy: undefined,
                     subStrategy: undefined,
+                    showMoreTags: false,
                   });
                   if (!open && !openMobile) {
                     toggleSidebar();

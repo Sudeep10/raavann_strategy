@@ -191,6 +191,7 @@ const CircleComponent = ({
                       companyName: step.name,
                       strategy: strategy,
                       subStrategy: subStrategy,
+                      showMoreTags: false,
                     });
                     if (!open && !openMobile) {
                       toggleSidebar();

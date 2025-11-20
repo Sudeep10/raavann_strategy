@@ -17,6 +17,12 @@ interface UserStore {
   setCompanyB: (companyB: string) => void;
   showCompareDialog: boolean;
   setShowCompareDialog: (show: boolean) => void;
+  showMoreTags: boolean;
+  setShowMoreTags: (show: boolean) => void;
+  selectedTag: string;
+  setSelectedTag: (tags: string) => void;
+  showTagFilterCompanyDialog: boolean;
+  setShowTagFilterCompanyDialog: (show: boolean) => void;
 }
 
 export const useUserStore = create<UserStore>((set) => ({
@@ -28,6 +34,9 @@ export const useUserStore = create<UserStore>((set) => ({
   companyA: "Company A",
   companyB: "Company B",
   showCompareDialog: false,
+  showMoreTags: false,
+  selectedTag: "",
+  showTagFilterCompanyDialog: false,
   setTeam: (team: string) => set({ team }),
   setCompanyId: (companyId: string) => set({ companyId }),
   setCompanyName: (companyName: string) =>
@@ -39,4 +48,8 @@ export const useUserStore = create<UserStore>((set) => ({
   setCompanyA: (companyA: string) => set({ companyA }),
   setCompanyB: (companyB: string) => set({ companyB }),
   setShowCompareDialog: (show: boolean) => set({ showCompareDialog: show }),
+  setShowMoreTags: (show: boolean) => set({ showMoreTags: show }),
+  setSelectedTag: (selectedTag: string) => set({ selectedTag }),
+  setShowTagFilterCompanyDialog: (show: boolean) =>
+    set({ showTagFilterCompanyDialog: show }),
 }));

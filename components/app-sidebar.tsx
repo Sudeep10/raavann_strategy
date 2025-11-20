@@ -463,21 +463,104 @@ const DataTextCard = ({
   );
 };
 
+const TagFilteredCompaniesDialog = () => {
+  const companyName = useUserStore((state) => state.companyName);
+  const selectedTag = useUserStore((state) => state.selectedTag);
+  const showTagFilterCompanyDialog = useUserStore(
+    (state) => state.showTagFilterCompanyDialog,
+  );
+  const setShowTagFilterCompanyDialog = useUserStore(
+    (state) => state.setShowTagFilterCompanyDialog,
+  );
+
+  const filteredCompanies = Companies.filter(
+    (c) => c.name !== companyName,
+  ).filter((c) => c.tags?.includes(selectedTag));
+
+  const CompanyCard = ({ company }: { company: CompanyModel }) => {
+    return (
+      <div
+        className="flex flex-col items-center p-4 rounded-xl border shadow-md transition-all cursor-pointer hover:shadow-xl hover:-translate-y-0.5 bg-muted/40 hover:bg-muted/60"
+        onClick={() => {
+          useUserStore.setState({
+            companyId: "",
+            companyName: company.name,
+          });
+          setShowTagFilterCompanyDialog(false);
+        }}
+      >
+        <div className="flex justify-center items-center w-20 h-20 bg-white rounded-full border shadow-md">
+          <Image
+            src={company.logoUrl}
+            alt={`${company.name} Logo`}
+            width={128}
+            height={128}
+            className="object-contain p-2 rounded-full"
+          />
+        </div>
+
+        <h2 className="mt-3 text-lg font-semibold tracking-tight leading-snug text-center max-w-[180px]">
+          {company.name}
+        </h2>
+      </div>
+    );
+  };
+
+  return (
+    <Dialog
+      open={showTagFilterCompanyDialog}
+      onOpenChange={setShowTagFilterCompanyDialog}
+    >
+      <DialogTrigger asChild></DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Related Companies</DialogTitle>
+          <DialogDescription>
+            Companies related to tag{" "}
+            <Badge className="ml-2">{selectedTag}</Badge>
+          </DialogDescription>
+        </DialogHeader>
+        <div className="flex overflow-y-auto flex-col gap-2 max-h-[80vh]">
+          <div className="grid grid-cols-1 gap-4 mt-4 mr-5 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredCompanies.length === 0 ? (
+              <Empty className="col-span-full">
+                <EmptyHeader>
+                  <EmptyMedia variant="icon">
+                    <Building2Icon />
+                  </EmptyMedia>
+                  <EmptyTitle>No Related Companies Found</EmptyTitle>
+                  <EmptyDescription>
+                    Select a different tag to see related companies.
+                  </EmptyDescription>
+                </EmptyHeader>
+              </Empty>
+            ) : (
+              filteredCompanies.map((company, idx) => (
+                <CompanyCard key={"company-" + idx} company={company} />
+              ))
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
 export function AppSidebar() {
   const { toggleSidebar } = useSidebar();
   const companyName = useUserStore((state) => state.companyName);
   const companyId = useUserStore((state) => state.companyId);
   const strategy = useUserStore((state) => state.strategy);
   const subStrategy = useUserStore((state) => state.subStrategy);
+  const showMoreTags = useUserStore((state) => state.showMoreTags);
+  const setShowMoreTags = useUserStore((state) => state.setShowMoreTags);
 
   const companyInfo = Companies.find((c) => c.name === companyName);
-  const relatedCompanies = Companies.filter(
-    (c) =>
-      c.name !== companyName &&
-      c.data.some(
-        (d) => d.strategyType === strategy && d.subStrategyType === subStrategy,
-      ),
-  );
+  const relatedCompanies = Companies.filter((c) => {
+    if (c.name === companyName || !c.tags) return false;
+
+    return c.tags.some((tag) => new Set(companyInfo?.tags).has(tag));
+  });
 
   const dataPointsLength = () => {
     if (!companyInfo) return 0;
@@ -533,6 +616,46 @@ export function AppSidebar() {
                   </p>
                   <p className="text-xs text-muted-foreground">Year</p>
                 </div>
+              </div>
+              <div className="flex overflow-x-auto flex-row gap-2 pb-2">
+                {companyInfo.tags.slice(0, 2).map((tag, idx) => (
+                  <Badge
+                    key={"tag-highlight-" + idx}
+                    className="hover:cursor-pointer hover:bg-primary/80"
+                    onClick={() => {
+                      useUserStore.setState({
+                        selectedTag: tag,
+                        showTagFilterCompanyDialog: true,
+                      });
+                    }}
+                  >
+                    {tag}
+                  </Badge>
+                ))}
+                {!showMoreTags && companyInfo.tags.length > 2 && (
+                  <Badge
+                    key={"tag-highlight-more"}
+                    className="hover:cursor-pointer hover:bg-primary/80"
+                    onClick={() => setShowMoreTags(true)}
+                  >
+                    +{companyInfo.tags.length - 2} more
+                  </Badge>
+                )}
+                {showMoreTags &&
+                  companyInfo.tags.slice(2).map((tag, idx) => (
+                    <Badge
+                      key={"tag-more-" + idx}
+                      className="hover:cursor-pointer hover:bg-primary/80"
+                      onClick={() => {
+                        useUserStore.setState({
+                          selectedTag: tag,
+                          showTagFilterCompanyDialog: true,
+                        });
+                      }}
+                    >
+                      {tag}
+                    </Badge>
+                  ))}
               </div>
             </div>
             <div className="flex gap-2 mt-5">
@@ -632,6 +755,7 @@ export function AppSidebar() {
         )}
       </div>
       <CompareDialog />
+      <TagFilteredCompaniesDialog />
     </Sidebar>
   );
 }
