@@ -3,6 +3,7 @@ export interface CompanyModel {
   logoUrl: string;
   website: string;
   data: { strategyType: string; subStrategyType: string; text: string }[];
+  tags: string[];
 }
 
 export const Companies: CompanyModel[] = [
@@ -17,6 +18,18 @@ export const Companies: CompanyModel[] = [
         text: "**Competes in interesting jobs** by giving users a *huge variety of options* at their fingertips and at their doorstep, tapping into a virtually endless base of suppliers so people can spend more time enjoying the activity.",
       },
     ],
+    tags: [
+      "ecommerce",
+      "online_marketplace",
+      "subscription_model",
+      "digital_media",
+      "video_streaming",
+      "cloud_platform",
+      "logistics_fulfillment",
+      "last_mile_delivery",
+      "smart_devices",
+      "advertising_business",
+    ],
   },
   {
     name: "Netflix",
@@ -28,6 +41,13 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Business Model Growth",
         text: "**Wins in interesting jobs** by offering a *very wide catalog of entertainment on demand*, extending far beyond traditional options and letting users spend more time enjoying content than searching for it.",
       },
+    ],
+    tags: [
+      "digital_media",
+      "video_streaming",
+      "ott_platform",
+      "subscription_model",
+      "content_production",
     ],
   },
   {
@@ -41,6 +61,15 @@ export const Companies: CompanyModel[] = [
         text: "**Acts as an aggregator for music** in *interesting jobs*, giving users a huge library at their fingertips and becoming the product that pops into mind when someone wants to listen to music, especially in moments like jogging.",
       },
     ],
+    tags: [
+      "digital_media",
+      "music_streaming",
+      "audio_streaming",
+      "podcasts",
+      "freemium_model",
+      "subscription_model",
+      "data_driven_personalization",
+    ],
   },
   {
     name: "Airbnb",
@@ -52,6 +81,15 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Business Model Growth",
         text: "**Provides a wide array of stay options** by tapping into a *large, distributed base of hosts*, creating a new market of suppliers and delivering more convenient choices than traditional accommodation channels.",
       },
+    ],
+    tags: [
+      "travel",
+      "hospitality",
+      "online_marketplace",
+      "peer_to_peer_marketplace",
+      "short_term_rentals",
+      "vacation_rentals",
+      "platform_business",
     ],
   },
   {
@@ -65,6 +103,13 @@ export const Companies: CompanyModel[] = [
         text: "**Aggregates an enormous variety of ideas and inspirations** so users can browse many options for things they enjoy doing, turning inspiration discovery into an *at-your-doorstep digital experience*.",
       },
     ],
+    tags: [
+      "social_network",
+      "visual_discovery",
+      "content_curation",
+      "digital_media",
+      "advertising_business",
+    ],
   },
   {
     name: "YouTube",
@@ -76,6 +121,16 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Business Model Growth",
         text: "**Lets users access an almost endless list of video creators and topics**, expanding the market of content suppliers and making it easy to spend more time on enjoyable, interesting viewing.",
       },
+    ],
+    tags: [
+      "digital_media",
+      "video_streaming",
+      "ugc_platform",
+      "social_network",
+      "advertising_business",
+      "creator_economy",
+      "live_streaming",
+      "music_streaming",
     ],
   },
   {
@@ -89,6 +144,15 @@ export const Companies: CompanyModel[] = [
         text: "**Targets boring jobs like getting from point A to point B** by *minimizing user effort and time*, removing the struggle of finding and hailing a taxi on the street and instead picking users up from their doorstep and dropping them exactly where they want to go.",
       },
     ],
+    tags: [
+      "ride_hailing",
+      "on_demand_transport",
+      "mobility_platform",
+      "online_marketplace",
+      "food_delivery",
+      "logistics_delivery",
+      "gig_economy",
+    ],
   },
   {
     name: "Deliveroo",
@@ -100,6 +164,13 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Process Optimization",
         text: "**Handles boring jobs like getting food** by partnering with restaurants and couriers to streamline ordering and delivery so that users spend minimal time on the task and still get doorstep convenience.",
       },
+    ],
+    tags: [
+      "food_delivery",
+      "on_demand_delivery",
+      "restaurant_marketplace",
+      "last_mile_delivery",
+      "gig_economy",
     ],
   },
   {
@@ -113,6 +184,18 @@ export const Companies: CompanyModel[] = [
         text: "**Reduces the effort involved in boring financial tasks such as online payments** by offering efficient services to businesses, simplifying and speeding up what would traditionally be slow, manual work.",
       },
     ],
+    tags: [
+      "fintech",
+      "payments_infrastructure",
+      "online_payments",
+      "payment_gateway",
+      "merchant_acquiring",
+      "saas",
+      "developer_tool",
+      "api_first",
+      "subscription_billing",
+      "platform_payments",
+    ],
   },
   {
     name: "DocuSign",
@@ -124,6 +207,15 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Process Optimization",
         text: "**Speeds up boring paperwork** by digitizing and simplifying document signing, reducing the time and friction involved in printing, mailing, and scanning documents in traditional workflows.",
       },
+    ],
+    tags: [
+      "saas",
+      "enterprise_software",
+      "productivity_software",
+      "e_signature",
+      "contract_management",
+      "workflow_automation",
+      "compliance_software",
     ],
   },
   {
@@ -137,6 +229,18 @@ export const Companies: CompanyModel[] = [
         text: "**Takes over boring banking jobs like sending money abroad** by offering a *streamlined, app-based experience* that minimizes time spent on traditional bank processes while keeping convenience high.",
       },
     ],
+    tags: [
+      "fintech",
+      "digital_bank",
+      "neobank",
+      "payments",
+      "debit_cards",
+      "money_transfer",
+      "currency_exchange",
+      "retail_banking",
+      "personal_finance_app",
+      "crypto_trading",
+    ],
   },
   {
     name: "Git",
@@ -148,6 +252,14 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Process & Organizational Innovation",
         text: "**Was created not just as a new version control tool but specifically to solve collaboration problems of centralized systems like CVS**, redesigning how teams coordinate code changes rather than just tweaking existing tools.",
       },
+    ],
+    tags: [
+      "developer_tool",
+      "version_control",
+      "source_code_management",
+      "software_development",
+      "open_source",
+      "devops",
     ],
   },
   {
@@ -161,6 +273,16 @@ export const Companies: CompanyModel[] = [
         text: "**Redesigns how people consume information** by removing the struggle of visiting multiple websites and instead giving direct, conversational answers; it positions itself as *personalized assistance* rather than search and then expands from\n- personalized emails to code, images with Dall.e and videos with Sora.",
       },
     ],
+    tags: [
+      "ai_ml",
+      "generative_ai",
+      "llm",
+      "saas",
+      "developer_tool",
+      "productivity_tool",
+      "customer_support_automation",
+      "api_first",
+    ],
   },
   {
     name: "WhatsApp",
@@ -172,6 +294,14 @@ export const Companies: CompanyModel[] = [
         subStrategyType: "Retention & Engagement Strategy",
         text: "**Serves a very high-frequency need, everyday communication**, by making messaging fast and frictionless so users come back daily, turning a *timeless psychological need* into consistent engagement and retention.",
       },
+    ],
+    tags: [
+      "communication_messaging",
+      "instant_messaging",
+      "voice_video_calls",
+      "social_network",
+      "end_to_end_encryption",
+      "business_messaging",
     ],
   },
   {
@@ -185,6 +315,17 @@ export const Companies: CompanyModel[] = [
         text: "**Occupies the mental shelf space of searching**; whenever users want to\n- look up information,\n- check the weather,\n- search flights or hotels\n\nGoogle is the product that pops into their head, and it reinforces this brand position by expanding from searching websites to *searching images, hotels, and research papers*.",
       },
     ],
+    tags: [
+      "search_engine",
+      "online_advertising",
+      "digital_media",
+      "cloud_platform",
+      "productivity_software",
+      "developer_platform",
+      "mobile_operating_system",
+      "mapping_services",
+      "ai_ml",
+    ],
   },
   {
     name: "Rolex",
@@ -194,17 +335,7 @@ export const Companies: CompanyModel[] = [
       {
         strategyType: "Innovation",
         subStrategyType: "Product Innovation",
-        text: `
-Rolex built its entire product strategy around solving **three hard technical problems** for *mechanical wristwatches*:
-
-- **Chronometer precision** — keeping time as accurately as scientific instruments.
-- **Oyster waterproof case** — making cases truly waterproof.
-- **Perpetual self-winding rotor** — eliminating the need for daily winding.
-
-None of these were completely new ideas, but Rolex was the first to *industrialize all three* in one reliable, wearable product and then lock in IP where it mattered, such as buying the screw-down crown patent in 1926.
-
-Those three words you still see on the dial — **Oyster Perpetual, Superlative Chronometer** — are not marketing fluff; they are the summary of a *20-year R&D agenda* that permanently differentiated Rolex from other Swiss brands.
-`,
+        text: "Rolex built its entire product strategy around solving **three hard technical problems** for *mechanical wristwatches*: \n- **Chronometer precision** — keeping time as accurately as scientific instruments.\n- **Oyster waterproof case** — making cases truly waterproof.\n- **Perpetual self-winding rotor** — eliminating the need for daily winding.\n\nNone of these were completely new ideas, but Rolex was the first to *industrialize all three* in one reliable, wearable product and then lock in IP where it mattered, such as buying the screw-down crown patent in 1926.\n\nThose three words you still see on the dial — **Oyster Perpetual, Superlative Chronometer** — are not marketing fluff; they are the summary of a *20-year R&D agenda* that permanently differentiated Rolex from other Swiss brands.",
       },
       {
         strategyType: "Innovation",
@@ -297,6 +428,7 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "**Rolex’s sponsorship strategy is ruthlessly selective: if it enters a domain, it aims for the pinnacle only.** In golf and tennis it backs the four majors and a small roster of the top players, some for their entire careers; in motor sport it’s Daytona and Formula 1; in culture it’s leading orchestras and opera houses. The company even calls its ambassadors *‘testimonees’* to emphasize long-term association over transactional promotion. This creates a simple mental shortcut in consumers’ minds: wherever *excellence* is, Rolex is there too.",
       },
     ],
+    tags: ["luxury_goods", "luxury_watch", "watchmaking"],
   },
   {
     name: "Apple",
@@ -308,6 +440,19 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Go-to-Market Strategy",
         text: "Chose a niche of **creatives rather than coders**, and that focus allowed Apple to introduce the *mouse* and *graphical user interface*, redesigning the personal computer in ways that made sense for creatives but not for incumbents serving keyboard-centric coder markets.",
       },
+    ],
+    tags: [
+      "consumer_electronics",
+      "smartphone",
+      "personal_computing",
+      "tablet",
+      "wearables",
+      "hardware_manufacturer",
+      "software_platform",
+      "operating_system",
+      "app_store",
+      "subscription_services",
+      "mobile_device_ecosystem",
     ],
   },
   {
@@ -321,6 +466,15 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Introduced a **fan without visible blades**, a *novel and interesting product design* that rethinks how a fan looks and works, using novelty as a way to create desire in the market.",
       },
     ],
+    tags: [
+      "consumer_electronics",
+      "home_appliances",
+      "floor_care",
+      "air_treatment",
+      "beauty_devices",
+      "hardware_manufacturer",
+      "direct_to_consumer",
+    ],
   },
   {
     name: "Red Bull",
@@ -332,6 +486,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Positioning Strategy",
         text: "Uses a *flanking strategy* by being **almost the opposite of Coca-Cola in taste and feel**, much less sweet and less carbonated, differentiating itself sharply instead of copying the incumbent drink.",
       },
+    ],
+    tags: [
+      "food_beverage",
+      "energy_drink",
+      "fmcg",
+      "sports_marketing",
+      "events_sponsorship",
+      "media_content",
     ],
   },
   {
@@ -345,6 +507,13 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Acts as the **incumbent reference point in soft drinks**, with challengers like Red Bull positioning themselves as the opposite in taste and experience to stand out against Coca-Cola.",
       },
     ],
+    tags: [
+      "food_beverage",
+      "soft_drink",
+      "fmcg",
+      "retail_distribution",
+      "bottling_franchise",
+    ],
   },
   {
     name: "Sprite",
@@ -356,6 +525,13 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Positioning Strategy",
         text: "Positions itself differently from Coca-Cola by being **sweeter and almost transparent**, lacking the elements that make Coke dark, and thereby taking a distinct place in the soft drink lineup.",
       },
+    ],
+    tags: [
+      "food_beverage",
+      "soft_drink",
+      "fmcg",
+      "lemon_lime_soda",
+      "retail_distribution",
     ],
   },
   {
@@ -369,6 +545,15 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "*Bajaj Pulsar* is positioned as the **opposite of Hero Honda Splendour**, being more expensive, sportier, and consuming more fuel per kilometer, showing a deliberate contrast to target a different rider segment.",
       },
     ],
+    tags: [
+      "automotive",
+      "two_wheeler_automotive",
+      "three_wheeler_automotive",
+      "motorcycle",
+      "scooter",
+      "commercial_vehicles",
+      "export_oriented",
+    ],
   },
   {
     name: "Bajaj Consumer Care",
@@ -381,6 +566,7 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "*Bajaj Almond Oil* differentiates itself from *Parachute Coconut Oil* and *Navratna Oil*, showing how oils in the same category can be positioned distinctly from one another rather than all copying the same formula.",
       },
     ],
+    tags: ["fmcg", "personal_care", "hair_care", "skin_care", "india_market"],
   },
   {
     name: "Parachute Coconut Oil",
@@ -392,6 +578,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Positioning Strategy",
         text: "Represents a distinct oil proposition compared with *Bajaj Almond Oil* and *Navratna Oil*, illustrating how multiple brands occupy different positions within the same overall hair oil market.",
       },
+    ],
+    tags: [
+      "fmcg",
+      "personal_care",
+      "hair_care",
+      "hair_oil",
+      "coconut_oil",
+      "india_market",
     ],
   },
   {
@@ -405,6 +599,15 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Offers yet another differentiated variant compared with *Parachute Coconut Oil* and *Bajaj Almond Oil*, using contrast in formulation and perception as a way to stand out.",
       },
     ],
+    tags: [
+      "fmcg",
+      "personal_care",
+      "hair_care",
+      "hair_oil",
+      "ayurvedic_products",
+      "cooling_oil",
+      "india_market",
+    ],
   },
   {
     name: "Hero Motocorp",
@@ -416,6 +619,15 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Positioning Strategy",
         text: "*Honda Splendour Splendour* Positions itself as a **practical, fuel-efficient bike** on which three people can sit, in contrast to sportier, more fuel-hungry options like the *Pulsar*, occupying a very different place in the buyer’s mind.",
       },
+    ],
+    tags: [
+      "automotive",
+      "two_wheeler_automotive",
+      "motorcycle",
+      "scooter",
+      "commuter_vehicles",
+      "india_market",
+      "export_oriented",
     ],
   },
   {
@@ -429,6 +641,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Is positioned very differently from *KTM* bikes, with a distinct feel and persona, illustrating how two motorcycle brands can succeed by being almost opposites in character.",
       },
     ],
+    tags: [
+      "automotive",
+      "two_wheeler_automotive",
+      "motorcycle",
+      "midweight_motorcycles",
+      "lifestyle_brand",
+      "touring_motorcycles",
+    ],
   },
   {
     name: "KTM",
@@ -440,6 +660,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Positioning Strategy",
         text: "Stands in sharp contrast to *Royal Enfield*, with a very different riding feel and image, using that contrast as part of its competitive positioning strategy.",
       },
+    ],
+    tags: [
+      "automotive",
+      "two_wheeler_automotive",
+      "motorcycle",
+      "sports_motorcycles",
+      "offroad_motorcycles",
+      "motorsports",
     ],
   },
   {
@@ -453,6 +681,15 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "The whiskey is made using **Spring water from a Cave**, which naturally filters iron and minerals. Maintaining these natural water conditions is highly unusual and inefficient. Jack Daniel’s also uses a unique *charcoal mellowing step* that predates many modern distillation techniques. Instead of barreling the raw spirit immediately after distillation, they slowly filter the whiskey through 10 feet of charcoal, a process lasting up to 10 days. It’s rare for distilleries to invest this much time and labor on filtration alone—many bypass it or use modern chemical filtration.",
       },
     ],
+    tags: [
+      "food_beverage",
+      "alcoholic_beverage",
+      "whiskey",
+      "spirits",
+      "fmcg",
+      "on_trade_channel",
+      "off_trade_retail",
+    ],
   },
   {
     name: "Aston Martin",
@@ -465,6 +702,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Designs its cars using principles and **golden ratios** inspired by *Leonardo da Vinci* and classical architecture, emphasizing craftsmanship and design quality over simple production efficiency. This deep mathematical integration into styling is uncommon and slows down design iteration but sets their cars apart visually.",
       },
     ],
+    tags: [
+      "automotive",
+      "luxury_automotive",
+      "sports_car",
+      "grand_tourer",
+      "performance_vehicles",
+      "niche_manufacturer",
+    ],
   },
   {
     name: "Hermes",
@@ -476,6 +721,14 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Supply Chain Strategy",
         text: "Hermès’ way of working remains rooted in leathercraft techniques and artisanal principles established nearly 200 years ago. Hermès uses the traditional *saddle stitch*, which involves two needles. This creates a seam that is stronger than machine stitching—even if one thread snaps, the seam doesn’t unravel. This method demands intense manual skill, is slow, and causes hand fatigue, but **cannot be replicated by machines**. Hermès owns and manages its own silk farms. Hermes controls every stage, from the cultivation of silkworms to the processing of silk threads. They even own and raise saltwater crocodiles specifically for their leather. This is a highly unusual practice compared to other fashion brands, which typically source exotic skins or silk from third-party suppliers because its cost efficient and scalable.",
       },
+    ],
+    tags: [
+      "luxury_goods",
+      "luxury_fashion",
+      "leather_goods",
+      "handbags",
+      "accessories",
+      "retail_boutiques",
     ],
   },
   {
@@ -594,6 +847,16 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: 'Enzo Ferrari **manipulated narrative and national pride as a strategic moat.** In the 1960s:\n* After a series of fatal accidents, Italian media dubbed him the "monster of Maranello." Enzo then entered serious‑looking sale talks with Ford. News that a U.S. giant might buy Ferrari sparked outrage in Italy at the idea of losing a "national treasure." Public opinion flipped: he was recast as a symbol of Italian excellence rather than a villain.\n* He ultimately walked away from Ford over control of racing, later selling to Fiat on more favorable, Italy‑centric terms—having used the Ford episode to prove his global desirability and to restore domestic prestige.\n* Before facing Ford’s "steamroller" at Le Mans, he published an article in Italy effectively conceding that American industry was too powerful. This framed Ferrari as a brave artisan underdog: if he lost, it was expected; if he won, it became a legend. Either outcome strengthened the myth.\n\nBy **shaping expectations and wrapping the brand in nationalism**, Enzo reduced reputational downside from defeats and turned even failed negotiations into stories that enhanced Ferrari’s aura. This narrative control is an intangible but durable competitive advantage.',
       },
     ],
+    tags: [
+      "automotive",
+      "luxury_automotive",
+      "sports_car",
+      "supercar",
+      "performance_vehicles",
+      "motorsports",
+      "formula_one_team",
+      "brand_licensing",
+    ],
   },
   {
     name: "Lamborghini",
@@ -605,6 +868,13 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Quality & Reliability Strategy",
         text: "Each Lamborghini is **hand-assembled**. Lamborghini has achieved **complete vertical control over carbon fiber manufacturing**, a differentiator virtually no competitor possesses. For testing the quality of the carbon fiber material produced in-house, Lamborghini partnered with the *International Space Station* and sent samples of the material into space to evaluate its performance under harsh environmental conditions. This experiment is **exceptionally rare for an automaker**.",
       },
+    ],
+    tags: [
+      "automotive",
+      "luxury_automotive",
+      "sports_car",
+      "supercar",
+      "performance_vehicles",
     ],
   },
   {
@@ -618,6 +888,13 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         text: "Each Bugatti car is **handmade**, no conveyor belts or assembly lines are used. With a small team of only *20 people*, Bugatti spends about **six months** constructing each Chiron. Each Bugatti car is driven *approx 350km or more* before delivering it to the customer. Also, Bugatti's exhaust systems are made of **titanium**; this practice is not common in the general car industry.",
       },
     ],
+    tags: [
+      "automotive",
+      "luxury_automotive",
+      "hypercar",
+      "supercar",
+      "performance_vehicles",
+    ],
   },
   {
     name: "Steinway & Sons",
@@ -629,6 +906,13 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
         subStrategyType: "Quality & Reliability Strategy",
         text: "It takes **quality wood** to produce quality sound. After the wood arrives at the factory, it is dried for **more than 2 years**. Water evaporates naturally. Then it takes about **a year to build each piano** and Steinway even pounds every piano **3200 times** before delivery. The manufacturing process has remained *virtually unchanged for 150 years*, where every piano is still **handmade**.",
       },
+    ],
+    tags: [
+      "musical_instruments",
+      "piano_manufacturer",
+      "acoustic_pianos",
+      "concert_instruments",
+      "education_institutions",
     ],
   },
 ];
