@@ -486,7 +486,7 @@ Those three words you still see on the dial — **Oyster Perpetual, Superlative 
       {
         strategyType: "Operations",
         subStrategyType: "Quality & Reliability Strategy",
-        text: "The whole process to build a Ferrari car takes about 3 months; they accept slow, handcrafted production. In that same period Honda’s Suzuka plant could make ≈86,400 cars (1 car every 90 seconds).Ferrari even has its own in-house foundry where solid aluminium ingots are heated in two large melting furnaces for core engine components. In short, the seemingly inefficient, fully manual build process is what creates superior quality. ",
+        text: "The whole process to build a Ferrari car takes about 3 months; they accept slow, handcrafted production. In that same period Honda’s Suzuka plant could make ≈86,400 cars (1 car every 90 seconds). Ferrari even has its own in-house foundry where solid aluminium ingots are heated in two large melting furnaces for core engine components. In short, the seemingly inefficient, fully manual build process is what creates superior quality.",
       },
       {
         strategyType: "Competitive",

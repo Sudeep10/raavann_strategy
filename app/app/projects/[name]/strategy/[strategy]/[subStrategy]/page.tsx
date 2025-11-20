@@ -180,7 +180,7 @@ const CircleComponent = ({
             <TooltipContent className="max-w-sm text-pretty">
               <div className="flex flex-col p-2">
                 <p className="text-lg font-semibold">{step.name}</p>
-                <div className="text-xs! prose prose-invert dark:prose prose-li:marker:text-background dark:prose-li:marker:text-background max-h-[300px] overflow-y-auto scrollbar-thin pr-2">
+                <div className="text-sm! prose prose-invert dark:prose prose-li:marker:text-background dark:prose-li:marker:text-background max-h-[300px] overflow-y-auto scrollbar-thin pr-2">
                   <Markdown remarkPlugins={[remarkGfm]}>{step.text}</Markdown>
                 </div>
                 <p
