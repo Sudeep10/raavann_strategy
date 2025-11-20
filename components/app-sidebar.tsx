@@ -2,13 +2,7 @@
 
 import { Sidebar, useSidebar } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
-import {
-  ArrowRightLeftIcon,
-  Building2Icon,
-  CheckIcon,
-  FunnelIcon,
-  XIcon,
-} from "lucide-react";
+import { Building2Icon, FunnelIcon, XIcon } from "lucide-react";
 import { useUserStore } from "@/store/user";
 import { Companies, CompanyModel } from "@/constants/companies";
 import Image from "next/image";
@@ -377,7 +371,7 @@ Your comparison MUST:
         }
       }}
     >
-      <DialogContent>
+      <DialogContent className="md:max-w-2xl">
         <DialogHeader>
           <DialogTitle>Compare Companies</DialogTitle>
           <DialogDescription></DialogDescription>
@@ -386,35 +380,22 @@ Your comparison MUST:
           <Table className="w-full table-fixed">
             <TableHeader>
               <TableRow>
-                <TableHead className="text-center">
-                  <div className="relative mx-auto w-16 h-16">
-                    <Image
-                      src={
-                        Companies.find((c) => c.name === companyA)?.logoUrl ||
-                        ""
-                      }
-                      alt={companyA}
-                      width={128}
-                      height={128}
-                      className="p-1 bg-white rounded-full border cursor-pointer"
-                    />
-                  </div>
-                </TableHead>
-                <TableHead className="text-center">
-                  <div className="relative mx-auto w-16 h-16">
-                    <Image
-                      src={
-                        Companies.find((c) => c.name === companyB)?.logoUrl ||
-                        ""
-                      }
-                      alt={companyA}
-                      width={128}
-                      height={128}
-                      className="p-1 bg-white rounded-full border cursor-pointer"
-                      onClick={() => { }}
-                    />
-                  </div>
-                </TableHead>
+                {[companyA, companyB].map((company, idx) => (
+                  <TableHead className="text-center" key={idx}>
+                    <div className="relative mx-auto mb-5 w-16 h-16">
+                      <Image
+                        src={
+                          Companies.find((c) => c.name === company)?.logoUrl ||
+                          ""
+                        }
+                        alt={company}
+                        width={128}
+                        height={128}
+                        className="p-1 bg-white rounded-full border cursor-pointer"
+                      />
+                    </div>
+                  </TableHead>
+                ))}
               </TableRow>
             </TableHeader>
             <TableBody>
