@@ -4,24 +4,24 @@ import { zodTextFormat } from "openai/helpers/zod";
 
 import { z } from "zod";
 
-export const RowScheme = z.object({
-	companyA: z.string(),
-	companyB: z.string(),
-});
-
-export const RowsSchema = z.object({
-	rows: z.array(RowScheme).max(5),
-});
-
-export type RowType = z.infer<typeof RowScheme>;
-export type RowsType = z.infer<typeof RowsSchema>;
-
 const client = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY!,
 });
 
 export async function POST(req: Request) {
-	const { prompt } = await req.json();
+	const { prompt, num } = await req.json();
+
+	const dynamicCompanies: Record<string, z.ZodString> = {};
+
+	for (let i = 1; i <= num; i++) {
+		dynamicCompanies[`company${i}`] = z.string();
+	}
+
+	const RowSchema = z.object(dynamicCompanies);
+
+	const RowsSchema = z.object({
+		rows: z.array(RowSchema).max(5),
+	});
 
 	const response = await client.responses.parse({
 		model: "gpt-5.1",

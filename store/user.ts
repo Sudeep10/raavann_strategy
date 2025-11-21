@@ -1,3 +1,4 @@
+import { CompanyModel } from "@/constants/companies";
 import { create } from "zustand";
 
 interface UserStore {
@@ -11,10 +12,8 @@ interface UserStore {
   setStrategy?: (strategy: string) => void;
   subStrategy?: string;
   setSubStrategy?: (subStrategy: string) => void;
-  companyA: string;
-  setCompanyA: (companyA: string) => void;
-  companyB: string;
-  setCompanyB: (companyB: string) => void;
+  compareCompanies: CompanyModel[];
+  setCompareCompanies: (companies: CompanyModel[]) => void;
   showCompareDialog: boolean;
   setShowCompareDialog: (show: boolean) => void;
   showMoreTags: boolean;
@@ -31,8 +30,7 @@ export const useUserStore = create<UserStore>((set) => ({
   companyName: undefined,
   strategy: undefined,
   subStrategy: undefined,
-  companyA: "Company A",
-  companyB: "Company B",
+  compareCompanies: [],
   showCompareDialog: false,
   showMoreTags: false,
   selectedTag: "",
@@ -45,8 +43,8 @@ export const useUserStore = create<UserStore>((set) => ({
     }),
   setStrategy: (strategy: string) => set({ strategy: strategy }),
   setSubStrategy: (subStrategy: string) => set({ subStrategy: subStrategy }),
-  setCompanyA: (companyA: string) => set({ companyA }),
-  setCompanyB: (companyB: string) => set({ companyB }),
+  setCompareCompanies: (companies: CompanyModel[]) =>
+    set({ compareCompanies: companies }),
   setShowCompareDialog: (show: boolean) => set({ showCompareDialog: show }),
   setShowMoreTags: (show: boolean) => set({ showMoreTags: show }),
   setSelectedTag: (selectedTag: string) => set({ selectedTag }),

@@ -29,7 +29,7 @@ import {
   DialogTrigger,
 } from "./ui/dialog";
 import { toast } from "sonner";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Table,
   TableBody,
@@ -166,73 +166,42 @@ const FilterDialog = () => {
   );
 };
 
-const CompanySelectDialog = ({
-  companySide,
-  company,
-  replace,
-  disabled,
-}: {
-  companySide: "A" | "B";
-  company: string;
-  replace?: boolean;
-  disabled?: boolean;
-}) => {
+const CompanySelectDialog = ({ company }: { company: CompanyModel }) => {
   const strategy = useUserStore((state) => state.strategy);
   const subStrategy = useUserStore((state) => state.subStrategy);
   const [open, setOpen] = useState(false);
 
-  const filteredCompanies = Companies.filter((c) => c.name !== company).filter(
-    (c) => {
-      if (strategy && !subStrategy) {
-        return c.data.some((d) => d.strategyType === strategy);
-      }
-      if (strategy && subStrategy) {
-        return c.data.some(
-          (d) =>
-            d.strategyType === strategy && d.subStrategyType === subStrategy,
-        );
-      }
-      return false;
-    },
-  );
+  const filteredCompanies = Companies.filter(
+    (c) => c.name !== company.name,
+  ).filter((c) => {
+    if (strategy && !subStrategy) {
+      return c.data.some((d) => d.strategyType === strategy);
+    }
+    if (strategy && subStrategy) {
+      return c.data.some(
+        (d) => d.strategyType === strategy && d.subStrategyType === subStrategy,
+      );
+    }
+    return false;
+  });
 
-  const CompanyCard = ({ company }: { company: CompanyModel }) => {
+  const CompanyCard = ({ newCompany }: { newCompany: CompanyModel }) => {
     return (
       <div
         className="flex flex-col items-center p-4 rounded-xl border shadow-md transition-all cursor-pointer hover:shadow-xl hover:-translate-y-0.5 bg-muted/40 hover:bg-muted/60"
         onClick={() => {
-          if (replace) {
-            if (companySide === "A") {
-              useUserStore.setState({
-                companyA: company.name,
-                showCompareDialog: true,
-              });
-            } else {
-              useUserStore.setState({
-                companyB: company.name,
-                showCompareDialog: true,
-              });
-            }
-          } else {
-            if (companySide === "A") {
-              useUserStore.setState({
-                companyB: company.name,
-                showCompareDialog: true,
-              });
-            } else {
-              useUserStore.setState({
-                companyA: company.name,
-                showCompareDialog: true,
-              });
-            }
-          }
+          useUserStore.setState({
+            compareCompanies: [company, newCompany],
+            showCompareDialog: true,
+          });
+
           setOpen(false);
         }}
       >
         <div className="flex justify-center items-center w-20 h-20 bg-white rounded-full border shadow-md">
           <Image
-            src={company.logoUrl}
-            alt={`${company.name} Logo`}
+            src={newCompany.logoUrl}
+            alt={`${newCompany.name} Logo`}
             width={128}
             height={128}
             className="object-contain p-2 rounded-full"
@@ -240,7 +209,7 @@ const CompanySelectDialog = ({
         </div>
 
         <h2 className="mt-3 text-lg font-semibold tracking-tight leading-snug text-center max-w-[180px]">
-          {company.name}
+          {newCompany.name}
         </h2>
       </div>
     );
@@ -252,15 +221,10 @@ const CompanySelectDialog = ({
         <Button
           variant={"outline"}
           onClick={() => {
-            if (!replace) {
-              if (companySide === "A") {
-                useUserStore.setState({ companyA: company });
-              } else {
-                useUserStore.setState({ companyB: company });
-              }
-            }
+            useUserStore.setState({
+              compareCompanies: [company],
+            });
           }}
-          disabled={disabled}
         >
           Compare
         </Button>
@@ -288,7 +252,109 @@ const CompanySelectDialog = ({
               </Empty>
             ) : (
               filteredCompanies.map((company, idx) => (
-                <CompanyCard key={"company-" + idx} company={company} />
+                <CompanyCard key={"company-" + idx} newCompany={company} />
+              ))
+            )}
+          </div>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+const CompanySelectFlexibleDialog = ({
+  idx,
+  add,
+  children,
+}: {
+  idx: number;
+  add: boolean;
+  children: React.ReactNode;
+}) => {
+  const strategy = useUserStore((state) => state.strategy);
+  const subStrategy = useUserStore((state) => state.subStrategy);
+  const [open, setOpen] = useState(false);
+  const compareCompanies = useUserStore((state) => state.compareCompanies);
+
+  const filteredCompanies = Companies.filter(
+    (c) => !compareCompanies.map((comp) => comp.name).includes(c.name),
+  ).filter((c) => {
+    if (strategy && !subStrategy) {
+      return c.data.some((d) => d.strategyType === strategy);
+    }
+    if (strategy && subStrategy) {
+      return c.data.some(
+        (d) => d.strategyType === strategy && d.subStrategyType === subStrategy,
+      );
+    }
+    return false;
+  });
+
+  const CompanyCard = ({ newCompany }: { newCompany: CompanyModel }) => {
+    return (
+      <div
+        className="flex flex-col items-center p-4 rounded-xl border shadow-md transition-all cursor-pointer hover:shadow-xl hover:-translate-y-0.5 bg-muted/40 hover:bg-muted/60"
+        onClick={() => {
+          if (add) {
+            const newCompareCompanies = [...compareCompanies];
+            newCompareCompanies.push(newCompany);
+            useUserStore.setState({
+              compareCompanies: newCompareCompanies,
+            });
+          } else {
+            const newCompareCompanies = [...compareCompanies];
+            newCompareCompanies[idx] = newCompany;
+            useUserStore.setState({
+              compareCompanies: newCompareCompanies,
+            });
+          }
+          setOpen(false);
+        }}
+      >
+        <div className="flex justify-center items-center w-20 h-20 bg-white rounded-full border shadow-md">
+          <Image
+            src={newCompany.logoUrl}
+            alt={`${newCompany.name} Logo`}
+            width={128}
+            height={128}
+            className="object-contain p-2 rounded-full"
+          />
+        </div>
+
+        <h2 className="mt-3 text-lg font-semibold tracking-tight leading-snug text-center max-w-[180px]">
+          {newCompany.name}
+        </h2>
+      </div>
+    );
+  };
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Select Company</DialogTitle>
+          <DialogDescription>
+            Choose a compatible company from the list to compare with Company
+          </DialogDescription>
+        </DialogHeader>
+        <div className="flex overflow-y-auto flex-col gap-2 max-h-[80vh]">
+          <div className="grid grid-cols-1 gap-4 mt-4 mr-5 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredCompanies.length === 0 ? (
+              <Empty className="col-span-full">
+                <EmptyHeader>
+                  <EmptyMedia variant="icon">
+                    <Building2Icon />
+                  </EmptyMedia>
+                  <EmptyTitle>No Compatible Companies Found</EmptyTitle>
+                  <EmptyDescription>
+                    Change filter to different strategy to see more companies.
+                  </EmptyDescription>
+                </EmptyHeader>
+              </Empty>
+            ) : (
+              filteredCompanies.map((company, idx) => (
+                <CompanyCard key={"company-" + idx} newCompany={company} />
               ))
             )}
           </div>
@@ -305,35 +371,34 @@ const CompareDialog = () => {
   const setShowCompareDialog = useUserStore(
     (state) => state.setShowCompareDialog,
   );
-  const companyA = useUserStore((state) => state.companyA);
-  const companyB = useUserStore((state) => state.companyB);
+  const compareCompanies = useUserStore((state) => state.compareCompanies);
   const [loading, setLoading] = useState(false);
-  const [rows, setRows] = useState<{ companyA: string; companyB: string }[]>(
-    [],
-  );
+  const [rows, setRows] = useState<Record<string, string>[]>([]);
 
   const compare = async () => {
+    setRows([]);
     setLoading(true);
-    let companyADatapoints;
-    let companyBDatapoints;
+    let prompt = "";
     if (strategy) {
-      companyADatapoints = Companies.find(
-        (c) => c.name === companyA,
-      )?.data.filter((d) => d.strategyType === strategy);
-      companyBDatapoints = Companies.find(
-        (c) => c.name === companyB,
-      )?.data.filter((d) => d.strategyType === strategy);
-    } else {
-      companyADatapoints = Companies.find(
-        (c) => c.name === companyA,
-      )?.data.filter(
-        (d) => d.strategyType === strategy && d.subStrategyType === subStrategy,
-      );
-      companyBDatapoints = Companies.find(
-        (c) => c.name === companyB,
-      )?.data.filter(
-        (d) => d.strategyType === strategy && d.subStrategyType === subStrategy,
-      );
+      let idx = 0;
+      for (const company of compareCompanies) {
+        let datapoints;
+        if (subStrategy) {
+          datapoints = company.data.filter(
+            (d) =>
+              d.strategyType === strategy && d.subStrategyType === subStrategy,
+          );
+        } else {
+          datapoints = company.data.filter((d) => d.strategyType === strategy);
+        }
+        prompt += `
+        Company ${idx + 1}
+        Company: ${company.name}
+        Data Points:
+        ${JSON.stringify(datapoints)}
+        `;
+        idx += 1;
+      }
     }
     const res = await fetch("/api/compare", {
       method: "POST",
@@ -341,19 +406,14 @@ const CompareDialog = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
+        num: compareCompanies.length,
         prompt: `
-Compare Company A and Company B **strictly and only** using the data points provided below.
+Compare the given companies **strictly and only** using the data points provided below.
 Do NOT use any external knowledge, assumptions, or information that is not explicitly included in the data points.
 
 Comparison basis: ${subStrategy ? subStrategy : strategy}
 
-Company A: ${companyA}
-Data Points for Company A:
-${JSON.stringify(companyADatapoints)}
-
-Company B: ${companyB}
-Data Points for Company B:
-${JSON.stringify(companyBDatapoints)}
+${prompt}
 
 Your comparison MUST:
 - rely exclusively on the above data points
@@ -367,6 +427,13 @@ Your comparison MUST:
     setRows(output.rows);
     setLoading(false);
   };
+
+  useEffect(() => {
+    if (showCompareDialog) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      compare();
+    }
+  }, [showCompareDialog, compareCompanies]);
 
   return (
     <Dialog
@@ -383,19 +450,16 @@ Your comparison MUST:
           <DialogTitle>Compare Companies</DialogTitle>
           <DialogDescription></DialogDescription>
         </DialogHeader>
-        <div className="overflow-y-auto [&>div]:h-[60vh]">
-          <Table className="w-full table-fixed">
+        <div className="overflow-y-auto [&>div]:h-[60vh] overflow-x-auto">
+          <Table className="w-max min-w-full table-fixed">
             <TableHeader>
               <TableRow className="sticky top-0 bg-background">
-                {[companyA, companyB].map((company, idx) => (
-                  <TableHead className="text-center" key={idx}>
+                {compareCompanies.map((company, idx) => (
+                  <TableHead className="text-center max-w-[250px]!" key={idx}>
                     <div className="relative mx-auto mb-5 w-16 h-16">
                       <Image
-                        src={
-                          Companies.find((c) => c.name === company)?.logoUrl ||
-                          ""
-                        }
-                        alt={company}
+                        src={company.logoUrl}
+                        alt={company.name}
                         width={128}
                         height={128}
                         className="p-1 bg-white rounded-full border cursor-pointer"
@@ -408,22 +472,30 @@ Your comparison MUST:
             <TableBody>
               {rows.map((row, idx) => (
                 <TableRow key={"compare-row-" + idx}>
-                  <TableCell className="align-top whitespace-normal text-pretty">
-                    {row.companyA}
-                  </TableCell>
-                  <TableCell className="align-top whitespace-normal text-pretty">
-                    {row.companyB}
-                  </TableCell>
+                  {Object.values(row).map((cell, cidx) => (
+                    <TableCell
+                      className="align-top whitespace-normal text-pretty max-w-[250px]"
+                      key={"compare-cell-" + cidx}
+                    >
+                      <Markdown remarkPlugins={[remarkGfm]}>{cell}</Markdown>
+                    </TableCell>
+                  ))}
                 </TableRow>
               ))}
             </TableBody>
           </Table>
         </div>
         <DialogFooter>
-          <Button onClick={compare} disabled={loading}>
-            {loading && <Spinner />}
-            Compare
-          </Button>
+          {loading ? (
+            <Button onClick={compare} disabled={loading}>
+              <Spinner />
+              Comparing
+            </Button>
+          ) : (
+            <CompanySelectFlexibleDialog idx={0} add={true}>
+              <Button>Add Company</Button>
+            </CompanySelectFlexibleDialog>
+          )}
         </DialogFooter>
       </DialogContent>
     </Dialog>
@@ -674,11 +746,7 @@ export function AppSidebar() {
                 </Button>
               )}
               {strategy && dataPointsLength() > 0 && (
-                <CompanySelectDialog
-                  companySide="A"
-                  company={companyInfo.name}
-                  replace={false}
-                />
+                <CompanySelectDialog company={companyInfo} />
               )}
               <FilterDialog />
               {(strategy || subStrategy) && (
