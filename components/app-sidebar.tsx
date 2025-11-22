@@ -1119,6 +1119,10 @@ export function AppSidebar() {
     return false;
   });
 
+  useEffect(()=>{
+    setQuestionMode(false);
+  },[companyName])
+
   const fetchAnswer = async (question: string) => {
     setQuestionAnswerLoading(true);
     setQuestionModeAnswers([]);
@@ -1308,7 +1312,7 @@ export function AppSidebar() {
                     <Spinner className="mx-auto mt-10" />
                   </div>
                 ) : (
-                  <div>
+                  <>
                     {questionMode &&
                       questionModeAnswers.map((answer, idx) => (
                         <DataTextCard
@@ -1319,7 +1323,7 @@ export function AppSidebar() {
                           companyName={companyName!}
                         />
                       ))}
-                  </div>
+                  </>
                 )}
               </div>
 
@@ -1365,7 +1369,6 @@ export function AppSidebar() {
                                   companyId: "",
                                   companyName: company.name,
                                 });
-                                setQuestionMode(false);
                               }}
                             />
                           </TooltipTrigger>
