@@ -1088,7 +1088,7 @@ export function AppSidebar() {
   const subStrategy = useUserStore((state) => state.subStrategy);
   const showMoreTags = useUserStore((state) => state.showMoreTags);
   const setShowMoreTags = useUserStore((state) => state.setShowMoreTags);
-  const [questionMode, setQuestionMode] = useState(true);
+  const [questionMode, setQuestionMode] = useState(false);
   const [questionModeAnswers, setQuestionModeAnswers] = useState<string[]>([]);
   const [questionAnswerLoading, setQuestionAnswerLoading] = useState(false);
 
@@ -1121,6 +1121,7 @@ export function AppSidebar() {
 
   const fetchAnswer = async (question: string) => {
     setQuestionAnswerLoading(true);
+    setQuestionModeAnswers([]);
     let res;
     try {
       res = await fetch("/api/question", {
