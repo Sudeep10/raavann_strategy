@@ -98,7 +98,7 @@ export default function AppNavbar() {
             onMouseLeave={() => setActiveStrategy(null)}
           >
             <div className="container">
-              <div className="grid grid-rows-5 auto-cols-max pb-4 space-y-2 space-x-5 id-flow-col">
+              <div className="grid grid-rows-5 grid-flow-col auto-cols-max pb-4 space-y-2 space-x-5">
                 {subStrategies
                   .slice()
                   .sort((a, b) => a.localeCompare(b))
