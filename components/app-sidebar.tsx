@@ -445,17 +445,20 @@ Your comparison MUST:
         }
       }}
     >
-      <DialogContent className="md:max-w-2xl">
+      <DialogContent className="md:max-w-3xl">
         <DialogHeader>
           <DialogTitle>Compare Companies</DialogTitle>
           <DialogDescription></DialogDescription>
         </DialogHeader>
-        <div className="overflow-y-auto [&>div]:h-[60vh] overflow-x-auto">
+        <div className="overflow-y-auto [&>div]:h-[60vh] overflow-x-auto border rounded-md p-2">
           <Table className="w-max min-w-full table-fixed">
             <TableHeader>
               <TableRow className="sticky top-0 bg-background">
                 {compareCompanies.map((company, idx) => (
-                  <TableHead className="text-center max-w-[250px]!" key={idx}>
+                  <TableHead
+                    className="text-center max-w-[250px]! border-l"
+                    key={idx}
+                  >
                     <div className="relative mx-auto mb-5 w-16 h-16">
                       <Image
                         src={company.logoUrl}
@@ -474,7 +477,7 @@ Your comparison MUST:
                 <TableRow key={"compare-row-" + idx}>
                   {Object.values(row).map((cell, cidx) => (
                     <TableCell
-                      className="align-top whitespace-normal text-pretty max-w-[250px]"
+                      className={`text-left align-top whitespace-normal border-l text-pretty max-w-[250px] px-5`}
                       key={"compare-cell-" + cidx}
                     >
                       <Markdown remarkPlugins={[remarkGfm]}>{cell}</Markdown>
