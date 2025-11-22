@@ -3,6 +3,7 @@
 import { Sidebar, useSidebar } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
 import {
+  ArrowBigLeftIcon,
   ArrowLeftRight,
   ArrowLeftRightIcon,
   BookmarkCheckIcon,
@@ -57,6 +58,7 @@ import { db, Category, UserSaved } from "@/lib/db";
 import { useLiveQuery } from "dexie-react-hooks";
 import { motion } from "motion/react";
 import { Checkbox } from "./ui/checkbox";
+import { Textarea } from "./ui/textarea";
 
 const FilterDialog = () => {
   const strategy = useUserStore((state) => state.strategy);
@@ -537,7 +539,6 @@ const DataTextCard = ({
   );
 
   const saveData = async () => {
-    console.log(saved);
     if (!saved) {
       await db.userSaved.add({
         category: defaultCategoryToSave,
@@ -554,7 +555,13 @@ const DataTextCard = ({
             strategy={textStrategy}
             subStrategy={textSubStrategy}
           >
-            <Button size={"sm"} className="ml-auto text-xs">
+            <Button
+              size={"sm"}
+              className="ml-auto text-xs"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+            >
               Change
             </Button>
           </CategorySelectDialog>
@@ -1030,6 +1037,49 @@ const CategorySelectDialog = ({
   );
 };
 
+const QuestionInputDialog = ({
+  children,
+  onClick,
+}: {
+  children: ReactNode;
+  onClick: (text: string) => void;
+}) => {
+  const [textareaValue, setTextareaValue] = useState("");
+  const [open, setOpen] = useState(false);
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Ask a Question</DialogTitle>
+          <DialogDescription></DialogDescription>
+        </DialogHeader>
+        <div className="flex flex-col gap-4">
+          <Textarea
+            placeholder="Type your question here..."
+            id="question-input"
+            onInput={(e) => setTextareaValue(e.currentTarget.value)}
+          />
+          <Button
+            onClick={() => {
+              if (textareaValue.trim() === "") {
+                toast.error("Question cannot be empty.");
+                return;
+              } else {
+                onClick(textareaValue);
+                setTextareaValue("");
+                setOpen(false);
+              }
+            }}
+          >
+            Submit Question
+          </Button>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
 export function AppSidebar() {
   const { toggleSidebar } = useSidebar();
   const companyName = useUserStore((state) => state.companyName);
@@ -1038,6 +1088,9 @@ export function AppSidebar() {
   const subStrategy = useUserStore((state) => state.subStrategy);
   const showMoreTags = useUserStore((state) => state.showMoreTags);
   const setShowMoreTags = useUserStore((state) => state.setShowMoreTags);
+  const [questionMode, setQuestionMode] = useState(true);
+  const [questionModeAnswers, setQuestionModeAnswers] = useState<string[]>([]);
+  const [questionAnswerLoading, setQuestionAnswerLoading] = useState(false);
 
   const companyInfo = Companies.find((c) => c.name === companyName);
   const relatedCompanies = Companies.filter((c) => {
@@ -1065,6 +1118,37 @@ export function AppSidebar() {
       return d.strategyType === strategy && d.subStrategyType === subStrategy;
     return false;
   });
+
+  const fetchAnswer = async (question: string) => {
+    setQuestionAnswerLoading(true);
+    let res;
+    try {
+      res = await fetch("/api/question", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          company: companyName?.toLowerCase(),
+          question: question,
+        }),
+      });
+    } catch (error) {
+      toast.error(
+        "An error occurred while fetching the answer. Please try again.",
+      );
+      setQuestionAnswerLoading(false);
+      return;
+    }
+    if (!res.ok) {
+      toast.error("Failed to fetch answer. Please try again.");
+      setQuestionAnswerLoading(false);
+      return;
+    }
+    const output = await res.json();
+    setQuestionModeAnswers(output.answers);
+    setQuestionAnswerLoading(false);
+  };
 
   return (
     <Sidebar
@@ -1143,54 +1227,113 @@ export function AppSidebar() {
               </div>
             </div>
             <div className="flex gap-2 mt-5">
-              {(!strategy || dataPointsLength() == 0) && (
+              {!questionMode && (
+                <>
+                  {(!strategy || dataPointsLength() === 0) && (
+                    <Button
+                      variant="outline"
+                      onClick={() => {
+                        if (!strategy) {
+                          toast.error("Compare Doesn't Work On All Filter.");
+                        } else {
+                          toast.error("No datapoints to compare.");
+                        }
+                      }}
+                    >
+                      Compare
+                    </Button>
+                  )}
+
+                  {strategy && dataPointsLength() > 0 && (
+                    <CompanySelectDialog company={companyInfo} />
+                  )}
+
+                  <FilterDialog />
+
+                  {(strategy || subStrategy) && (
+                    <Badge variant="outline" className="px-4">
+                      {subStrategy || strategy}
+                    </Badge>
+                  )}
+                </>
+              )}
+              {questionMode && (
                 <Button
                   variant={"outline"}
                   onClick={() => {
-                    if (!strategy) {
-                      toast.error("Compare Doesn't Work On All Filter.");
-                    } else {
-                      toast.error("No datapoints to compare.");
-                    }
+                    setQuestionMode(false);
                   }}
                 >
-                  Compare
+                  <ArrowBigLeftIcon />
+                  Back
                 </Button>
               )}
-              {strategy && dataPointsLength() > 0 && (
-                <CompanySelectDialog company={companyInfo} />
-              )}
-              <FilterDialog />
-              {(strategy || subStrategy) && (
-                <Badge variant={"outline"} className="px-4">
-                  {subStrategy ? subStrategy : strategy}
-                </Badge>
-              )}
             </div>
-            <div className="flex overflow-y-auto flex-col flex-1 gap-5 pr-2 mt-5 min-h-0">
-              {filteredDataPoints && filteredDataPoints.length > 0 ? (
-                filteredDataPoints.map((d, idx) => (
-                  <DataTextCard
-                    key={"data-" + idx}
-                    text={d.text}
-                    textStrategy={d.strategyType}
-                    textSubStrategy={d.subStrategyType}
-                    companyName={companyName!}
-                  />
-                ))
-              ) : (
-                <div>
-                  <Empty>
-                    <EmptyHeader>
-                      <EmptyMedia variant="icon">
-                        <CircleQuestionMarkIcon />
-                      </EmptyMedia>
-                      <EmptyTitle>No Datapoints Available</EmptyTitle>
-                      <EmptyDescription>
-                        Change filter to different strategy to see datapoints.
-                      </EmptyDescription>
-                    </EmptyHeader>
-                  </Empty>
+            <div className="flex relative flex-col flex-1 min-h-0">
+              <div className="overflow-y-auto flex-1 gap-5 pr-2 mt-5">
+                {!questionMode && (
+                  <>
+                    {filteredDataPoints && filteredDataPoints.length > 0 ? (
+                      filteredDataPoints.map((d, idx) => (
+                        <DataTextCard
+                          key={"data-" + idx}
+                          text={d.text}
+                          textStrategy={d.strategyType}
+                          textSubStrategy={d.subStrategyType}
+                          companyName={companyName!}
+                        />
+                      ))
+                    ) : (
+                      <div>
+                        <Empty>
+                          <EmptyHeader>
+                            <EmptyMedia variant="icon">
+                              <CircleQuestionMarkIcon />
+                            </EmptyMedia>
+                            <EmptyTitle>No Datapoints Available</EmptyTitle>
+                            <EmptyDescription>
+                              Change filter to different strategy to see
+                              datapoints.
+                            </EmptyDescription>
+                          </EmptyHeader>
+                        </Empty>
+                      </div>
+                    )}
+                  </>
+                )}
+
+                {questionMode && questionAnswerLoading ? (
+                  <div>
+                    <Spinner className="mx-auto mt-10" />
+                  </div>
+                ) : (
+                  <div>
+                    {questionMode &&
+                      questionModeAnswers.map((answer, idx) => (
+                        <DataTextCard
+                          key={"answer-" + idx}
+                          text={answer}
+                          textStrategy="Answer"
+                          textSubStrategy=""
+                          companyName={companyName!}
+                        />
+                      ))}
+                  </div>
+                )}
+              </div>
+
+              {!questionMode && (
+                <div className="absolute right-0 bottom-0 z-50">
+                  <QuestionInputDialog
+                    onClick={(text) => {
+                      setQuestionMode(true);
+                      fetchAnswer(text);
+                    }}
+                  >
+                    <Button size="icon" className="rounded-full">
+                      <CircleQuestionMarkIcon />
+                    </Button>
+                  </QuestionInputDialog>
                 </div>
               )}
             </div>
@@ -1221,6 +1364,7 @@ export function AppSidebar() {
                                   companyId: "",
                                   companyName: company.name,
                                 });
+                                setQuestionMode(false);
                               }}
                             />
                           </TooltipTrigger>
