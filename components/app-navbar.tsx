@@ -1,14 +1,36 @@
 "use client";
 
 import { Companies } from "@/constants/companies";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Input } from "./ui/input";
-import { HomeIcon, UserIcon, XIcon } from "lucide-react";
+import { BookmarkCheckIcon, HomeIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { useUserStore } from "@/store/user";
 import { Button } from "./ui/button";
 import { ModeToggle } from "./mode-toggle";
 import { useSidebar } from "./ui/sidebar";
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { CategoriesViewDialog } from "./app-sidebar";
+
+const ProfilePopover = () => {
+  return (
+    <Popover>
+      <PopoverTrigger asChild>
+        <Button variant="outline">
+          <UserIcon />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="p-1 w-fit">
+        <CategoriesViewDialog>
+          <Button size={"sm"} variant={"ghost"}>
+            <BookmarkCheckIcon />
+            Saved
+          </Button>
+        </CategoriesViewDialog>
+      </PopoverContent>
+    </Popover>
+  );
+};
 
 export default function AppNavbar() {
   const teamName = useUserStore((state) => state.team);
@@ -40,9 +62,7 @@ export default function AppNavbar() {
             </div>
             <div></div>
             <div className="flex gap-2 justify-center">
-              <Button variant={"outline"}>
-                <UserIcon />
-              </Button>
+              <ProfilePopover />
               <ModeToggle />
               {/* <Button variant={"outline"} onClick={toggleSidebar}> */}
               {/*   <XIcon /> */}

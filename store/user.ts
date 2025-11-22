@@ -22,6 +22,8 @@ interface UserStore {
   setSelectedTag: (tags: string) => void;
   showTagFilterCompanyDialog: boolean;
   setShowTagFilterCompanyDialog: (show: boolean) => void;
+  defaultCategoryToSave: string;
+  setDefaultCategoryToSave: (category: string) => void;
 }
 
 export const useUserStore = create<UserStore>((set) => ({
@@ -35,6 +37,7 @@ export const useUserStore = create<UserStore>((set) => ({
   showMoreTags: false,
   selectedTag: "",
   showTagFilterCompanyDialog: false,
+  defaultCategoryToSave: "default",
   setTeam: (team: string) => set({ team }),
   setCompanyId: (companyId: string) => set({ companyId }),
   setCompanyName: (companyName: string) =>
@@ -50,4 +53,6 @@ export const useUserStore = create<UserStore>((set) => ({
   setSelectedTag: (selectedTag: string) => set({ selectedTag }),
   setShowTagFilterCompanyDialog: (show: boolean) =>
     set({ showTagFilterCompanyDialog: show }),
+  setDefaultCategoryToSave: (category: string) =>
+    set({ defaultCategoryToSave: category }),
 }));

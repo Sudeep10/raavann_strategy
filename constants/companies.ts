@@ -6,6 +6,8 @@ export interface CompanyModel {
   tags: string[];
 }
 
+export const VERSION = 0.1;
+
 export const Companies: CompanyModel[] = [
   {
     name: "Amazon",

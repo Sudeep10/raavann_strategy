@@ -3,9 +3,14 @@
 import { Sidebar, useSidebar } from "@/components/ui/sidebar";
 import { Button } from "./ui/button";
 import {
+  ArrowLeftRight,
+  ArrowLeftRightIcon,
+  BookmarkCheckIcon,
+  BookmarkIcon,
   Building2Icon,
   CircleQuestionMarkIcon,
   FunnelIcon,
+  TrashIcon,
   XIcon,
 } from "lucide-react";
 import { useUserStore } from "@/store/user";
@@ -29,7 +34,7 @@ import {
   DialogTrigger,
 } from "./ui/dialog";
 import { toast } from "sonner";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import {
   Table,
   TableBody,
@@ -48,6 +53,10 @@ import {
 } from "./ui/empty";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { db, Category, UserSaved } from "@/lib/db";
+import { useLiveQuery } from "dexie-react-hooks";
+import { motion } from "motion/react";
+import { Checkbox } from "./ui/checkbox";
 
 const FilterDialog = () => {
   const strategy = useUserStore((state) => state.strategy);
@@ -509,30 +518,88 @@ const DataTextCard = ({
   text,
   textStrategy,
   textSubStrategy,
+  companyName,
 }: {
   text: string;
   textStrategy: string;
   textSubStrategy: string;
+  companyName: string;
 }) => {
   const strategy = useUserStore((state) => state.strategy);
   const subStrategy = useUserStore((state) => state.subStrategy);
+  const defaultCategoryToSave = useUserStore(
+    (state) => state.defaultCategoryToSave,
+  );
+
+  const saved = useLiveQuery(
+    () => db.userSaved.where("data").equals(text).first(),
+    [text],
+  );
+
+  const saveData = async () => {
+    console.log(saved);
+    if (!saved) {
+      await db.userSaved.add({
+        category: defaultCategoryToSave,
+        data: text,
+        company: companyName,
+        strategy: textStrategy,
+        subStrategy: textSubStrategy,
+      });
+      toast.success(`Saved to ${defaultCategoryToSave} category`, {
+        action: (
+          <CategorySelectDialog
+            text={text}
+            companyName={companyName}
+            strategy={textStrategy}
+            subStrategy={textSubStrategy}
+          >
+            <Button size={"sm"} className="ml-auto text-xs">
+              Change
+            </Button>
+          </CategorySelectDialog>
+        ),
+      });
+    } else {
+      await db.userSaved.where("data").equals(text).delete();
+      toast.success("Removed from saved strategies");
+    }
+  };
+
   return (
-    <div className="flex flex-col gap-2 p-4 rounded-md border h-fit bg-muted/40 hover:bg-muted">
+    <div
+      className="flex flex-col gap-2 p-4 rounded-md border h-fit bg-muted/40 hover:bg-muted"
+      onDoubleClick={() => saveData()}
+    >
       <div className="prose dark:prose-invert text-sm! prose-li:marker:text-foreground prose-strong:text-sm!">
         <Markdown remarkPlugins={[remarkGfm]}>{text}</Markdown>
       </div>
-      <div className="flex gap-2">
-        {!strategy && !subStrategy && (
-          <>
-            <Badge className="text-xs">{textStrategy}</Badge>
-            <Badge className="text-xs" variant={"secondary"}>
-              {textSubStrategy}
-            </Badge>
-          </>
-        )}
-        {strategy && !subStrategy && (
-          <Badge className="text-xs">{textSubStrategy}</Badge>
-        )}
+      <div className="flex overflow-x-auto gap-2 justify-between">
+        <div className="flex gap-2">
+          {!strategy && !subStrategy && (
+            <>
+              <Badge className="text-xs">{textStrategy}</Badge>
+              <Badge className="text-xs" variant={"secondary"}>
+                {textSubStrategy}
+              </Badge>
+            </>
+          )}
+          {strategy && !subStrategy && (
+            <Badge className="text-xs">{textSubStrategy}</Badge>
+          )}
+        </div>
+        <div>
+          <Button variant={"outline"} size={"icon-sm"} onClick={saveData}>
+            <motion.div
+              key={saved ? "saved" : "unsaved"}
+              initial={{ scale: 0.6, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            >
+              {saved ? <BookmarkCheckIcon /> : <BookmarkIcon />}
+            </motion.div>
+          </Button>
+        </div>
       </div>
     </div>
   );
@@ -616,6 +683,348 @@ const TagFilteredCompaniesDialog = () => {
             )}
           </div>
         </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+const CategoryView = ({
+  categories,
+  selectCategory,
+}: {
+  categories: Category[];
+  selectCategory: (category: string) => void;
+}) => {
+  const defaultCategoryToSave = useUserStore(
+    (state) => state.defaultCategoryToSave,
+  );
+  return (
+    <div className="flex flex-col gap-2 mt-4">
+      {categories?.length ? (
+        categories.map((category, idx) => (
+          <div
+            key={"category-" + idx}
+            className="flex justify-between items-center py-2 px-3 rounded-md border cursor-pointer bg-muted/40 hover:bg-muted"
+            onClick={() => selectCategory(category.name)}
+          >
+            <span className="text-sm font-medium">{category.name}</span>
+            {category.name !== "default" && (
+              <Button
+                variant={"destructive"}
+                size={"icon-sm"}
+                onClick={async (e) => {
+                  e.stopPropagation();
+                  if (category.name === defaultCategoryToSave) {
+                    useUserStore.setState({ defaultCategoryToSave: "default" });
+                  }
+                  await db.categories.where("id").equals(category.id!).delete();
+                  await db.userSaved
+                    .where("category")
+                    .equals(category.name)
+                    .delete();
+                }}
+              >
+                <TrashIcon />
+              </Button>
+            )}
+          </div>
+        ))
+      ) : (
+        <p className="text-sm text-muted-foreground">No categories found.</p>
+      )}
+    </div>
+  );
+};
+
+const CategoryDatapointsView = ({
+  dataPoints,
+  setOpen,
+}: {
+  dataPoints: UserSaved[];
+  setOpen: (open: boolean) => void;
+}) => {
+  const DataTextCard = ({
+    text,
+    textStrategy,
+    textSubStrategy,
+    companyName,
+    categoryName,
+  }: {
+    text: string;
+    textStrategy: string;
+    textSubStrategy: string;
+    companyName: string;
+    categoryName: string;
+  }) => {
+    const strategy = useUserStore((state) => state.strategy);
+    const subStrategy = useUserStore((state) => state.subStrategy);
+
+    return (
+      <div className="flex flex-col gap-2 p-4 mr-2 rounded-md border h-fit bg-muted/40 hover:bg-muted">
+        <span
+          className="text-lg font-semibold cursor-pointer hover:underline"
+          onClick={() => {
+            useUserStore.setState({
+              companyId: "",
+              companyName: companyName,
+            });
+            setOpen(false);
+          }}
+        >
+          {companyName}
+        </span>
+        <div className="prose dark:prose-invert text-sm! prose-li:marker:text-foreground prose-strong:text-sm!">
+          <Markdown remarkPlugins={[remarkGfm]}>{text}</Markdown>
+        </div>
+        <div className="flex overflow-x-auto gap-2 justify-between items-center">
+          <div className="flex gap-2">
+            {!strategy && !subStrategy && (
+              <>
+                <Badge className="text-xs">{textStrategy}</Badge>
+                <Badge className="text-xs" variant={"secondary"}>
+                  {textSubStrategy}
+                </Badge>
+              </>
+            )}
+            {strategy && !subStrategy && (
+              <Badge className="text-xs">{textSubStrategy}</Badge>
+            )}
+          </div>
+          <div className="flex gap-2 items-center">
+            <CategorySelectDialog
+              text={text}
+              companyName={companyName}
+              strategy={textStrategy}
+              subStrategy={textSubStrategy}
+            >
+              <Button size={"icon-sm"}>
+                <ArrowLeftRightIcon />
+              </Button>
+            </CategorySelectDialog>
+            <Button
+              variant={"destructive"}
+              size={"icon-sm"}
+              onClick={async () => {
+                await db.userSaved
+                  .where({ data: text, category: categoryName })
+                  .delete();
+              }}
+            >
+              <TrashIcon />
+            </Button>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  return (
+    <div className="flex overflow-y-auto flex-col gap-2 mt-4">
+      {dataPoints?.length ? (
+        dataPoints.map((dataPoint, idx) => (
+          <DataTextCard
+            key={"datapoint-" + idx}
+            text={dataPoint.data}
+            textStrategy={dataPoint.strategy}
+            textSubStrategy={dataPoint.subStrategy}
+            companyName={dataPoint.company}
+            categoryName={dataPoint.category}
+          />
+        ))
+      ) : (
+        <p className="text-sm text-muted-foreground">
+          No data points found in this category.
+        </p>
+      )}
+    </div>
+  );
+};
+
+export const CategoriesViewDialog = ({ children }: { children: ReactNode }) => {
+  const categories = useLiveQuery(() => db.categories.toArray());
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const savedDataPoints = useLiveQuery(
+    () =>
+      db.userSaved
+        .where("category")
+        .equals(selectedCategory ?? "")
+        .toArray(),
+    [selectedCategory],
+  );
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Categories</DialogTitle>
+          <DialogDescription>
+            View all categories and their saved data points.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="overflow-y-auto max-h-[70vh]">
+          {selectedCategory && (
+            <CategoryDatapointsView
+              dataPoints={savedDataPoints ?? []}
+              setOpen={setOpen}
+            />
+          )}
+          {!selectedCategory && (
+            <CategoryView
+              categories={categories ?? []}
+              selectCategory={setSelectedCategory}
+            />
+          )}
+        </div>
+        <DialogFooter>
+          {selectedCategory ? (
+            <Button
+              variant={"outline"}
+              className="mt-4"
+              onClick={() => setSelectedCategory(null)}
+            >
+              Back
+            </Button>
+          ) : (
+            <AddCategoryDialog>
+              <Button>New Category</Button>
+            </AddCategoryDialog>
+          )}
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+const AddCategoryDialog = ({ children }: { children: ReactNode }) => {
+  const [categoryName, setCategoryName] = useState("");
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Dialog open={open} onOpenChange={setOpen}>
+      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Add Category</DialogTitle>
+          <DialogDescription>
+            Create a new category to organize your strategies.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="flex flex-col gap-4">
+          <input
+            type="text"
+            placeholder="Category Name"
+            value={categoryName}
+            onChange={(e) => setCategoryName(e.target.value)}
+            className="py-2 px-4 w-full rounded-md border focus:ring-2 focus:outline-none focus:ring-primary"
+          />
+          <Button
+            onClick={async () => {
+              if (categoryName.trim() === "") return;
+              await db.categories.add({ name: categoryName.trim() });
+              setCategoryName("");
+              setOpen(false);
+            }}
+          >
+            Add Category
+          </Button>
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
+
+const CategorySelectDialog = ({
+  children,
+  text,
+  companyName,
+  strategy,
+  subStrategy,
+}: {
+  children: ReactNode;
+  text: string;
+  companyName: string;
+  strategy: string;
+  subStrategy: string;
+}) => {
+  const categories = useLiveQuery(() => db.categories.toArray());
+  const addedCategories = useLiveQuery(() =>
+    db.userSaved.where("data").equals(text).toArray(),
+  );
+  const defaultCategoryToSave = useUserStore(
+    (state) => state.defaultCategoryToSave,
+  );
+
+  return (
+    <Dialog>
+      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Select Category</DialogTitle>
+          <DialogDescription>
+            Choose a category to save the data point.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="flex overflow-y-auto flex-col gap-3 px-1 pt-1 max-h-[60vh]">
+          {categories?.map((category, idx) => {
+            const isChecked = addedCategories
+              ?.map((c) => c.category)
+              .includes(category.name);
+
+            return (
+              <div
+                key={idx}
+                className="flex justify-between items-center py-2 px-2 rounded-md border bg-muted"
+              >
+                <div className="flex gap-3 items-center">
+                  <Checkbox
+                    checked={isChecked}
+                    onCheckedChange={(v) => {
+                      if (v) {
+                        db.userSaved.add({
+                          category: category.name,
+                          data: text,
+                          company: companyName,
+                          strategy: strategy,
+                          subStrategy: subStrategy,
+                        });
+                      } else {
+                        db.userSaved
+                          .where({ data: text, category: category.name })
+                          .delete();
+                      }
+                    }}
+                  />
+                  <span className="text-sm font-medium">{category.name}</span>
+                </div>
+
+                <div>
+                  {defaultCategoryToSave === category.name ? (
+                    <Badge className="text-xs">Default</Badge>
+                  ) : (
+                    <Badge
+                      className="text-xs cursor-pointer hover:bg-primary/10"
+                      variant={"outline"}
+                      onClick={async () => {
+                        useUserStore.setState({
+                          defaultCategoryToSave: category.name,
+                        });
+                      }}
+                    >
+                      Set as Default
+                    </Badge>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <DialogFooter>
+          <AddCategoryDialog>
+            <Button>New Category</Button>
+          </AddCategoryDialog>
+        </DialogFooter>
       </DialogContent>
     </Dialog>
   );
@@ -766,6 +1175,7 @@ export function AppSidebar() {
                     text={d.text}
                     textStrategy={d.strategyType}
                     textSubStrategy={d.subStrategyType}
+                    companyName={companyName!}
                   />
                 ))
               ) : (
