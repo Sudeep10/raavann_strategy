@@ -585,14 +585,20 @@ const DataTextCard = ({
         <div className="flex gap-2">
           {!strategy && !subStrategy && (
             <>
-              <Badge className="text-xs">{textStrategy}</Badge>
-              <Badge className="text-xs" variant={"secondary"}>
-                {textSubStrategy}
-              </Badge>
+              {textStrategy !== "" && (
+                <Badge className="text-xs">{textStrategy}</Badge>
+              )}
+              {textSubStrategy && (
+                <Badge className="text-xs" variant={"secondary"}>
+                  {textSubStrategy}
+                </Badge>
+              )}
             </>
           )}
-          {strategy && !subStrategy && (
-            <Badge className="text-xs">{textSubStrategy}</Badge>
+          {strategy && !subStrategy && textSubStrategy && (
+            <Badge className="text-xs" variant={"secondary"}>
+              {textSubStrategy}
+            </Badge>
           )}
         </div>
         <div>
@@ -787,14 +793,20 @@ const CategoryDatapointsView = ({
           <div className="flex gap-2">
             {!strategy && !subStrategy && (
               <>
-                <Badge className="text-xs">{textStrategy}</Badge>
-                <Badge className="text-xs" variant={"secondary"}>
-                  {textSubStrategy}
-                </Badge>
+                {textStrategy !== "" && (
+                  <Badge className="text-xs">{textStrategy}</Badge>
+                )}
+                {textSubStrategy && (
+                  <Badge className="text-xs" variant={"secondary"}>
+                    {textSubStrategy}
+                  </Badge>
+                )}
               </>
             )}
-            {strategy && !subStrategy && (
-              <Badge className="text-xs">{textSubStrategy}</Badge>
+            {strategy && !subStrategy && textSubStrategy && (
+              <Badge className="text-xs" variant={"secondary"}>
+                {textSubStrategy}
+              </Badge>
             )}
           </div>
           <div className="flex gap-2 items-center">
@@ -1119,9 +1131,9 @@ export function AppSidebar() {
     return false;
   });
 
-  useEffect(()=>{
+  useEffect(() => {
     setQuestionMode(false);
-  },[companyName])
+  }, [companyName]);
 
   const fetchAnswer = async (question: string) => {
     setQuestionAnswerLoading(true);
@@ -1234,6 +1246,14 @@ export function AppSidebar() {
             <div className="flex gap-2 mt-5">
               {!questionMode && (
                 <>
+                  <QuestionInputDialog
+                    onClick={(text) => {
+                      setQuestionMode(true);
+                      fetchAnswer(text);
+                    }}
+                  >
+                    <Button variant="outline">Ask Question</Button>
+                  </QuestionInputDialog>
                   {(!strategy || dataPointsLength() === 0) && (
                     <Button
                       variant="outline"
@@ -1254,12 +1274,6 @@ export function AppSidebar() {
                   )}
 
                   <FilterDialog />
-
-                  {(strategy || subStrategy) && (
-                    <Badge variant="outline" className="px-4">
-                      {subStrategy || strategy}
-                    </Badge>
-                  )}
                 </>
               )}
               {questionMode && (
@@ -1274,8 +1288,19 @@ export function AppSidebar() {
                 </Button>
               )}
             </div>
+            {!questionMode && strategy && (
+              <div className="flex justify-center items-center mt-5">
+                <hr className="w-full bg-muted" />
+                {(strategy || subStrategy) && (
+                  <Badge variant="outline" className="px-4">
+                    {subStrategy || strategy}
+                  </Badge>
+                )}
+                <hr className="w-full bg-muted" />
+              </div>
+            )}
             <div className="flex relative flex-col flex-1 min-h-0">
-              <div className="overflow-y-auto flex-1 gap-5 pr-2 mt-5">
+              <div className="flex overflow-y-auto flex-col flex-1 gap-5 pr-2 mt-5">
                 {!questionMode && (
                   <>
                     {filteredDataPoints && filteredDataPoints.length > 0 ? (
@@ -1326,21 +1351,6 @@ export function AppSidebar() {
                   </>
                 )}
               </div>
-
-              {!questionMode && (
-                <div className="absolute right-0 bottom-0 z-50">
-                  <QuestionInputDialog
-                    onClick={(text) => {
-                      setQuestionMode(true);
-                      fetchAnswer(text);
-                    }}
-                  >
-                    <Button size="icon" className="rounded-full">
-                      <CircleQuestionMarkIcon />
-                    </Button>
-                  </QuestionInputDialog>
-                </div>
-              )}
             </div>
             {relatedCompanies.length > 0 && (
               <Accordion
