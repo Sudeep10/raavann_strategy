@@ -1,0 +1,2981 @@
+# Transcript 1
+
+this episode is brought to you by tegus
+over the years of our partnership with
+tigas they have evolved from a pure
+expert Network into a full company
+intelligence platform I've been so
+impressed by the platform that my firm
+positive sum recently made an investment
+in tigas we did so because we feel that
+tigas will be the gold standard platform
+for investing research for decades to
+come T get streamlines the investment
+research process so you can get up to
+speed and find answers to critical
+questions on companies faster and more
+efficiently the tigas platform surfaces
+the hard to get qualitative insights
+gives instant access to critical public
+financial data through bam SEC and helps
+you set up customized expert calls it's
+all done on a single modern SAS platform
+that offers 360 degree insight into any
+public or private company as a listener
+you can take tigers for a free test
+drive by visiting tegus.co Patrick
+[Music]
+this is business breakdowns
+business breakdowns is a series of
+conversations with investors and
+operators diving deep into a single
+business
+for each business we explore its history
+its business model its competitive
+advantages and what makes it tick
+we believe every business has lessons
+and secrets that investors and operators
+can learn from and we are here to bring
+them to you to find more episodes of
+breakdowns check out join colossus.com
+all opinions expressed by hosts and
+podcast guests are solely their own
+opinions hosts podcast guests their
+employers or Affiliates May maintain
+positions in the Securities discussed in
+the podcast this podcast is for
+informational purposes only and should
+not be relied upon as a basis for
+investment decisions
+this is Zach fuss an investor at ironic
+capital and today we're breaking down
+wise wise helps individuals and small
+businesses move money across borders it
+offers significantly faster and cheaper
+International transfers than traditional
+banking routes because of its innovative
+closed loop system
+12 years after its founding why serves 6
+million customers and earn close to a
+billion pounds in income last year
+investors currently value the business
+which is listed in London at 6 billion
+pounds to break down wise I'm joined by
+former payments exec and now investor at
+sydney-based TDM growth Partners James
+Revell we cover the broken system of
+correspondent banking which has led to
+slow opaque and expensive transfers and
+then explore how wise is counter
+positioned itself to take advantage of
+this large Market please enjoy our
+breakdown of Lies
+James thank you so much for joining us
+to break down wise I thought a good
+place to kick things off was just to
+very simply present to us what is wise
+and what is the key product or core
+competency of the business so it's cool
+wise is a cross-border money transfer
+business it was founded in 2011 by two
+estonians it was founded actually as
+transferwise which goes to the point
+that there are money transfer business
+when we're talking about money transfer
+it's probably worth breaking that down
+into what wise is and what wise isn't so
+it is more focused on retail payment so
+smaller peer-to-peer or small businesses
+transferring money across borders so
+between two different jurisdictions it's
+a digital focused business which is an
+important thing which we can come back
+to later when we're talking about
+margins that means it doesn't really
+handle cash which on the other side of
+the fence in the cross-border money
+transfer market you have companies like
+Western Union and MoneyGram which many
+people might have heard of which are
+more remittance businesses and when we
+talk about remittance we're talking
+about normally companies servicing
+migrants so economic migrants working
+overseas needing to transfer money back
+to families in their home country we're
+also not talking with wise about
+e-commerce so sometimes when we talk
+about cross-border payments people might
+be thinking about card payments on
+foreign websites we're not talking about
+that in this case with wires we're
+talking about normally bank account
+transfers and interestingly when we talk
+about bank accounts why is funnily
+enough isn't a bank so it is a licensed
+financial institution but it's not a
+bank I guess to zoom out a bit and talk
+more broadly about how this business
+came to be has a pretty interesting
+founding story and I think it helps to
+better appreciate what the product is if
+you haven't used it so maybe let's just
+talk a bit about how we got from the
+founding story to where we are today
+so we'll go back to
+2007-2008 you've got the two Founders
+they're two estonians so one's called
+Christo Carmen and the other one's
+called Target Henriques two estonians
+actually living and working in London
+they both have bank accounts in Estonia
+but they've also set up bank accounts in
+the UK and that's important we'll come
+back to that so living and working in
+London however
+Bristow is working as a consultant for
+Deloitte in London and he's being paid
+in pounds in the UK on the other hand
+tarvert is working for Skype funnily
+enough he was skype's first employee
+he's still being paid in Euros back in
+Estonia this is where their stories
+differ so Kruger still wants to move
+money back to Estonia to take advantage
+of some of the higher interest rates
+that were back in Estonia back in
+2007-2008 so being paid in pounds in
+London but having to transfer money back
+to Estonia every month on the other hand
+tavets being paid in Estonia and euros
+and he was obviously incurring expenses
+in London so needing to transfer money
+from Estonia to London so every month
+they would both queue up at the banks
+they would wait in line so it's Christo
+once it depends for a thousand pounds
+from the UK to Estonia the bank says
+sure fill out this paperwork we'll
+charge you 25 pounds to transfer this
+thousand pounds and Crystal is like sure
+what choice do I have five days later
+takes a lot of time for this money to
+transfer he checks his bank statement is
+expecting something like 1200 Euros to
+land in his Estonian account what
+actually happens every month is 1100
+Euros lands or
+1140 Euros lands and Christo actually
+tells the story where he thought he'd
+been scammed or summoned fat fingered
+made mistakes so he inquired about it
+and what he realized was and what a lot
+of people don't realize is there are a
+lot of hidden fees in that exchange so
+what the banks do they'll quote you a
+fee up front and then they'll charge a
+market up on the foreign exchange and
+that's something that Christo didn't
+know Harvard's experiencing this but
+just in Reverse so he's trying to
+transfer Euros to the UK also having
+similar problems inconvenient opaque no
+idea when the money's going to turn up
+and he's being charged hidden fees they
+actually met at a party both were having
+a good odd whinge about this and they
+realized they could solve each other's
+problems so what they decided to do was
+they actually sparked up a Skype chat
+and every month they would go into
+Reuters or Google or whatever get your
+foreign exchange rate from and they
+would agree I will Christo transfer tar
+that you my pounds in the UK and tell
+that you transfer me your Euros in
+Estonia the end of fact is they've made
+a cross-border transfer they've got what
+they wanted the currency exchange but no
+money has crossed a border so they get
+the money pretty much straight away it's
+completely transparent and they're not
+being charged any hidden fees so they
+basically solved this problem of
+cross-border transfers and they've kind
+of bypassed it you might see it as a bit
+of a loophole or a bit of an Arbitrage
+of the existing system but they realize
+people just really care about the
+outcome they don't really care about how
+that money actually moves so they
+thought there might be a big Market here
+they started a Skype chat and they
+expanded it to friends and friends of
+friends before they knew it they're
+essentially running an order book with
+pounds on one side of The Ledger and
+Euros on the other and they would match
+me so they would try and connect this
+what does essentially a peer-to-peer
+market for cross-border and inverted
+commas money transfer and that Zack is
+exactly how wise works today but on a
+massive scale the only difference being
+rather than having to connect Crystal
+and tar there or strangers with
+strangers wise has a series of domestic
+accounts that you can transfer money to
+so in the instance we've just discussed
+Christo would transfer his pounds to the
+wise UK account wise would then
+communicate internally with their
+Estonian account why is the Sony account
+with disperse Heroes to Target or
+Crystal is it standing account whoever
+and then exactly the same would happen
+in reverse that solves the coordination
+problem but again there is no money
+actually Crossing Borders it's all
+staying within that one single platform
+and we'll get on to it later but that
+solves a lot of the problems that they
+saw up front when they were going
+through the traditional banking rails
+the other beauty of this system is
+Target and Christo you know are mystical
+creatures here they're both being
+charged for a cross-border money
+transfer but in reality wise is only
+incurring domestic costs so that is
+essentially The Leverage that this
+business has and why structurally
+they're set up so differently to what
+exists to that
+that was a really rich background of how
+they kind of went from what was an
+abstract and complicated means of
+matching friends and acquaintances in
+regards to the ability to exchange
+currency to a somewhat large business
+today so can you help us to understand
+the size and scale of what they're doing
+from that standing start and what was it
+2011 founded in 2011 by 2014 they'd done
+a billion pounds in cross-border
+transfers which is enormous today
+they're on track to do around a hundred
+billion pounds in transfer volume in the
+year and that's still growing North at
+40 percent
+that has translated through on track to
+do probably just shy this year of a
+billion pounds in total income they've
+got 60 gross profit margin so 600
+million pounds in gross profit and
+that's flowing through it's about 200
+million pounds in ebitda so about a 20
+emitter margin which we can come back to
+which is kind of a fascinating story so
+it's a very large business it's listed
+enlisted in 2021 on the London Stock
+Exchange via direct listing and its
+current market cap is about six billion
+pounds outside of just financials it's
+got about six million customers and
+that's broken down between five and a
+half million personal customers at about
+320 000 businesses and they're normally
+the smaller End Town businesses they
+don't play in that Enterprise space
+they're active in about 80 countries
+about 50 currencies which results in
+about two and a half thousand currency
+routes now this whole machine is powered
+by about 5 000 employees across 28
+offices around the world I think we
+should go into a bit about what
+differentiates them and what are their
+true competitive advantages because I
+think it helps to better inform however
+time they're going to accomplish their
+goal and what that potentially means for
+the rest of the players in the space and
+where their profit pools and margins may
+go as a function of it maybe I'll start
+with just providing a bit more context
+and background on the cross-border money
+transfer market and that can set up this
+counter position whites has so if you
+think about cross-border money transfers
+it goes back thousands of years there
+are history books written on this but
+ultimately back in the day it would have
+been gold bullion or precious methyl
+spices being loaded onto ships and
+transferred across borders obviously
+that was quite impractical comes from
+security concerns and costs and all
+sorts over time we're talking 11th 12th
+century now the bill of exchange was
+created whereby you could essentially
+create an IOU which meant you didn't
+need to transfer actual money or
+currency across borders there's more a
+paper-based exchange of value that could
+be redeemed at a bank these were posted
+at the time and then that has grown into
+Telex messaging when cross-atlantic
+cables are laid and this electronic
+means of communication between banks
+around five and so the history of
+cross-border transfers if you think
+about it money stopped moving across
+borders a long time ago it was a lot of
+credits and debits of accounts with each
+Banks held with each other moving
+numbers around on ledgers as opposed to
+money actually being sent on a ship or
+through this kind of pipe it's just a
+series of relationships between Banks
+that's known as correspondent Banking
+and we can come back to some of the
+problems with that model but maybe just
+set up then how big this Market is so
+they think there's about 100 trillion
+pounds of volume transferred across
+borders every year if you cut out say
+the really big Enterprise government or
+interbank transfers you're left with
+about two trillion pounds of personal
+cross-border transfers and about nine
+trillion pounds of small business is
+transferring money across borders so
+this is a colossal market and that flows
+through to say a revenue line of
+anywhere between 100 and 200 billion
+pounds paid in fees by customers in
+terms of the split of that market about
+two-thirds still sits with banks about
+10 to 20 percent with money transfer
+operators like the Western Unions and
+the money grams and the rest is split up
+between the remaining players the
+Market's growing so on average growing
+about five percent per annum over the
+past decade but interestingly fees are
+reducing there's some pressure on fee
+down was largely caused by wires but
+also by regulatory attention but 2008
+2009 it was about nine percent in fees
+it's now like I said close to six seven
+percent the Tailwinds behind this
+Market's largely been driven by
+globalization so international trade and
+Supply chains Global e-commerce
+International traveler migration and
+it's received like I said a lot of
+regulatory attention so the G20 and the
+FSB are really focused on this right now
+the UN have set a goal but by 2030
+cross-border transfer fee should be
+close to three percent and why that is
+is because it's a very inefficient way
+of doing things fees are very high and
+largely unfortunately the people that
+suffer uh normally immigrants trying to
+work overseas and transfer money every
+month back home to support their
+families and so that's one reason I
+think the regulatory attention has come
+the other reason is because Financial
+crime and the proceeds of crime
+transferring across borders if that's in
+cash that causes a problem so
+underpinning this Market is what's known
+as correspondent banking which is the
+relationship between banks around the
+world so if you're say Commonwealth Bank
+Australia you need to transfer money to
+Barclays in the UK you may not have a
+direct relationship or say you're a
+credit union in Australia will be very
+unlikely to have a relationship with a
+bank in the UK and so you'll come
+attacked a bank in Australia who will
+contact a bank in say the UK who will
+then contact the recipients Bank this
+chain of communication between Banks is
+called correspondent Banking and what
+they're doing is
+basically transferring the request and
+the amount of money they need to send as
+well as the customer information now the
+way the banks do this communication is
+Reliant upon an organization called
+Swift so Swift is owned by 200 Banks
+it's used by over 11 000 of them and it
+stands for the Society of worldwide
+interbank Financial telecommunication so
+it's essentially an electronic
+communication Network that tries to put
+in place a Common Language and some
+standards around how cross-border
+transfers work what format data needs to
+come in so you may have heard of a Swift
+Code or an iband number these are
+identifiers that Banks use globally to
+help them manage this complex network of
+communication which underpins these
+transfers that doesn't take away the
+individual effort put onto banks in
+order to complete transfers and so maybe
+just to run through the process quickly
+first of all you've got to find a link
+say you want to transfer money to
+Thailand as a bank you may need to go
+through three or four different banks to
+get to the recipients bank and so you've
+got to find a way of getting to the
+recipient Bank
+every step of the way you need to
+validate the data you needed to complete
+the regulatory checks
+you then need to potentially transform
+the data and for the next Bank along in
+the chain you need to transmit it you
+then need to sort out funding on the
+back end so settling crediting and
+debiting accounts this could be like a
+50 transfer and these six Banks all need
+to communicate they all need to settle
+funds and they all need to reconcile and
+make sure that all checks were completed
+all data has been transferred accurately
+and everyone's got the money they need
+that setup you can see that there's a
+ton of problems caused by that the first
+and the most obvious one which has been
+growing over the past 10 years
+particularly since the GFC the
+Regulatory and compliance burden along
+that chain is huge so making sure that
+there's no anti-money laundering going
+on there's no counter-terrorism
+financing going on you've got your
+sanctions checks you've got to protect
+data so you've got to be mindful of
+privacy you've got Prudential worries
+about liquidity and Bank regulations
+when consumer protections like if
+something goes wrong you've got to solve
+disputes so there's an enormous amount
+of complexity just on the regulation and
+compliance side there are interesting
+things like opening hours so Banks
+communicating across the world they have
+different opening hours the way Banks
+transfer money domestically between each
+other is normally done in a batch
+process model whereby it's only up
+operating five days a week and it's
+certain times of that day so if you span
+a weekend if your money's not moving
+there's also a lot of paper and Legacy
+technology involved there's liquidity
+and foreign exchange risks so if
+transfers between Banks aren't done
+simultaneously which often they aren't
+that creates liabilities between Banks
+which is problems in Banks charge fees
+for that so correspondent banking has a
+lot of inefficiency built in and that
+flows through so those supply side
+problems flow through the problems for
+customers like our Paul Christo and
+tarvert back in 2008 it's incredibly
+expensive every handoff along the chain
+they need to be paid it's slow each step
+along the chain obviously there's some
+waiting time involved and it's opaque
+often up front when a transfer starts
+you have no idea how much it's going to
+cost when it comes out the other end
+and ultimately it's inconvenient so I
+think where we should take this
+conversation is further exploring that
+closed loop system that you've referred
+to because I think if my interpretation
+of the business is correct that really
+is where the massive value unlock comes
+from to the extent that they're
+successful in making that the core
+strategy of the business I want to help
+to better understand why even though
+it's called cross-border in many ways
+it's not like the mechanic is such that
+things can stay where they are but they
+can charge the fees that are associated
+with it and not only save their
+customers money but also realize a very
+healthy margin you'll spot on Zach the
+wise business model is based on them
+maintaining this Global Network of bank
+accounts that they own so their wise as
+bank accounts and then they manage so
+what correspondent banking involves and
+the problem all kind of stems from the
+need to communicate out outside of your
+company so you need to engage a
+different company you need to
+communicate with them that's often
+across borders in a different data
+format it's in a different language
+different time zone so communicating
+outside of your own company causes the
+problems and what wise does it keeps
+that communication and keeps ownership
+of all those bank accounts within its
+own network and so if it needs to
+transfer money to Japan from the UK it
+has a Japanese bank account it has a UK
+bank account and then they've built this
+technology infrastructure that manages
+that communication flow and the
+liquidity between accounts but basically
+they're just moving money around on
+their own internal Legacy and you as a
+customer experience the money being
+transferred across border ball wise is
+doing is collecting your money in the UK
+and dispersing money from its own
+account in Japan to your recipient's
+bank it's a loophole in the system it's
+Arbitrage of a broken system that
+they've managed to fill it seems like a
+pretty basic value proposition and I'm
+trying to better understand what else
+are they doing what is the Special Sauce
+behind this business and then what are
+the products and services that they can
+kind of wrap around that key competency
+in the way that you see a lot of
+businesses that do something that
+correct me if I'm wrong does seem
+somewhat commoditized and then create
+value in a way such that they can
+capture such robust margins I think this
+is the Crux of the business it's a
+fascinating counter position they have
+to the status quo the value proposition
+is hammered home by this business every
+single day to their customers into the
+market so the first value proposition is
+price there are about 10 times cheaper
+than the average cross-border money
+transfer fee if you look at the World
+Bank it's about six and a half percent
+fee to transfer your money overseas the
+wise average customer price at the
+moment is about 65 basis points so 10
+times cheaper the second pillar of their
+value proposition customers is speed
+about 50 percent of all of that
+cross-border transfer volume arrives
+instantly at about 90 is done within 24
+hours which is phenomenal I mean if you
+go back four years zero percent was
+instant so that commitment to speed is
+something that if you're going through a
+bank you're waiting up to five days
+particularly if you're a business that
+lack of certainty is a big problem the
+third is transparency
+so going back to the founding story
+Christo had no idea that there was that
+hidden fee and that markup being applied
+to the Foreign Exchange in fact Studies
+have shown only about four percent of
+customers know the true cost of
+transferring money overseas so wise is
+extremely transparent about the fees
+it's going to charge it tries to be
+extremely transparent about how long
+it's going to take and then they provide
+you with a nominal user experience along
+the way giving you updates on where your
+money is both as a sender and a receiver
+and the last so the fourth pillar they
+talk about is convenience which is kind
+of tied into transparency but they're
+well known for how phenomenal their user
+experience is they've got a 71 net
+promoter score which is phenomenal
+particularly for a business with
+explaining customers and that flows
+through so to this day about two-thirds
+of all customers are referred by other
+customers which again we can talk about
+the efficiency of this business but that
+show shows you just how many Advocates
+they have for their user experience so
+that's probably what I would call their
+custom value proposition in terms of how
+it manifests in products and services
+back in the day when they were called
+transferwise it was simply a way to
+transfer money across borders and that
+would be pretty much the only product
+you could get from this business over
+time they've actually expanded beyond
+that and they've tried to create more of
+what you might see as a borderless
+account so they've got three products
+the first is what they call now the wise
+account and that allows you to hold send
+spend or receive all of those currencies
+so they think you should have a
+borderless account and these ring fence
+domestic bank accounts are of the past
+and people will move more towards
+borderless accounts the second is
+basically the same account but for
+businesses so a few more bells and
+whistles for small businesses like
+creating invoices business cards things
+like that and the last which is quite an
+interesting part of the business is
+called the wise platform and that's
+essentially a product that allows other
+Enterprises normally Neo Banks but it
+could also be other kind of ancillary
+services so monzo is a near bank or xero
+as a software accounting package they
+can white label wise's functionality
+into their own features so monzo zero
+are both offering their customers plus
+border transfers but it's all running on
+Wiser's infrastructure I look at the
+financials of the business they're
+likely to approach over a billion pound
+in the next year or two very profitable
+and even down margins in excess of 25
+percent ish going forward
+and then compare them to some of the
+scaled businesses that they compete with
+who are associated with who tend to grow
+at mid to high single digits at lesser
+margins if not negative can you just
+take me through the unit economics of
+this business and how they make these
+numbers work
+I think if we're comparing it to your
+traditional remittance players the
+obvious one to think about is Western
+Union Western Union I mean there should
+probably should be a breakdown of
+Western Union itself it's a fascinating
+history behind this business founded in
+1851 essentially as a telegraph company
+it's got a history of basically
+Communications and it's added on money
+transfers on top of that but this is a
+enormous business so it's operating in
+200 countries it's got 600 000 agent
+locations so the focus of the Western
+Union is the ability to do cashed cash
+and that typically Services the
+remittance Market where you have
+unbanked customers who need cash and
+aren't able to go through banks so
+Western Union has this agent Network
+around the world it's got 20 000
+currency corridors but it's charging
+about a five percent take rate compare
+that to wise is it 65 bases point so
+that's a very different Top Line number
+Western Union flows through to about a
+40 gross profit margin compared to why
+is it 60 percent the cost of services in
+the Western Union model is all related
+or largely related to commissions they
+pay agents around the world to accept
+and disperse cash so there's a very
+different cost of service the only cogs
+on the wires side are bank and partner
+fees where they need to dip into
+International money markets but largely
+speaking it's much more efficient at
+that cost of service line and then in
+terms of profitability this is I think
+one of the most interesting parts of
+wise they run an incredibly efficient
+business that allows them to maintain
+price at a very low Point yet maintain
+about it like you say a 20 25
+profitability line so maybe now let's
+unpick some of their operating costs and
+see how they run this business so
+efficiently the first being sales and
+marketing so that organic referral
+Network they have is incredibly powerful
+they used to run growth hacking or
+guerrilla marketing stunts to try and
+raise awareness of how they basically
+are counter positioning the banks in
+terms of fees and transparency more
+recently they've now got quite a
+discipline paid marketing approach where
+they look for kind of a less than nine
+month payback on paid marketing spend I
+think it's currently trending closer to
+three months the second this is a really
+interesting one is how the way they set
+up their bank accounts in the various
+domestic markets and the way they
+connect in with those National payments
+bodies and central banks over time they
+try and become more and more vertically
+integrated removing any Partners or
+intermediaries they had in the time when
+they first launched in the market so in
+their investor relations materials
+you'll see they publish this chart which
+shows how they enter the market in quite
+a simple structure and then over time
+they move up the stack to become more
+centrally integrated into the national
+infrastructure and become licensed more
+fully as a regulated Financial entity by
+doing this it removes any partner fees
+or kind of the friction of needing to
+rely on a partner Bank in that market to
+facilitate those domestic transfers
+this as they increase this vertical
+integration over time again they're
+lowering operational costs and the unit
+costs in the UK I think it's taken them
+almost 10 years to become completely
+fully integrated with the national
+real-time payment scheme the third area
+is their infrastructure and their
+technology and how they're digitally
+focused and are leaning into things like
+machine learning and artificial
+intelligence to help their operations
+team run more efficiently
+so the scale of this business now is the
+onboarding or reviewing at least 20 000
+customer applications per day and 85
+percent of those are returned or
+reviewed within one hour so a lot of
+this is trying to automate in the back
+end and digitize a lot of those
+processes as the business scales the
+other thing they utilize is AI and
+machine learning to help try and
+forecast required liquidity pools in the
+various domestic countries they operate
+in so they don't have to rely on
+Partners or go to the international
+money markets to get more currency if
+there's a shortfall in one particular
+Market they use machine learning to try
+and estimate where they need liquidity
+ahead of time and then manage inflows
+and outflows from their bank accounts in
+those markets accordingly
+so maybe just to put it in simple maths
+perspective
+for every thousand dollar transfer
+Western Unions earning fifty dollars in
+fees whereas wise is earning 6.50 so
+huge discrepancy the price of the
+customer at the Top Line and so in order
+for wise to run profitable it has to be
+so lean so from that 6.50 it's turning
+about a dollar Thirty into earnings and
+Western Unions turning there fifty
+dollars into ten dollar earnings so
+Western Union wants to drop price to say
+a four percent tag rate and so make
+forty dollars in fees they make nothing
+at the ebit.line
+so you can see why having this low-cost
+model makes wise such a threat in the
+market and the other thing to add is
+despite only spending five dollars in
+Costa Services operating costs on that
+transaction why is it still growing as
+total income at around 70 this year so
+it's at scale I mean it's still less
+than four percent market share in the
+personal market and it's growing at such
+a rapid clip yet it's really not
+spending much in comparison to some of
+the competitors in Market
+and then I guess if we were going to
+present it in just as simple terms as
+possible there's a take rate associated
+with the company but like beyond that
+what is the revenue model
+if you think about the highest line it's
+that total income so they're making
+about a billion pounds this year of that
+total income that's broken down into two
+components so the first is revenue which
+is at 90 of that total income and the
+next which is fascinating and one that's
+emerged recently is net interest income
+and maybe we'll come back to that so if
+you look at that first bill it just
+Revenue eighty percent of that Revenue
+line is cross-border revenue so that's a
+volume per customer which they do about
+five thousand pounds per customer per
+quarter roughly in terms of volume and
+they're charging that 65 basis point
+take rate which is presented to the
+customers across border fee up front
+that volume split is about 70 personal
+so personal users and about 30 business
+users so that is their main Revenue
+stream and we can go back to a
+fascinating part of this business around
+what they call Mission zero which is
+actually trying to make cross-border
+transfers probably which would eliminate
+that line item which is very down
+intuitive but fascinating so 80 of their
+revenue is coming from across borders
+but 20 has emerged over say the last
+five years what they call just other
+Revenue now that's broken down between
+debit card interchange so they have a
+debit card associated with the account
+which then interchange fees on domestic
+transfers so people using a borderless
+account and transferring within one
+jurisdiction and they also have another
+product called assets which is a form of
+investment product so it allows
+customers to basically invest in ETFs so
+that's the revenue component
+like I said revenue is about 90 of total
+income
+and then recently they've broken out net
+interest income which hasn't really been
+a thing in the past but with the rising
+interest rates globally they're sitting
+on about 10 billion pounds of customer
+deposits as interest rates goes up their
+yield on those balances are going up and
+so in the last quarter there and just
+shy of 50 million pounds net interest
+income and that's growing at quite a
+clip so there's a lot of congaction a
+lot of talk about this in the market how
+big can that net interest income line
+get particularly given why is this
+commitment to giving Prof there or
+sharing profit
+back to customers so they're still
+unclear and wiser spoken about how they
+are trying to give that interest back to
+customers as they're not a bank it's not
+that straightforward so that's a
+fascinating thing that will play out
+over the next say 12 months because you
+mentioned it I think there are two
+things that we wanted to find one being
+just very basic level what are
+interchange fees for the benefit of
+people who haven't studied them and then
+I think project zero as part of the
+structure of the firm is fascinating
+let's just talk about how that guides
+the goals of the business The
+Interchange fees are fees that hard
+issuers earn when you use a debit card
+or a credit card so if you were talking
+more in the merchant acquiring Market
+here now but you go to your bank a card
+gets issued a card issuing Bank bans
+interchange fees these are MasterCard
+which the card networks sitting in the
+middle they work with the issuers on one
+side and the merchant acquirers on the
+other side and so in this instance wise
+is issuing these debit cards to his
+customers when customer uses that to buy
+something using a card they'll earn a
+percentage of that transaction maybe now
+to get into what is really fascinating
+part of this business is it's Mission
+zero why is this set itself up to solve
+this problem in the market or this
+status quo around
+opaque expensive and slow transfers and
+the key one being they think
+cross-border transfers should be as easy
+as sending an email so ultimately
+cross-border transfers should be free
+and they have said this many many times
+they want it to be as low as possible
+they give quarterly price updates to
+customers where they bemoan the fact
+that prices have had to increase due to
+volatility they kind of get quite upset
+about that they have a very transparent
+price comparison tool when you're
+considering making a transfer with wise
+you can compare it against lots of other
+providers in the market and if there's
+another provider that's offering a
+cheaper rate they'll show that which is
+a bit counter-intuitive when you're
+trying to compete you've Quantified The
+Profit pool the transaction volume which
+I believe exceeds a trillion pounds of
+potential but why doesn't the entire
+industry profitable just get destroyed
+by a company that's willing to accept a
+key rate that's so much lower than the
+industry standard it's an interesting
+question if you're an observer from the
+side You could argue this Mission zero
+that they're on is actually destroying
+their primary Revenue stream and
+ultimately if they're successful in
+achieving their mission the business
+doesn't exist anymore you've got to
+think about is this Mission zero a kind
+of tactical strategic way for them to
+counter position the status quo and
+build that customer base and then as
+they've done expand the engagement of
+that customer with ancillary revenue
+streams like debit cards and Investments
+and ultimately they'll pivot away from
+cross-border transfers and it may just
+end up being a free service that's
+supplemented by lots of other different
+features that they can charge for or
+they're kind of zealots that want
+cross-border transfers be zero and
+that's all they really care about and
+that's why I think this is a bit of a
+Marmite stock or if you're in the UK in
+Australia to call it Vegemite stock it's
+like kind of love hate is this a
+commodity business that only really
+competes on price and that will continue
+to be eroded down to zero or is it a
+shared economy scale business which is
+counter position status quo and the
+market is so big that the durability
+requirements left in this business is
+colossal that's why I think the
+different perceptions on this business
+lie I guess what I'm really trying to
+better understand here is the value
+proposition makes a ton of sense the
+differentiation seems reasonable to me
+but what is the core competitive
+Advantage they have why can't someone
+else just copy their business model on
+the one hand money transfer is You could
+argue a commodity transferring a US
+dollar to a Euro their customer doesn't
+really care as long as they get their
+euros
+well you could argue that this
+disjointed network of domestic
+currencies that relies on banks talking
+to each other creates such a terrible
+experience the service and the user
+experience wrapped around that
+cross-border transfer is really
+important and will forever be important
+one way we think about competitive
+Advantage is using Hamilton helmer's
+seven powers and maybe to call out some
+of the ones which stand out for us for
+wise the first is that classic counter
+position or as clay Christian might call
+it the invader's Dilemma this is where a
+newcomer so wise adopts a different way
+a superior way a new way of doing
+business which an incumbent in this case
+the banks Khan or doesn't want to
+respond to or mimic due to the foreseen
+damage it will do to its own business
+so just from a price perspective wise is
+due to their efficient model able to cut
+out a lot of that inefficiency so they
+can charge 65 basis points and still
+earn a 20 margin banks are charging six
+seven percent on this and earning a lot
+of profitability out of it so Banks can
+choose to respond to this but arguably
+that counter position is so strong just
+from a price perspective are underpinned
+by the fact that their infrastructure is
+completely different the second one
+which I think has built up over 10 years
+and will drive a lot of growth going
+forwards is this process power around
+moving into new markets or new
+geographies integrating with the local
+payment system so like I said they're in
+80 different countries now and what they
+do is they land and basically expand on
+a regulatory basis so they start with
+just a simple bank account set up in the
+most simple Financial Services license
+they can have and then over time
+like in the UK and in Australia they're
+actually the first non-banks to be
+participants in the National real-time
+payments infrastructure so they move
+their way up becoming more and more
+efficient in terms of that money
+transfer infrastructure over time which
+allows them to reduce price to the
+customer the amount of complexity
+they're managing something like 63
+different Financial license around the
+world they know how to move into a
+country they know how to work with local
+Regulators that process power I think is
+really strong the next one I think the
+very strong and is very important that
+their brand is well known and trusted
+trust is super important for any
+financial institution but particularly
+if you're not a bank me transferring
+money to what it was called transferwise
+back in the day was a bit of a leap of
+faith you didn't know too much about the
+business and over time I think they've
+built that trust up and that's shown
+through in the word of mouth referrals
+and The NPS and the growth of that
+customer base I think that brand part is
+really important there's also a risk you
+know if they mess something up from a
+regulatory perspective there's a risk to
+that brand and that trust the last one
+which I think is the most pivotal part
+of this business is scale economies
+particularly scale economies shared back
+with their customer so wise talks about
+the flywheel that they have and this has
+existed from the get-go so they created
+a what we would say is a better user
+experience for the customer that
+resulted in volume as they increase
+their volume they can reduce their unit
+costs the variable cost of transfer
+money comes down
+they then reinvest that into marketing
+which drives more customers new tech new
+product to improve the experience which
+creates that better experience to their
+customers But ultimately they lower the
+price
+so they give that efficiency they share
+that scale economy back to the customer
+in the form of a lower price which
+drives a better user experience and then
+the flywheel starts again so it's this
+classic paradoxical thing where they're
+growing more by giving more back and by
+lowering price this is I think the most
+fundamental thing to understand about
+wise that that always is trying to drive
+the lowest price possible as opposed to
+what a lot of companies do which is
+focus on profit maximization in the
+shorter term where their pricing to the
+equilibrium whereby they price as high
+as possible without forcing a customer
+to leave and seek services from a
+competitor this is the most important
+thing about wise the other thing we need
+to think about or what we think about a
+lot is the fact that this business is
+incredibly focused on what we would call
+a one mission one platform Journey its
+entire infrastructure is one platform
+it's one code base 99 of it has been
+grown organically and it's been the
+aggregation of small gains over time so
+their focus on maintaining this one
+platform despite the fact they have say
+personal business it all sits on that
+one platform the second is this one
+Mission and we've talked about it but
+that mission zero they are incredibly
+focused on free quick and transparent
+cross-border money transfers and if you
+talk about the culture and you
+understand from people who've worked
+there how embedded this is into the
+fabric of the organization you start to
+get a picture of this isn't just a
+mission that they put on their website
+this is something they live and breathe
+every single day
+and you know we're spoken to Chris
+though the CEO and co-founder his
+argument is the only true competitive
+Advantage this isn't the fact that
+they're so focused on it and no one else
+is I guess when you think about their
+competitors I know you mentioned Western
+Union I think about the extent that
+PayPal plays in the space MoneyGram who
+do you think about as their true
+competitors Beyond just the global
+banking system
+like you say they operate in a very
+competitive Financial Services space so
+if you put the banks to one side which
+is about 60 70 of the cross-border
+transfer market you've still got these
+money transfer operators like Western
+Union which have huge amounts of brand
+awareness they're colossal in terms of
+that agent Network they've been doing it
+and talk about process power Western
+Union have built this up over a very
+long period of time they're about 10 20
+in the market but outside of that I
+think there are some very threatening
+players in the market the first being
+card networks so these are a MasterCard
+have made serious investments in
+cross-border transfers through
+acquisition and organic growth they both
+have products which allow near real-time
+cross-border money transfers linked to
+cards so there's a Visa direct the
+MasterCard send they have also the
+incredible brand awareness they have the
+existing Network and they span around
+the world they have the relationships
+with these Banks and bank accounts so
+arguably they have everything in place
+to allow them to compete very
+strenuously with wise more recently you
+also have a budding cohort of fintechs
+that are going after this space so
+remotely is a digital cross-border
+transfer business focused on their
+remittance space which is listed
+recently Neo Banks such as revolut in
+the UK are quite well known for offering
+cross-border transfers and they don't
+necessarily need to charge for it so one
+of the biggest risks I see for wise is
+where a business decides to
+use cross-border transfers and foreign
+exchange is a bit of a lost leader not
+charged for it and then cross subsidize
+through ancillary revenue streams and
+that's what revolut does they charge a
+subscription for access to the account
+and then you can basically get foreign
+exchange or cross-border transfer for
+free and then there's in terms of
+individual players there's this emerging
+threat around social media players so
+Twitter and meta or Facebook have both
+recently invested in or toyed with
+investing in their payments capability
+and they also have that Global presence
+they also have social media accounts and
+if you see the world moving towards a
+place where moving money around is it's
+easy as sending an instant message then
+the social media players represent a
+significant threat to this business the
+one caveat I would say that Zach is wise
+has that white label product we talked
+about earlier called wise cloud platform
+where any of these players if they don't
+want to build it themselves or partner
+with bank accounts can partner with wise
+utilize the infrastructure that they
+built over 10 years and still for all
+intents and purpose of their customers
+it's a service being offered by them
+they don't need to know that it's
+underpinned by wise so wise in a way has
+reduced its friction of adoption and
+ultimately expanded its way of
+attracting customers through these
+Partnerships
+it is interesting right because if you
+think about meta Facebook as an example
+and specifically WhatsApp believe they
+have like a monthly active user base of
+over 2 billion you would think the
+distribution advantages that they
+potentially have could be quite
+meaningful for facilitating this type of
+value proposition but this company is
+scaled in such a way without the benefit
+of distribution
+how exactly is it that they're able to
+acquire customers so efficiently
+it goes back to that flywheel two-thirds
+of all customers are referred by other
+customers which is remarkable
+particularly for a business of this
+maturity and their size and I think it
+goes back to just a phenomenal user
+experience they have in the counter
+position they have to an existing
+process which is broken and so I myself
+I've been a user of wires since
+2017. I've told loads of people about it
+as a Englishman living in Australia the
+amount of my friends that I've referred
+to why is because it's just such a
+better user experience you hear it say a
+barbecue I need to transfer money back
+to the UK because I've got a mortgage
+there or there's an expense I need to
+pay I had to go to my bank I had to fill
+out a bunch of forms they had no idea
+how much it would cost I feel like I got
+ripped off and you go well I basically
+sign up instantly to a wise account and
+then four seconds later the money
+appeared minus a small fee in my account
+so there is that I don't want to
+underplay it but that user experience
+Advantage they have alongside price is a
+really strong flywheel so two aspects of
+the business which are important
+somewhat nuanced in many cases a
+function of an increasing interest rate
+environment are the float of the
+business the customer deposits that they
+have on hand and then the increasing net
+interest margin that they're able to
+earn and I'd love to just spend some
+time talking about how those two
+Dynamics which may not necessarily be
+core to the business are actually quite
+powerful in enabling them to do what
+they are and building the business
+that's more durable over the long term
+yeah I think the net interest income has
+emerged globally is something that we as
+investors have to think about as
+interest rates have been rising wise
+currently sits on about 10 billion
+pounds of customer bounces and these are
+balances where you're not earning
+interest so they're not a bank that
+can't pay interest it's kind of lazy
+money I myself have US dollars I think
+sitting in my wise account which I'll
+just leave there until I'm next in the
+US these bouncers have been sitting
+there earning neither the customer money
+nor the company money and now as
+interest rates have been rising and wise
+as a regulated entity needs to hold
+these funds this kind of liquid funds so
+they generally just hold them in super
+highly rated and conservative accounts
+normally with Central Bank they've
+started to earn interest on it and the
+investment Community has been watching
+this unfold I mean four quarters ago it
+was basically a net interest loss there
+are losing money on this now in the last
+quarter alone they earned 50 million or
+just shy of 50 million pounds they're on
+track to and say
+120 million pounds this financial Year
+from that alone you'd think the company
+is rejoicing that they've got this new
+Revenue stream coming on board and it
+can flow through to earnings what makes
+wise so particular and why it's such a
+fascinating business to break down
+they've actually complained in earning
+calls about this they're like we want to
+give this money back to customers but we
+don't know how yet because we're not A
+banks we can't simply allow customers to
+earn interest and so they're trying to
+come up with a functional way and build
+a functional way of returning some of
+this earnings to customers their
+interest rates are rising faster than
+they can deploy this functionality and
+so this operating Leverage is coming
+through and they don't know what to do
+with the profit I don't know many
+examples globally where that's the case
+where you hear a c if I talk about them
+trying to give money back to the
+customer and the way they're kind of
+craftily trying to give it back to the
+customers without becoming a bank is
+allow customers to invest in government
+bonds basically so they would be earning
+the base rate in interest rate but it
+wouldn't be wise paying them interests
+they basically moving the money off
+balance sheet and earning money through
+a different vehicle that's what they're
+trying to do the other ways they've
+talked about doing it is lowering price
+further or form of cash back and other
+ways of actually returning what they're
+earning to the customer but I think this
+is one that in the near term we'll have
+to wait and see how it plays out I think
+from a valuation perspective you've also
+got to think about the quality of these
+earnings and the durability of these
+earnings versus say cross-border
+transfer fees how long does this
+interest rate environment last where
+does it go and how much ultimately is
+why it's going to allow to drop through
+through to ebitda versus kind of
+returning it all before that the point
+you're making there is it would be
+inappropriate to put a multiple on the
+earning stream associated with that
+interest that they're earning because
+their intention is to do their best to
+reinvest that interest into the customer
+experience either by passing it along or
+providing incremental Services exactly I
+don't think in kind of a sum of the
+parts analysis you'd be able to apply
+the same earnings multiple on that
+Revenue stream as you would to say
+they're called business but we'll see
+and so if I kind of look across the
+strategy of the business lower prices
+more transparency ease of use all these
+things
+tend towards the ability to continue to
+grow and to take share but what would
+you kind of identify as some of the key
+risks associated with the business or
+potentially the tail risks that you'd
+identify in evaluating this company
+the first I would call out is what we've
+said around if there is a paradigm shift
+with how people around the world think
+about money and transfer money so is
+this a commodity business that is
+arbitraging a broken system of Fiat
+currencies closed within their domestic
+countries that don't talk to each other
+and you rely on this kind of hodgepodge
+connection of monks talking to each
+other sitting on a network of electronic
+communication if that shifts and one way
+that that is Shifting real time is
+countries are modernizing their payments
+infrastructure so people may have heard
+of real-time payments or instant
+payments where Financial authorities are
+upgrading from batch payments that rely
+on a kind of archaic technology to
+real-time technology that allows money
+to move instantly they are actually
+upgrading the data format the payments
+information is exchanged and making that
+more consistent globally and so you
+don't get that translation layer issue
+between countries what countries are
+doing are examples of this particularly
+with Singapore they've interlinked or
+working on interlinking their domestic
+payments infrastructure within other
+countries so Singapore has done this or
+is doing this with India and Thailand
+and there are other examples around the
+world whereby we basically plugging in
+the Singaporean real-time infrastructure
+with the Indian real-time infrastructure
+and then it basically is the same
+functionality as transferring internally
+you've got to think about foreign
+exchange but from a functional
+perspective you can transfer money
+across borders as easily as you can
+functionally internally within those
+borders so that interlinking I think
+represents a bit of a risk to the
+business one of the biggest talking
+points of this business going forwards
+is around whether you believe money will
+be transferred or value will be
+transferred across border digitally and
+people won't necessarily need to hold or
+maintain Fiat currencies one of the big
+threats this business is that Paradigm
+Shift towards say digital currencies
+whether that be private so potentially
+stable coins or Central Bank digital
+currencies where central bank money so
+digital cash is distributed around the
+world and this isn't kind of a paper
+tiger there's reports that around 90 of
+all central banks globally are
+researching or experimenting with
+Central Bank digital currencies so I
+think this may play out over time but
+one of the things you've got to think
+about is that wise is basically
+via money transfers between existing
+bank accounts and if that Paradigm
+doesn't really exist anymore or is
+completely disrupted so not Faster
+Horses but cars if there is a complete
+shift in the way that money is
+transferred across borders that
+represents a big threat to wise the last
+one which I think we've also touched on
+which is a big one for me is the surface
+area of risk for this business from a
+regulatory perspective is only growing
+they're already maintaining 63 licenses
+Financial Services regulation and
+complexity has really increased since
+the GFC and continues to do so and
+there's a particular focus on anti-money
+laundering and counterterrorism
+financing and the ability to know your
+customer identify that customer and
+monitor transactions related to that
+customer going forward that is a huge
+burden to most Financial Services
+businesses and I wouldn't underestimate
+how if you're maintaining 63 licenses is
+with 63 different nuances to those
+licenses how the risk for this business
+increases from a regulatory perspective
+last year I think it was they were fined
+by the Abu Dhabi Financial authorities
+for not having appropriate controls in
+place it was a small fine and it was an
+isolated incident and the company
+fronted up to it and were very open and
+transparent about it which is a great
+sign but I think a regulatory risk has
+to be on anyone's mind when they think
+about this business
+and you mentioned that they made the
+decision to list in the UK via direct
+listing and you just talk a little bit
+about the decision to do so and how they
+went about listing in a way that's
+non-traditional a direct listing is
+whereby you don't actually raise any
+money through an IPO and you basically
+take your stock and Lister on a public
+exchange so wise did this in 2021 it's
+atypical there are a couple of high
+profile examples I think slack did it
+Spotify also did it I guess it comes
+down to the incentives and the rationale
+for listing in the first place often
+companies do it to raise Capital if you
+don't need Capital there are other
+reasons you might want to list two
+obvious ones being you want to increase
+the liquidity for existing shareholders
+and the ability to buy and sell on a
+regular basis and the other is and I
+think Christo alluded to this at the
+time is to increase awareness and
+ownership of your company so I think
+there's this altruistic sense within
+Christo that he wants more people to be
+exposed to wise because he thinks that
+he's solving a really important problem
+and I think he likes the idea of
+customers owning part of the business
+and I guess it goes back to that scale
+economy shared thing where he wants to
+Share value back but the customer he
+doesn't feel like this needs to be a
+profit maximization business in the
+short term I'd also add maybe the
+benefit of being public helps with the
+brand awareness and thus when you're
+acquiring customers being more of a
+household brand certainly helps I think
+another interesting aspect of it is
+studying this company for the benefit of
+this conversation candidly I never heard
+of it and despite of business it's going
+to be doing in excess of a billion
+dollars in revenue and payment transfers
+well in excess of presumably 100 billion
+at some point it's just quite
+interesting you spot on Zach for a
+business like we've said so reliant on
+contrast the more people that know their
+story and being a publicly listed
+company I think adds to that trust I was
+part of a business that listed in 2019
+and it was one of the main reasons it
+was also a financial services business
+and when you're going into rfps or
+you're talking to customers if they can
+see your techronic Stock Exchange there
+is added brand trust there so I know
+that when looking across their investor
+materials the way that they back into
+their margin is unique in what they're
+managing to I believe it's around 20
+percent how should people looking at the
+business think about where margins go
+over time and if there will ever be an
+environment where they want them to
+exceed that or on the flip side lower
+the margin further to continue to
+reinvest in the customer experience
+the great question I think it's one of
+the most topical things that's discussed
+by investors or observers of this
+business like you say they manage the
+business to a twenty percent ebitda
+margin in a way this is artificial so
+like I said before they take a third of
+their gross profit and spend on keeping
+the lights on they take a third of it
+into growth and put it into growth and
+marketing and a third falls through to
+ebitda which is where that 20 comes from
+back in 2021 during the pandemic they
+actually pulled back on some of that
+growth spend to be a little bit more
+conservative as the world didn't really
+know what was going on and there it
+would imagine for that year spiked to 26
+it gives you an indication that there is
+some underlying earnings power to the
+business that they are deliberately
+choosing not to allow to come through at
+this moment because they're so focused
+on growth and so on a long-term
+perspective if you think about how big
+this Tam is and how durable the growth
+of this business can be utilizing that
+scale economy shared flywheel when and
+how big that earnings margin goes I
+think is one for debate if you look at
+it on paper if they were to stop
+altogether that growth spend which is a
+third of gross profit and basically
+could double even 58 so that margin goes
+from 20 to 40 if they just completely
+pulled back on growth and marketing so
+do they do that eventually or do they
+just decide to ultimately continue to
+lower price until they get to that
+mission zero I think that's why it's
+such a Marmite or Vegemite stock but for
+us as really long-term investors we just
+think how long can this business grow
+for and we think for a very very long
+time you know you're talking on a
+10-year basis I think they've got so
+much Headroom and that flywheel is so
+strong that at some point they may flip
+it into kind of a profitability scenario
+but the one thing I think people need to
+think about is just don't underestimate
+how long this business can grow for and
+then as you kind of reflect upon what
+you've learned about this business as
+you studied it and the broader payment
+space what is a lesson that you can take
+from this business and apply to others
+from an Investor's perspective and then
+some of the other early stage or late
+stage growth companies that you look at
+what are lessons you'd like to see them
+borrow from Wise and apply to their own
+businesses operators
+the one thing we haven't really touched
+upon which I think wise has and being
+that separated myself is something that
+I could have learned from
+the way they organize their people and
+prioritize their culture I think is
+relatively unique I tended to talk with
+someone from transferwise back in 2018
+who talked about the way they
+prioritized resource allocation
+internally so what they have is they
+have small teams so they have over I
+think it's over 100 teams small highly
+autonomous empowered cross-functional
+teams each working on a solution or a
+feature and that team is empowered to
+create its own Vision its own mission
+its own objectives to the extent it can
+even go and seek its own legal advice so
+it's fully or powered each team is fully
+autonomous and they basically Vie for
+prioritization amongst each other so
+it's a lot of mini businesses within a
+business why I think that is fascinating
+it has some problems which essentially
+we can touch on but why that resonates
+with me is the thesis around having very
+highly aligned very Loosely coupled
+people within your organization to
+overcome this inertia and this slowdown
+that occurs as a business gets bigger so
+if you have
+low alignment and high autonomy
+you have very empowered silos but
+they're doing their own thing they might
+not be pulling in the same direction
+there's probably some duplication or
+overlap or potentially even pulling in
+opposite directions
+on the flip side you can have very high
+alignment below autonomy which is
+basically a command and control type
+structure both of these can exist and do
+exist quite regularly but they really
+struggle to scale read Hastings talks
+about this High alignment loose coupling
+where you tell people what to do not how
+to do it and I think this is what these
+small mini businesses within a business
+is what wise has managed to organize as
+they've grown up
+and key to it is having that super clear
+Mission super Clear Vision you've got
+your customer at the center of
+everything you know why you exist and
+that creates the alignment there's a
+huge amount of trust and transparency
+within the business and I think this
+culture focusing on one thing you see it
+in other scale economies shared
+businesses there's been great breakdowns
+on Floor and Decor or Costco where it's
+a Relentless focus on one thing
+returning operational improvements and
+the benefit of unit cost efficiencies
+back to the customer but it is that one
+thing focused and just doing that one
+thing really well and organizing a
+culture behind it for us as people and
+culture investors that is so powerful
+and I think it's one of the untold
+stories of this business well James
+thank you for joining us to break down
+Wise It's a fascinating business that
+many ways seems early in its Evolution
+that positive aspects of lowering prices
+increasing transparency and providing a
+service that's needed seemed like a
+recipe for success and it seems like the
+business is doing exceptionally well
+thanks very much
+to find more episodes of breakdowns
+ranging from Costco to visa to moderna
+or to sign up for our weekly summary
+check out join colossus.com that's
+j-o-i-n-c-o-l-o-s-s-u-s.com
+[Music]
+
+# Transcript 2
+
+hey everyone welcome back to another Deep dive on today's episode we're going to be looking at WISE PLC formerly
+transfer wise and if you haven't heard of this company I wouldn't blame you they've been focused on moving money Without Borders for the last 13 years
+and we're going to dive into the fundamentals of the business their competitive advantages and also look at the valuation so let's Dive Right In
+shall we so as with all great businesses they started with solving a problem for
+themselves they were two Estonian friends one cryistal Carmen and the other Tava henrikus and one was living
+in London and one was living in Estonia and they wanted to transfer money the other way and they were just a standard
+with I guess how much it was costing them and they thought there must be a better way to do this so what they decided was their light bulb moment was
+like uhuh you have money in London I have money in Estonia I'll just send you kind of like a peer toer system and that
+was almost like a Napster back in the day I'm probably giving away how old I am but that was the essence of the
+business and with the backing of notable investors like Peter theel andrion harwitz and Richard Branson they got
+their start in 2011 in London so let's look at the four key value drivers for this business why is
+
+
+this aiming to be the lowcost provider and the fastest at transacting across borders for their customers thirdly they
+want to also be the most transparent because there's a lot of hidden fees that customers are not aware of and
+banks are notorious for this and fortly they want to have the largest multicurrency coverage across the globe
+so those are four things that they're focusing on but two of those are probably the most important which are going to be low cost and speed and an
+anecdote from GIF Bay is was once he was asked about well what were 10 you know in 10 years what could change about
+customer behavior and he inverted the question to ask well what's not going to change about customer Behavior they're
+always going to want low cost and they're always going to want things fast so if wise is able to deliver at least on two of those four drivers for their
+business they're going to have at least a decent amount of success I believe so let's dissect the problem that wise is
+trying to solve now these problems are still persistent today despite them being present for 13 years
+if you were to go to your bank today to say you want to send money to another bank somewhere in Europe let's say and
+you're in America then it's highly unlikely that your bank in America and the bank in Europe have a direct
+connection with each other they're going to be using some intermediary banks in between and that was likely going to be
+the Swift corresponding banking system that is a system that has been built upon let's say a network of 11,000 Banks
+whereby where you send money to the next person they would send it on to the next person it's almost like six degrees of
+separation between people I know a guy who knows a guy who knows a guy and yeah that works but is it actually efficient
+in this day and age where things are very digital um what tends to happen is that when you send money there's a lot
+of hidden fees and if we look at this basically you are the original sender you're sending money across to your bank
+there's going to be more than one bank and they might have to connect to the Swift Network and then format the data and then actually double check whether
+or not this you know transaction is fraudulent is it money laundering is it through terrorism that and that costs
+money to in order to abide by all the regulations that are in place and every Bank in between wants to take a share of
+the pie so whenever you send money you're usually unaware exactly what you're going to get at the other end
+even though that you even if you looked at the currency conversion rate you'd find that whatever you get at the end is
+a lot less than what you expect the business has evolved a lot as we said from their initial founding however they
+did start with expats and focused on more the high value expat in terms of the amount of volume they would send as
+opposed to let's say a few 100 pounds they were looking at more like thousands and thousands of pounds so that has
+since changed and now they're targeting small to medium businesses multimedia Enterprises financial institutions as
+well and they have some key partners and we'll discuss the banks as well but some of those banks are in major tree Banks
+whenever they can't reach a person on the other end they would still use those they haven't completely gotten rid of those
+and it's not a pure peer-to-peer system as they originally uh conceived the idea
+uh they also pair it with some payment processors as well such as well MasterCard uh Visa possibly Aden as well
+and uh like but you know we're going to discuss that as well in the later part of the video but the key ones here are
+going to be the financial Regulators uh let's say whichever country they enter
+they need to make sure that they're licensed and approved by the financial authorities in that country in order to
+be able to send and receive money abroad and that plays a huge part into their actual let's say mo if you were to say
+they have one in that regard okay as far as their key resources that theyve built through those 13 years since they're
+founding their payment rails would probably be number one there because without this nothing functions because
+they have a highly skilled team of Engineers 800 of them or so at this stage and they are the ones that are
+powering this network of sending and receiving money but without the regulatory licenses again nothing would
+function so they need this kind of pairing of like we're going to be um let's say going and lobbying in a way
+with these um you know uh financial institutions in order to get these
+regulations and approvals that we need in order to you know gain a larger share of the network uh the other thing is the
+banking Partnerships they will continuously keep needing to gain more partners and you'll see how that evolves
+throughout the story as we discuss it more so the last thing I would say is the brand achieving you know the high
+status and trust is a you know a thing that takes time and they've built this upon layer on layer of you know trust
+and gaining you know you know more let's say they're focused on transparency number one and the customers probably
+are appreciating that more and more so however you could say there's an argument that most customers are not
+that price sensitive towards these hidden fees and they get away with a lot of these banks for a long time so it it
+will take time to you know teach and raise awareness in terms of what benefit it is to you know come and become a
+customer wise but uh I think over time this will become a larger driver for the
+
+
+business so let's bring everyone up to speed from their founding to now as to what's happening with wise as we said
+wise started off just as a money withit company peer-to-peer you know transferring however since then they've
+evolved a lot 2016 they started focusing on gaining approvals across the globe they started with the UK and gained
+approval from the financial conduct Authority and since then they've lost lached a few Key Products which is the
+wise account which allowed them to hold customer funds as opposed to just transferring money and since then they've introduced the wise card which
+is a means for them to you know just transact or you know use a card for day-to-day purposes as opposed to just
+transferring and then they've rebranded to wise and got listed in the London Stock Exchange and since then they've
+gained more and more key Partners across the globe as opposed to just intermediate banks these Banks such as
+new Banks if you've heard of them a very exciting Bank in South America uh would Ed the wh label version of their payment
+rails and they' were working with standard and Charter as well as Morgan and Stanley recently the key one here I like to highlight is the Swift
+partnership and that is a Vindication I would say a validation of what they've built to say that Swift is partnering
+with them well we started off disrupting this and now they're partnering with us because they can't build anything better
+than what we have I think that's a strong Vindication of what they've built and the the strength of their payment
+rails and their Network so what about their key products now we've touched upon why's account
+
+
+already so it's basically a account that they can hold funds in and transfer money whenever they need it why's
+business is almost identical except just adds invoicing whenever businesses need to send invoices to customers and wise
+platform that's basically the Partnerships they're build building with the white labeling Solutions and I can
+see this expanding more and more over time and it's an exciting business because there's more avenues for you
+know services and products that they can deliver to customers the only thing I would add here potentially is a fourth product is the wise card and we'll
+discuss that shortly so wise is now generating 56% of their revenue from crossb payments if
+you had told the co-founders probably in 2011 that they were doing half of their money from crossb payments and the rest
+from something else they probably be just a surprise because you know that was not what you expected the evolution
+of this business to be but given the Tailwinds that we've seen recently as well with the large spike in interest
+rates you've seen their interest income ballooning to 26% and that's just based
+on the amount of funds that customers are holding they want to generate some cash or income from that money so they give them a portion of that back and the
+rest they pocket additionally they have 18% coming from card revenue and other sources and here you can see how the
+evolution of the revenue has been over time for the last couple of quarters I didn't want to go all the way back
+because the way they were disclosing this information has changed so I went only as far back as when they started disclosing card and other Revenue but
+over time what you're noticing is that the card percentage Revenue has has gone up from about let's say 16% up to 23% so
+this is a growing part of their business as well as a net interest income you can see that this is a growing portion of
+their business as well so that could be the case and it's just something that we also need to be uh mindful of is that
+interest income or interest rates may change over time and that might have a you know significant effect on this
+business and how it's being valued so I've gotten this slide from the investor presentation deck of the
+last year and there's a few things going on but I've blanked out a few the less important ones the key things to focus on here are that 63% of payments are
+instant and that's within 20 seconds let's say there's not a lot of businesses that are able to do this in this field so that they're able to
+deliberate huge value to the customer the other thing is that 40 currencies are available right now and we'll touch
+on that a little bit later they also have one Global treasury function which basically let's say they've kind of
+conceded the fact that they can't be a peer-to-peer system whereby you have one person on one side and then another
+person on the other side and they just swap money across because the nature of remittance and how money is being
+transferred worldwide is not so bidirectional in nature therefore it's not a one:1 ratio sometimes if you look
+at the corridors where money is being transferred specifically the largest Corridor of them all which is the USA
+Mexico border most money is being transferred let's say 60 billion one way and only five billion goes the other way
+so they need to have a way to balance out that difference in terms of when people need to send money to the other
+side and that's where they have the liquidity function fun available in order to do that they also gained 65
+licenses which you know across the globe that's just another part of their mot in terms of the regulatory you know system
+that they've developed the most important thing I want to focus on on this slide is the last thing which is
+the direct connections they have six direct connections to the actual central banks of the countries they're operating
+in right now six of those and two on the way and I can't stress this enough how
+important those connections are to their MO and their competitive advantage that they're building so they can reach up to
+in in theory right now 40 direct connections which is basically for each country had its own currency they
+develop one direct connection and one of those is actually to you know Europe or the Euro so that covers the entire you
+area of Europe as well so let's look into that a little bit further and why that's so important now what you'll see here is
+that um the banks themselves are you know Euro England Hungary Australia I
+think that's Singapore Indonesia I'm should probably say it's Indonesia and then Philippines as well so those six
+direct connections with two more incoming that allows them to drive their costs down and the most important thing
+as we said in terms of value for the customer is a lower transaction fee if you're able to build a direct connection
+with these Banks and therefore bypass the intermediat banks that you were
+working with prior therefore you're rising up that food chain in terms of vertical integration within the country
+they might enter a new country with a partner bank that would they need but then eventually they work and gain trust
+within that system and develop that direct connection where possible with those with those central banks and
+therefore reducing their costs as you've seen in the UK by nine times and then you know instant transfers would rise as
+they did in Australia from 24 to 83% so those are some really really important
+competitive advantages that are not easy to replicate and take time and take a lot of trust but as they gain these you
+know uh regulatory approvals it kind of builds a critical mass whereby more and more people are willing to work with
+them just as you might see as well with the banking Partnerships they've developed on their wise platform as more
+Banks sign up as more people adopt their rails therefore it becomes easier and easier and this thing can you know
+Snowball out of control and it's also evident from the metrics as we've seen that their 63% of
+their transactions are now instant now could this number keep Rising sure it
+could become 80% or so that's just another way that they're driving you know value to customers the other thing
+is we haven't mention these specific words but they call them out in their actual investor presentations is that
+their take rates are going down the take rate is actually made up of two things the mid-market currency rate as well as
+the fee on top of that now with normal Banks they charge they would never
+charge you a mid-market currency rate because a mid-market is basically the bid ask spread and it's divided by two
+whatever it is so basically whatever the range is they're going to give you the one that's in the middle and that's what you usually see if you were to type it
+into Google that's the mid-market rate and that is the rate that wise tries to give you whereas if you were going to
+your bank or let's say using other remittance Services uh they might give you a little bit higher it's not to say
+that they're lowest provider in all of the you know uh let's say corridors where money's being transferred but in
+general over let's say an average they have the lowest you know take rate
+across a lot of competitors and you'll see that later in a few slides when we'll look at that and they've also
+gained increase in volume transfers especially to India that's very important India is a huge Corridor for
+money transfer especially from let's say the UAE to India or the US to India it
+is a very very lucrative Corridor that they're trying to get a little bit more exposure to as opposed to where they
+started off in Europe and here you see the the wise platform which we've not discussed a lot
+we've mentioned new bank but their connections to these Banks and white labeling Solutions they're providing um let's say they've worked
+with Google pay interactive brokers Apple pay new bank and a few of the Key Banks monzo and n26 these were early
+adopters have gained a lot of traction since then and as such they gain you know extra value or Revenue whenever
+they are actually making money as well so let's take a closer look at what
+No text
+things are like so with in terms of Revenue uh geography and where they're making the most Headway obviously they
+started they had their start in Europe so you could expect that to be slowing down but actually that's not the case
+you could say that yes it's a little bit slower in London at 28% but that's very
+respectable for four-year ker of growth that's beyond you know you know let's say 90th percentile in terms of what you
+would expect a company to be growing at that rate of that size and uh therefore again Europe's growth at 33% ker you
+have North America growing at 33% so that's compounded annual grow grow rate each year they're growing 33% year on
+year and as you've seen with their partnership with newbank that's the rest of the world Revenue falls under that
+area as well South America but Asia Pacific that's the UAE to possibly India Corridor or Japan um you know the
+Philippines that's another lucrative area for them can I see an area of weakness so far and those growth rates
+not really they're doing well in all areas actually so we focused on the revenue
+per customer but now let's look at the volume per customer how much is each customer s sending and over time let's
+say the general trend has been that crossb volume is not slowing down it's still growing at a rapid rate there was
+a slight little you know wobble towards the you know Financial year of 2024 but that's you know continued to tick
+upwards being driven a lot by the revenue from the business or the volume by from businesses however the volume
+from personal customers seems to you know at first glance look like it's going down however the reason they
+disclose why that appears to be the case is because the you know personal customers who hold cards and are not
+transacting or just using those accounts either to gain interest or just you know for their day-to-day habits is are not
+transacting in terms of volume so that's driving the volume per customer down so it's nothing to worry about and I don't
+think it's aetric they actually will continue to disclose because it's quite deceiving in terms of what it's showing
+but I thought I'd just show you some of the data that you might not be getting elsewhere at this stage so let's recap I
+know there's a lot of numbers but these are important things to understand about this business the size of this business they've got 12.8 million customers
+they've grown 5.4 million new customers in 2024 um and now they're having 118
+billion in crossb volume as well as operating in 160 countries and supporting 40 currencies those are the
+key things to understand so as far as their Capital allocation strategies again there are four things that we can
+
+
+do with capital as allocators we can either choose to invest in higher roic projects so higher return or invested
+capital projects to gain a better return we can either choose to you know give a dividend or buy back some shares to
+increase the value to shareholders or we can choose to do some mergers or AC
+Acquisitions if an opportunity arises or we can pay down debt those are the four things that we can do so from those four
+pillars of capital application strategies which ones are they currently pulling on well the main one they're focused on is improving their roic and
+that the way they go about this is improving the infrastructure rails they currently have building direct connections with central banks across
+various currencies and also improving their product development cycle and that ultimately leads leads to you know A
+reduced pricing and increase in volume that they're delivering uh for their customers and that obviously is the
+feedback group that drives higher ryc uh the other things they could be focusing on is some mergers and Acquisitions but
+at this stage because of their growth rates I'd love to see them grow much much larger before they take on any of those risky bets they could also choose
+to pay down some debt but they don't really have that much debt to speak up it's minuscule at this stage or they
+could choose to go and you know pay a dividend or buy back shares now they are
+doing one of those which is they are paying buying back some shares however
+it's only to offset the dilution they're having from stock-based conversation and we'll get on to that a little bit later
+in the video so what about the culture and management of this business now Crystal Carman is the CEO and co-founder
+
+
+of wise as you recall there were two estonians one of them has since left but Chrystal Carman has been leading the
+charge and he's actually a very sign ific shareholder of the business as well with 18% shares outstanding he does also
+have special voting rights so there are those pesky Class A and Class B shares so that's something to be aware of but I
+guess as an investor that in this business you would just have to bear that in mind uh Emmanuel Thomson is the
+CFO and he used to work for delivery hero and he helped them through their IPO but you can't judge this man on this
+business yet however he does come with some you know good credentials as well harson is the CTO I guess you can't also
+really judge him much but this is the seite team he was in charge during a period where Christo went on a sabatical
+for 3 months when his son was born so he could say that he could hold the RS for the business at least for the time being so uh this is the team so far and it's
+good to see that the approval ratings for christop Carman sit at 80% and as well that 73% would recommend working
+there these aren't Stellar numbers but at least it's not bad I would say so what about the culture of this business
+now business I would never usually spend a lot of time looking at culture I know that probably is a fault of mine because it's really hard to dissect the culture
+but you can see that actually for wise it's a lot easier to dissect because you know the net promoter scores are
+fantastic they're some of the best in the business as well as they're very transparent you know as we discussed in
+their actual transaction fees they're very transparent about that but they're also very transparent about their road maps they're sharing their road maps
+publicly and that just shows like you know this is what I want we want to be judged on we have providing you our
+actual road map in terms of what we're planning we want to reduce pricing we want to improve coverage speed and I I
+feel like as a competitor I'd be terrified of a company trying to show me everything they have as if they're saying you know you know come and get us
+the other thing is you know the culture they've got some weird you know I guess finished things which is in their
+headquarters they've got a sauna and that just shows you I guess there there's a fun playful element to the company as well so they've got this
+thing now this was a run they did this actually unlisted video so you know you're getting some really sneak peeks
+here in terms of what they're doing but they started this naked run and you know I guess the culture there is a bit of
+there's a lot of seriousness but at the same time a lot of fun so it's good to see that this is is actually some of the things you'll get as an employee in this
+business that it's a fun place to work so on to the financials we focused
+No text
+a lot about the fundamentals of the business I want to focus now on the on the financial because sometimes this is the area where most people slip up with
+a company like this especially fex so I've tried to break it down as simply as possible in terms of how we should look
+at these numbers all right so let's get into it so I've broken down the financials into two funds you have the
+IFRS reported numbers which are is the European standardized account methodology versus how you would have it
+in the US as Gap reported numbers you may be familiar with that and then you have the wise reported numbers which is
+present in their annual reports as well the main key difference here is that the top line is completely different and it
+changes the whole funnel all the way down wise as a company is very worried about the fact that their net interest
+income is ballooning to such a large amount and it's accounting for such a large portion of the revenue that ultimately it's a very volatile part of
+the business that they are concerned eventually will plummet and then the business valuation will change dramatically so what they've changed as
+of last year is they only recognize 1% of the net interest income they make and
+the remainder is being paid out to shareholders and the rest of it will be retained we'll cover that in a little
+bit more detail but basically that's the Crux of it is that they're only recognizing 1% of their net interest
+income whereas in the IFRS reported numbers they need to recognize the whole net interest income that they collect
+and that's where the discrepancy lies which of those numbers should you trust should you actually look at the numbers
+they're actually collecting in terms of cash into their Bank into their accounts or should you look at their all this is
+what we're kind of like our conservative numbers are going to be I think you need to be somewhere in between because you
+know the target 1% may not be so real realistic to say that interest rates are ever going to go down to 1% but
+somewhere in between that range let's say a free cash flow between 487 and 247
+maybe where things normalize next next let's look at the
+gross margins for this business now what you can see here is that their gross margins have been ticking upward which
+is fantastic their operating margin has been ticking upwards even faster where could those numbers end up I can't see
+this company being as you know a competitor let's say to Visa or Mastercard with their 97% and 100%
+margins however could they reach a high of a you know 90% gross margin that's a possibility for this business and it
+means there a little bit more room for growth in that metric at least before we go down to the oper
+efficiencies so this is another funny chart to look at because this just shows us where the free cash flow is
+ballooning out of proportions but the reason that it's appearing so is because of the large customer balances they're
+holding and that's why it's so difficult to Value some of these fexs you need to I guess account for that and the change
+in networking Capital that's happening so I do go ahead and adjust for that and I'll show you what that effect has on
+their free cash flow so a brief look at some of the key financials that tell a story now now I
+wanted to paint a picture for everyone here because sometimes you get lost in numbers 45% Revenue growth rate for the
+last 4 years compounded and 112% net income compounded for the last
+four years as well as current assets which are the customer balances have been growing at 48% for the last four
+years ker so those are fantastic numbers I mean those are just huge huge numbers
+and the other thing to point out is the ryc the return on invested capital for
+this business you probably won't find this number on one of the you know Financial websites because I've had to
+adjust this number myself so we've netted out the customer balances in order to arrive at 52% ryc and that's a
+fantastic number given their cost of capital let's say approximately 10% it is approximately 10% actually um this is
+a fantastic you know return uh for this business and then when you net out the excess net income that they're getting
+you get a rate return on Equity of 36% with an interest coverage ratio which shows you how uh let's say how much they
+can cover the cost of their uh debt they can cover their cost or their debt very very well um so this business is you
+know ticking on all gears and it's doing fantastically well so let's look at some
+of the other things to focus on here which is the shares outstanding shares outstanding have been growing steadily
+very very slow growth of 1% and I am not too worried about they are offsetting some of of that dilution as we said
+because whatever excess net interest income they're making uh they're putting that into an employee benefit fund I
+guess trust and buying shares back and giving it to the employees so you're seeing a slight uptick but for 1%
+dilution I am not too worried um in terms of the growth rates they're having and you can see the orange line is the
+shareholder yield return which is the dividend yield which they don't have any plus their buyback yield uh plus any net
+issuance of debt uh as well but you know that number I'm very very happy with they're around 4% in terms of their
+buyback at this stage so that's pretty good so let's look at the competitive
+
+
+landscape in the actual remittance and money moving uh business now we discussed Swift as the Traditional Bank
+tool for moving money but you have to deal with one of the juggernauts or incumbents in Western Union which is
+moving a lot a lot of volume across the world and mostly smaller volume or at least volume per customer than wise
+because they're dealing with remittance to poorer countries uh but they have been around for a very very long time
+and as such you know they've because they rely on cash transactions as opposed to digital for most of their um
+you know volume they have to have ways to manage that cash and keep that cash safe and regulations and all such so
+their gross margins around 40% versus uh wise's 80% so you can see a huge
+difference already from the Topline you know gross margins H that wi is doing a lot better the other things to look at
+here is one of their main competitors is going to be remit Le so that's one of the competitors in the US and they have
+been growing as well rapidly in that space but we'll get to see how they compare to wise soon enough as far as
+some of these other ones which are we've already discussed them new bank monzo n26 these are all partners of wise but
+they do they already use the white label solution whereas Revue actually is another Neo bank but they don't use uh
+WIS Solutions just yet uh but they allow their transactions to be uh free cross
+borders and allowing that to be a loss leader for them in order to recruit and get these customers on board uh so
+that's just the whole I guess landscape right now it's not all-encompassing but just to shed light on a few of the things there and you might also have
+seen the logo for Zoom which is a PayPal tool to transact but they charge such high fees I don't even think it's worth
+mentioning at this stage I don't think that's a very successful one so how are these companies doing
+quarter by quarter in terms of moving volume of money across the globe now let's take a look at the volume
+excluding the US I believe this is the chart for and you can see that wise is growing so fast in comparison to the
+incumbent which is Western Union and Western Union has split up into let's say overall and digital but just let's
+look at the overall regardless of which way you look at it wise is the fastest gr and the second closest competitor is
+Ria which I didn't mention earlier and then you have remitly here Rising fast as well but in terms of just volume
+there's no competition between Western Union and and uh wise as well so let's
+look at the other chart we have here which is just the USA outbound consumer volume so again we said one of the
+biggest corridors is going to be the USA to Mexico Corridor and you can see that
+this is a weakness of wise so far is that they're not really challenging that space But again that's a good thing
+because otherwise the there's no room to grow and there's no room for further investment or returns so you're going to
+see that they have room to grow in that area to take market share away uh but they need to displace remitly as well or
+even gain market share from remitly whether or not they're able to do that I don't think it's you know the thesis is going to be built around just the US
+there's so much more money around the world to be moving and as well mentioned all the other corridors as well sorry
+everyone I added this slide later on in making the video because I forgot to include it initially this just shows us
+the take rates for wise versus the competition and as you can see there's no real competition in that regard uh
+their take rate is order of magnitude less than nearest competitor I think the reason they are able to get away with
+this is because their crossb volume amounts are much larger than their nearest competitors and as such they can
+compete at such a low level of a take rate so another chart here that highlights the benefits of working with WIS and their operating efficiency is
+they've started to leverage AI in terms of making the onboarding of customers a lot easier you can see the amount of
+minutes it takes to register and the amount of time it takes to transfer money it's by far faster like I know
+it's we're talking about minutes here but it really does make a difference for some of these customers who just want the quickest and easiest tool to
+transact so let's wrap things up by talking about the competitive advantages of this business now what we can see
+No text
+here with the Hamilton Helmer framework is that there are definitely elements of scale economy for this business because
+the more volume you have the lower you can drive your take rate and you create a barriers to entry to any competitor
+specifically a barrier to success I don't think it takes a lot of you know money to start in this business however to be as successful as them as having
+the lowest take rate that really does mean that you need to be competing at that level the other thing is there's a
+huge element of counter positioning here which I'm just makes me really happy because finding counter positioning uh businesses is a little bit more
+difficult um the fact is that these Banks incumbents who have been present for a very long time will be canalizing
+their own businesses and if you know about the inovator Dilemma that these businesses if they were to say instead
+of charging their High fees had to you know bypass all the other Banks and charge low fees that would just eat up
+into their margins and revenue and they didn't want to do that they didn't want to take the small take rate when they're taking a big piece of the pie so that's
+where they have been able to build the name for themselves where Banks didn't want to venture into the other thing is
+they do have a coordinate resour coordinate resources at this stage I believe because those payment rails are
+magic they are being used and being validated by Swift using them they're being validated by the other Banks
+themselves not being able to build them because a lot of criticism that wise has gotten is the fact that oh any Bank any
+other you know financial institution could just build it and bypass them well they have it they've been actually Banks
+such as HBS HSBC has actually you know tried to launch one and then failed and floundered so you can see that they're
+built something there that is you know built on 13 years of work and they have the hardly one of the largest you know
+engineering um Workforce available in I think the world and they have 800 Engineers working on this project so a
+cornered resource in terms of the infrastructure in terms of the regulation and direct connections with
+these central banks and the Trust buil In I think that's a very very key uh you know cornered resource that they have so
+as far as right now having three key competitive advantages I could have given them as well something about Network economies peer-to-peer however
+the value of an additional let's say node on the system does not really increase by an increasing of one and as
+we said this is no longer a peer-to-peer system they are working now with liquidity providers and you know hedging
+positions and all that so that's not a big you know driver in terms of competitive advantages I could have
+given them as well let say processing power and that they've been able to drive everything lower and efficiencies
+but we'll wait another couple of years before we consider that as far as brand the brand is definitely being trusted
+it's gaining Word of Mouth uh trusted at the financial level trusted at the customer level and it's one of those
+things I would say definitely starting to gain traction for the last thing to say is again to wrap it up is the
+willingness to sell so willingness to sell usually is not as clear as willingness to pay but willingness to
+sell means that the financial Regulators are willing to provide them the direct connections because they've shown uh
+that trust and that is something that's not easy to gain in this in this market uh the other thing is the willingness to
+pay so customers are definitely willing to pay because the take rates are going lower and lower and they are you know
+they have this uh mission of driving these take rates really almost close to zero but I've never seen them actually
+say that out loud but they're just you know maniacal about driving the take rate lower so there are five key risks
+
+
+for this business business that have wrapped up the regulatory risk is basically built on trust if there is any breach of that trust they could be fined
+they could have their direct connections cut and it's not unforeseeable that these things happen because legislation
+politics does play a part in this things of this nature it's unpredictable so there could be an element of regulatory
+risk the other thing is EIC currency risks so basically they haven't managed to hedge positions there's a change in
+interest rates things do play a part in that regard so interest rate risk we did discuss as well the fact that there
+could be some headwinds moving forward interest rates may dip and we'll look at a chart about how that could affect them
+in the future uh partnership deterioration so let's say for one example that their white label Solutions
+are no longer servicing the banks as they need to or maybe they see them as a competitive threat and they're like no
+no we're no longer going to be using you because you're displacing US banks that could be a potential issue the other thing is potential disruption and de
+globalization if the world you know heads towards a state whereby let's say Indians I've read something somewhere
+Indians were being kicked out at least the ones that were coming um illegally but you know let's say legally they're
+saying oh no we're going to onshore everything and everyone's going to onshore everything money across the borders could decrease that's a
+theoretical risk I don't believe it's going to be a huge thing the other thing is the disruption part of that so
+disruption by digital currencies so it could be the case everyone's been vouching for stable coins and banks have
+been rallying around this idea of researching whether or not they want to create a Central Bank coin for each
+country so guidance what is the company guiding to at this
+
+
+stage well we can see here is that they're seeing really good growth in their business and the underlying income
+which is their Top Line uh their revenue all including the total income from the
+interest as well uh that's about 15 20% they're guiding to how long for I couldn't tell you exactly that but their
+profit margins they're estimating will be 13 to 16% so it will tick down from
+where it currently is around 20% or so because they're saying that this is what's going to normalize that so please
+don't expect it to continue at this high level as we discussed before um again their take rate they continue to say
+that we're going to keep driving our take rate lower and lower which is good to see and this is where I wanted to point
+out in terms of the guidance now wherever this company goes interest rates will follow in with the whole
+history of interest rates that we have from uh the you know 10-year US Treasury
+we using that as a basemark as the benchmarks sorry uh we can see that historically interest rates have gone up
+and lower we're used to a history whereby we were living at 0% interest rates somewhere here in 2020 following
+covid but things have been ticking up and we're like feeling the pinch of course inflation hits hard however is
+this completely out of the norm compared to the history to 1965 no if you could
+say if you were to draw a line about where the mean is or where the median is sorry you'll be seeing it's probably
+somewhere around 5% so are we that off a level whereby interest rates could stay
+here for much longer I mean it might be the case or it could TI down because you know if you're to watch this like a hawk
+and say oh it's going to go all I would say is that just have broad a let's say you know goal poster where you think
+interest rates will go do we see going down to zero again no unlikely so the key thing about them going down to zero
+or at least trending downwards is that you'll see here that over the last 20 years what were the best assets to hold
+I just thought about this and I'm like okay well what one of the best assets to hold for the last 20 years let's say to
+2005 what RS because you know these are highly levered you know instruments to
+go out and buy these you know real estate um transactions and you know fund them and they require lower interest
+rates to be profitable with higher interest rates that has reversed the equation has been now actually any kind
+of company that makes money out of interest is actually going to be doing well so do we foresee higher interest
+rates for longer I do believe so that's going to be the case maybe an uptrend potentially from where we started and
+therefore as such will Banks and fex make more money based on that interest rate yes that could be the case as well
+so that's just something to frame things in terms of what we see the Tailwinds could be for this company so I've
+
+
+carried out the valuation in three different types one of them was the free cash flow to equity DCF the other one was the free cash flow uh to the firm
+DCF the difference really is between these two one of them is more used whenever you value a bank the other
+one's more for just a reg company that generates free cash flow but given this is a fintech it kind of falls in the
+middle however I've done the adjustments for each one to show what this business is worth and I've used the 20% Revenue
+growth rate uh for the DCF or in terms of the uh DCF for the for the free cash
+load Equity I've used a 20% growth rate in the net income and the ranges I've
+given here are based on the on the higher end it's with the 20% growth rate
+but we're starting off with the current numbers that they are giving us however I did normalize these numbers for the
+lower range so that you're getting a complete spectrum of what the situation could be like if it was a normalized you
+know for that high peak in terms of interest rates causing higher revenues total income as well so you can see for
+both of them they're fairly similar um in terms of the highend they're both within the 13B and then on the low end
+8B 8 60 for the fre cash fled Equity with a 10 40 for the free cash fled firm
+so that suggests that we're pretty close to fair value for this business and the last thing is a total shareholder return
+I've been a bit more conservative there but I adjusted a few of the ranges saying the worst case scenario you're going to be earning a r to return at 6%
+uh and it could go high as high as 13% and I'm generally fairly conservative with my numbers so I would say this
+business at this stage is really fairly well you know offers a good opportunity for us to get good
+returns so that's it for this video now if you did enjoy the content I would definitely appreciate a like and a
+subscribe as it does help with the algorithm as this channel is still growing if you did find the content useful do leave me a comment letting me
+know which parts were most intriguing and if there's anything else I could improve upon all right but hopefully
+I'll keep this going and I'll put out some more videos of more companies that I find interesting so I'll see you in the next video take care
+
+# Transcript 3
+
+ladies and gents welcome back to another Engineers podcast today we have Mahir
+who's a principal engineer at WISE Formerly Known As transferwise and we're going to be
+talking about some really cool things today maybe you've seen on the pods in
+previous times we're a fintech lover but same but different let's say the
+building Cloud native applications and there's a really interesting project that Mahir and wiser Keen to talk about
+moving on-prem services to a cloud native environment we're going to be
+talking around regulations and some of the challenges around payments and moving money around and also hiring
+software engineering that's a really hot topic that I'm seeing being brought to
+the table on the podcast at the moment and we're heavily involved in here at
+Engineers artifacts and myself and the team thanks for coming to join us
+for having me pleasure do you want to give us an intro into who my here is and
+your background cool uh so I'm here I'm a principal
+engineer boys and uh I've been with Vice for four years I joined as a senior
+engineer here first and uh advice as a principal engineer look at the tech on
+uh why is this debit card product vertical and why is this uh why is his API for businesses product vertical and
+yep do you want to give a better intro into
+wise than I already have done is in it's way more sophisticated and complex than
+moving money around so do you want to give us your elevator pitch into who
+wise are cool so yeah so let's go back to the origins of
+wise where wise was founded by a founder starbit and Crystal and they had a not
+so unique problem of where both of them were working in London but David was being paid in euros and Christo had a
+mortgage to pay back home in Estonia in yormos while Krista was earning in pounds and they found out that just
+using Banks or any other money transfer service was quite expensive because they wouldn't use the mid market exchange
+rate or the exchange rate when you Google something that how much is pound to euro and their fees would be obscene
+as well so they just figured that what they would do is that Christopher would just give uh bounce to Talbot for living
+in London and David would give him Euros at mid-market rate to pay his mortgage back home in Estonia and they realized
+that okay this is a problem just between the two of them but it's not a unique problem it's shared by millions of us
+around the world and uh that's how that was that's how it essentially why started and so why this
+is a Global Financial technology company and we are presenting a lot of regions
+around the world and move money and manage money across multiple currencies around the world we have more than 16
+million customers at the moment and more than 60 Banks who use wiser services to
+offer to their own customers and like over the last decade we have just worked upon building local Integrations with
+local scheme across the globe to make money movement very quick easy and wagy and using the mid market rate
+or story from from two people to challenges around paying mortgages
+exchange rates to 16 million customers and over 60 Banks that's phenomenal
+yeah definitely it was a story what if your last four years been like
+with wise uh so there have been few of the years
+that have learned and grown as a person as a profession professional the most because of the sheer amount of autonomy
+wise gives you and the freedom it gives you to Define your own role or figure
+out your own place in the company and doing what's most impactful to achieve
+wise's Mission which is essentially make money movement quite easy and free eventually free
+and um when I started off with wise I joined um
+the debit card issuance product vertical and at that point of time over a few
+months we were like at only three or four people so the journey started off with
+essentially uh hiring and increasing the size of the team first and at the same
+point of time growing the product launching it in more different regions uh we had a massive monolith which was a
+massive blocker for a lot of operations so splitting that monolith into multiple services and when I joined we were in
+middle of our process of moving from on-premise to like a physical data center to using Cloud features AWS so
+supporting that part of the process of moving debit card related aspects to AWS
+and then um a massive project of building our own
+debit card issuance platform rather than using third-party partners talk to me about that journey of moving
+your services from on-premise environments physical data centers to
+AWS I know there are specific challenges in payments that it presents which we'll
+talk about but talk to me about that journey of moving those services in that
+infrastructure already to AWS so as over I'll talk more about wise in
+general and what the problems we are facing with on-premise so at that point in time Vice as a business we had to
+handle a constantly growing demand of our offerings and we needed to extend
+our offerings to multiple regions as well and at the same point of time we need to keep our customers money safe we
+need to I trade on the product quickly keep adding more future features time to time and we want the service to be
+functional reliable most of the time yeah and um and all of this can be achieved with
+physical data centers or very degree degree of ownership of bare metal but at the at that time our goals was
+not to faff about trying to get a hold of our account manager of a vendor to fix a particular network card uh running
+a model it's database or uh handle a Monday morning load without actually
+going down and try a name for a 395 SLR and not having to travel to a different
+country where the data center was to perform various key ceremonies required for payments or taking Auditors with us
+for them to verify whether a data center is up to the requirement or not and uh supporting the product teams by
+making it easier for them to launch new services and database really quickly yeah so that they can continue their
+effort of modernizing the model that we have into smaller services and making
+deployments and roll back easier and also shortening the time to launch new regions uh and integrating with the
+local Regional schemes which without having the complexity of finding a new
+data center vendor in those regions now all of this is completely doable with the data center but if at that point of
+time with a 20 person infrastructure team and six people in the security team it just seemed close to Impossible which
+triggered a move to AWS essentially yeah yeah I can imagine there's quite a lot in there that I I even didn't realize
+that you have to consider I understand especially for product teams you know
+speed of deploying some of their services or new features but actually being physically present in some of
+those locations to perform tasks even I didn't realize that
+yeah there it would be multiple resistor data centers where uh you would have a Hardware security module in which you
+have to go one by one with an operator and manually enter the keys then they come
+out and you need an observer on the side who observes the process in an unbiased manner that nobody's leaking the key
+material Etc and also the Auditors verify the data center security and the processes yeah
+were you involved in that that planning strategy about moving some of those services or all of your services to the
+clouds yeah so I was involved in moving uh our key debit card processing
+services from Cloud to AWS talk to us about some of those
+challenges and what you learned from that so there are two
+specs there are two uh iterations to it so the first iteration is that uh the
+initial draw for the debit card product was just three services and we would use
+third-party Partners to do everything for us so that's the first layer of it and the second layer of it is when we
+build it in-house model raised at ourselves and when we built it properly completely over the cloud itself so the
+first step was that it was very dependent on the partner because we would have VPN downloads with the partner and the on-prem uh the partners
+in this space and financial services space uh it's a very safe presumption to
+have that if you just assume that everybody assumes every is everyone has got significant control over physical
+Hardware themselves yeah so any Integrations or any connectivity which
+is built by in any existing player in the financial services assumes that you're a
+functioning of a data center so there a lot of the effort was just working with
+a third party provider in this scenario we call them a card processor to them to
+figure out okay how do you want us to connect if we are on AWS uh so this is how we do it right now you
+want us to host this device we run it in a Data Center and we form this connection but now we are in AWS how do
+we connect persistent reliable connection over Cloud where the
+resources are mostly ephemeral and they can just vanish and come back at any time so how do we restructure this
+particular part to work with you so that was a six month long effort
+because it involved a lot of back and forth with the with a partner and the processor to figure it out
+and um the later effort of building our own
+like getting rid of our debit card processing Partners was a much bigger
+effort and much more because it had never been done before like nobody uh vice versa first and his uh who was the
+first who to run a debit card issuance processor completely on cloud because it wasn't even possible before
+that talk to me about what that looked like because when there's no support
+Community to support you on any of those challenges that's a lot of unknowns you've got to
+navigate through so talk to us about that Journey so registration MasterCard debit cards
+all around the regions and across different regions we would have different partners where uh whom we
+would integrate and connect to help us issue cards now Kardashians come contains of three massive components one
+is actual issues of the cards which means the card you the credit or debit card you have the card number on it the
+CVV on the back of it two cbvs one on the max type one on the chip itself and the pin you set with it so all of that
+is cardholder data and actually issuance of that card holder data the second is saying yes or no when you tap your card
+like what happens when you type a card at retail and say yes or no to that either third is all back office
+operations which is actually finalizing the money movement settling the bill with the scheme itself and uh also
+reconciling that what you paid out and what you got so when we used to use third-party
+Partners connecting directly to the scheme was done by the partner handling all sensitive information
+like card number CV would be done by the partner because that requires a PCI DSS certification which is a card industry
+specific security standard you have to follow if you were to process any card holder data
+data and uh connecting with the card manufacturers like somebody who prints the cards and sends it back to
+so now if we were to build it all ours now all the current processors use physical
+data centers and that's how everything is done where the standard the pcid is a standard is written keeping in mind that
+it somebody who anyone who's going to apply for the certification would probably be using a physical Data Center
+yeah uh and manage it themselves and the scheme also has all of their documents
+all of the spec everything written from the point of view of with an assumption that they're on their own Hardware they
+have they can buy a payment HSM to do these do the cryptographic
+operations themselves so a payment HSM is uh something which is responsible for transporting your PIN block like
+encrypting your PIN Block in a certain manner it also generates your cpv it
+authenticates a requests Etc it's payment specific or graphic operations so nobody knows how it's actually done
+because usually you just what you do is you just buy a payment HSN you get a proprietary networking Hardware from the
+gods keeps which is Mastercard Visa Amex diners Etc and you put it in a data center which connects to the scheme you
+get the request you authenticate it with the payment HSM and you do all the stuff say yes or no later on
+so the biggest challenge was okay what do we do with the hardware which we need to get with this from the scheme which
+we need to host in our data center which we don't have or any and
+um so there uh Visa was an absolute star where we worked with visa to develop uh
+one of their product offerings which is now Cloud connect and available to other issues to uh where we figured out a way
+where Visa will host the networking Hardware in the data center on our behalf and offer it as a service to
+their issuers over ipsec tunnels so that didn't require much of a change
+on Visa site because they just run the same Hardware but in their data center but it involved a lot of innovation on
+how you could actually securely allow other card issuers to connect to them
+and uh that was one massive bit of it there was the other aspect of
+payment decisions like how do you like a simple thing like the CVV is not randomly generated which you have in a
+card or the pin which you enter at a terminal is encoded and encrypted and transported
+over a certain format so how do you decrypt it and decode it to actually verify whether it's your PIN correct you
+typed up incorrectly or not and uh the algorithms and the documentation on how
+it's done is States back to EDS so it's 80s yes wow
+and um we will so first of all the problem was we don't know what we had to do like like payment
+ages we spoke to different vendors we spoke to Visa they had to bring people out of retirement to answer our
+questions we had we spoke to a few uh
+DSS Auditors we spoke to engineering team at monzo uh to figure out what needs to be done
+over here and over a period of time we've got to know more and more things and the
+biggest challenge still was just you don't know what you don't know but we figure implemented a software
+solution using a lot of massive test beds uh of test data which we asked visa
+to send us so we can verify whether the CBB we are generating is accurate or not whether we are processing the pin
+correctly or not and we use Hershey cops Vault for and plug-in system for that
+okay interesting there's a couple of things that are on the tip of my tongue
+and I wanted to understand why do you think Visa made that move to to
+facilitate that for you because that felt as if it was a really pivotal move
+in moving some of your services to the clouds so why do you think Visa made that move
+for you so reason has actually been a great partner where they're like we're gonna
+support you in any way we can and they also understood that it's time for them
+to expose this a lot increasingly more and more financial services companies
+are going overclock and uh issuing wise we were the first on acquiring wise uh
+from an acquiring point of view there are a lot of companies who run over cloud like add in themselves and uh
+stripe as well so they realized that book happens sometime or the other
+advice because fever also at such a state of where we didn't have any
+issuing uh uh software already which worked and we were building something
+out of our own so they thought that we would be like the best partner to develop this with test it out with and
+go live with yeah and it they had recognized that it's an inevitability that they need to have a cloud offering
+it was just about when and they decided that we would be the best partner to
+start off this one there's something that's really interesting that's popped up and for me
+anyway reflecting on what you've said over the last few minutes engineering through uncertainty
+because when you started that project you weren't sure if you could liaise
+with monso this is my understanding and interpretation anyway you'd be able to liaise with monzo we didn't know people
+from the 80s were going to come out for retirement sorry people from Visa were going to come out for retirement working
+on stuff in the 80s so what is it like engineering through uncertainty how do
+you do that as a team so as so engineering through uncertainty is
+that [Music] first of all believing that if we know what to do we'll be able to do it so
+that part is the biggest software people are and there are we have no limitations
+for distribute systems Etc so we know that okay once you figure out what to do we can do it so it's figuring out what
+to do right or what we are missing right and uh
+through engineering through uncertainty is like being very clear with everyone around you that what you don't know or
+you know that this functions and drawing hypothesis and then trying and figuring out who you can speak to to validate
+your hypothesis or what is required or what you know what you don't know and uh oftentimes the best people to
+tell you what you don't know is uh sales people selling the services so
+um if you want anything like if you want a database uh or any concepts there
+would be sales people who would come and tell you that hey we are selling this database and it does these things you would find out a lot of new things which
+you didn't know about uh as a concept you don't have to take them on their word on what it does or anything like
+that but as a concept that exists so like for processing we didn't know that we needed a payment HSM till we spoke to
+sales people from processing providers that hey we provide you with an HSM so we're like oh we need a SSM they're like
+yeah you need an HSN I was like oh what does the HSM do you find out more about that and uh
+yeah I think that helped us quite a lot because that's right
+that's a really interesting point I think to have the humility to hold your
+hands up and say we know where we want to be we think we have an under understanding as to how to
+engineer a solution but there's so much in in between that we don't know how do
+we navigate that and who do we speak to that sounds as if that's a really important learning from some of this
+experience yeah and the other thing is just
+testing it like uh just doing what you know uh putting it out there on maybe
+various test pads certification Etc which will also enable you to find out what you didn't know what you missed but
+doing it quicker makes you makes that Discovery quicker yeah rather than building a big thing which based out of
+hypothesis and testing it at a later date yeah I can imagine you're touching on some points around
+encryption and cryptography I I can imagine those challenges were quite
+significant can we talk about some of those so
+uh the older versions of PCI DSS standards was written that it assumed
+that everybody would have a Hardware security module which is essentially stores uh secret key material on at a
+hardware level itself and with more and more financial Tech
+like companies who would renew pcids as move into the cloud HSM becomes sort of
+a very difficult thing to have Cloud providers would have some limited HSM offering
+but uh there would also be a payment HSM offering on top which Cloud providers do
+not have at the moment except right now IBM has something but AWS Google Cloud Azure they don't have a payment HSM
+offering so that means that the operations which the adjacents were supposed to do you
+have we have to do ourselves with an equivalent level of security which actually secure for the customers
+secondly it also clears PC idss certification so what that meant to us that we had to
+figure out how to authenticate a card authorization request how to generate a
+multiple types of CVV your guard might have how to uh encrypt and encode a pin
+and decrypt and decode a pin over Transit and various other verification
+features whether you're tapping your card at an authenticated till or not Etc as well
+so we uh pcds is over uh newer versions
+had started accounting for something called a secure cryptographic device and which could be a software based
+thing where this was a very recent uh amendment to that but it has to follow
+and hsn's have different levels of security level requirements so uh it's
+given by another National information security some company which is not company some
+regulatory body which is something like fips 140.2 level 2 level 3 level 2
+level two for which there are a lot of solutions uh not a lot of but there are
+there is hashico Port which offers that fips 140.2 level 2 compliance
+requirements on software itself so we figure that we can use that and write plugins for payment specific
+cryptography aspects and uh use that as a Secret store for key storage
+the other part is uh we had to invent key import ceremonies like key exchange
+ceremonies where the partners would send us keys to store like Visa would send
+these keys to store to generate CVV you have to send a key to the card manufacturer to decrypt the data you
+sent to and we had to do this during lockdown because when you can't meet in person so
+we had to figure out how we're going to design a key exchange ceremonies because these things were never done you just
+hsms come with a fixed way of how you do key exchanges or key Imports but if you
+have a solution like this you have to figure out how you're going to go it sounds as if with encryption
+cryptography especially in payments it's pretty Universal with hsms and keys
+themselves were there any independent or isolated challenges that you found
+multi-regionally you know in different parts of let's just use Europe as an example were there challenges there that
+you were finding that were making it difficult to do this uh
+related to card payments is pretty like except for us all of the world is pretty Universal
+on how it works with the card schemes except for USCIS is completely different ball game on card payments and uh there
+are challenges with local schemes like FPS and sepa which are again very similar challenges but uh they don't
+have a solution like the card schemes because card schemes requirement is 140.2 level two compliance which can be
+achieved on software based but other payment schemes across countries have
+various other requirements on cryptography where they require level three which can which definitely
+requires nhsm or if you do a 3DS check when you order online and you need to receive a one OTP any provider in the
+car scheme who implements that functionality needs a level 3 compliance as well
+foreign visas move then seems like a smart move really because any fintech that I see
+Pop Up nowadays you know we we spoke to Griffin a number of years years back and
+they're a banking authentication as a service platform we've spoken to adjun
+where they were quite clear about they run their payments on an on-premise environment but nowadays everyone seems
+to be doing let's just call it holistically payments in the clouds what what would be your biggest learning
+that you would give to someone else if they're about to embark on this journey do you feel
+uh the first thing will be that um because you're doing something new
+uh you really have to read the regulation in or the standard you have
+to comply with yourself and break it down to the bare bone and break it down to its intent as well that what are they
+exactly trying or why does this requirement exist and
+uh what is the way you can solve the intent of this requirement over cloud
+because there is a good reason that these requirements exist okay it's not
+globally applicable for everything but there would be a reason why these requirements exist and also what their
+what was the intention behind them so and trying to implement that intent
+onto your system the other part is the auditor whoever audits your system on
+whatever you're building is a human person as well to whom you can talk to and to whom you can explain it to it's
+better if you get an auditor who already has experience or and understands Cloud systems that is one massive key thing
+where fire if you are getting an auditor who's never used to a cloud system you'll have to explain a lot of new
+things and concept s when kubernetes you'll have to explain service meshes how do you do service to
+service communication authentication or authorization role-based access controls which Cloud offer or you get an auditor
+who already has experience with these things and that is quite an important part and
+uh you can explain you what you're trying to do how you're solving a particular requirement of any standard
+or spec you're following and uh also we can verify while developing uh the
+intent of the standard with your auditor or probably a consultant in that space that's our so rather than building
+something uh with your head down and then or getting it audited later
+keeping an open channel of communication between an auditor consultant on what you're doing and getting feedback
+constantly in a design is going to be much cheaper and quicker and better
+that's really good feedback and going back to your first point
+I feel this more and more with the podcast I think understanding the business logic and
+requirements and using the technology as your Aid or support to supercharge you
+is really key really key
+help us understand more about wise more about your hiring strategy if we move on
+to that that's a big thing for us at Engineers especially at the moment with macroeconomic situation hiring retention
+is a really really hot topic so talk to us about hiring at WISE and what that
+looks like foreign so I wise we everybody who works has
+a lot of autonomy at every level so that goes down to you as a contributor to you
+your team to the school or the product vertically you belong to or the bigger
+Department you belong to so everybody has a lot of autonomy where
+everybody feels empowered enough that they can make a suggestion and it will
+be heard paid attention to and if they can make a case well enough for it uh
+for it it will be executed as well so what do we because of that autonomy what we do
+differently advices we expect all of us software Engineers to play a role of product engineer
+and it's the same for our analysts our designers and everybody is a product analyst a product engineer a product
+manager or a product designer and uh every quarter the entire team gets
+together and they figure out each and every one having a say in it on what
+they should build next why they should build next and then uh how they should build it
+so apart from analyzing the technical ability of Engineers or technical
+experience of Engineers we also look at their product mindset on whether they can reason about uh what uh
+regarding a product what they are building and why they are building it or what they should be building or why they
+should be building it and can they ask the right questions around that part so we have multiple product managers
+interview and a pair up and interviewer engineer as part of their interviewing
+Journey with why so and on the technical aspect we so we
+realize that and interviewing people will never be perfect and uh there is a
+difference there's a gap between uh a person's interviewing performance and their performance at a job
+and we try and minimize that Gap as much as possible by doing few things we don't
+ask whiteboard lead book lead code type of questions or puzzle programming puzzles we try and figure out how they
+code in their most comfortable area and with real world problems
+and the other part is we don't limit them that you can't use Google or you
+can't ask for help Etc we are very we try and act as a team member with them
+trying to attack the same problem and uh they can use Google they can use IDE for
+coding they can ask whatever we don't expect you to have unrealistic condition what you won't have at the shop
+always be able to Google anything you'll always be able to use an IDE et cetera so we try and recreate that
+aspect s that's okay I think
+I think the interesting part is measuring the impact
+or mesh so measuring from interview into when they start at wise
+how do you feel you're able to do that because what you're trying to create is
+a real life team scenario setting as in how they would act or
+uh cooperate with other Engineers or how they would actually find out something
+on Google what's the measurement there in your eyes
+so a lot of the performance measurement aspects I'm not aware of advice
+altogether because I'm not a manager so I don't
+exactly know so I know for sure that somebody advised us actually look at that and is looking at that but I'm not
+employed but I think the first part it's really interesting looking at a
+product engineering mindset and I see this with businesses that are quite akin to yours where you're building something
+for large-scale users I think the product interview is now becoming so so important how can
+you understand functional non-functional requirements changes in what you're
+building as opposed to how do you just build a static application leave it no
+scale challenges this won't change in a year two years understanding that mindset of how people
+apply their thinking to something real life that customers use on a day-to-day
+basis I would say is a really smart way to go and interview people
+yeah 100 and it um uh
+it makes a massive difference on how you even write a pure technical solution to
+anything as well like uh a sample example will be that suppose if you are implementing a
+feature that for every car transaction you do you need to show logos of where
+you spend the money and if you spend it at McDonald's you need to show the McDonald's logo now uh technically it's quite simple
+like find a logo provider send the name of the transaction and get the logo and
+show it on the thing now where it gets where the product mindset kicks in is that if the person building this
+realizes that hey Vice doesn't just do car transactions wise also does Target tap it's wise also does money transfers
+wise also in uh does peer-to-peer payments so it's not just showing the
+logo of that card merchant next to the transaction is showing direct debit to
+Vodafone vodafone's logo in that scenario as well and uh sending money to
+HSBC then HSBC logo is there as well and I think that's where the new technical
+design gets affected because it's directly an impact of your product thinking because as a product you
+realize that uh it's these things well wanted in the future as well
+yeah absolutely no I completely agree I think it's I do think it's a really critical part of
+software engineering in today's day and age on where the industry continues to move more that Engineers do think about
+the impacts that what their writing has on customers
+I want to wrap up for today in just a massive massive thank you for coming to
+spend your time with us sharing some of your secrets on what I know was a really
+really complex move to the cloud if you like and how
+you navigated through that and some of what you did was pretty cool and pretty interesting and I think the hiring
+strategy for you guys and girls is is really unique and I'm Keen to see what you guys and girls continue to do
+more of and what you've done so so well what a story from
+um Mortgage repayments in pounds and Euros to 16 million customers
+so massive things cool thank you for having me absolute pleasure and as always a
+massive thanks from Engineers what's key is we like share subscribe this content
+it's important that people like me here wise come and share their stories with
+us we're massively passionate about this and want to continue to expand on some
+of the amazing stories that we've shared already over the last few years so
+please tell friends but please do click that subscribe button or or like what
+we're doing and a massive thanks and a massive thanks again here for joining us
+bye for now so thanks for watching this episode uh massively appreciate listening and
+checking in with us if you want to find out more about us and what we're doing
+please check us out on social media what we're trying to do at Engineers is build a community to drive knowledge sharing
+and experiences on Twitter we can be founder Engineers IO it's no underscore
+we've also got a website which is engineers.io these links will all be
+posted in the description any feedback and comments massively appreciated we're always looking to
+improve on where we can thanks guys
+
+# Transcript 4
+
+All right, folks. Welcome to Investing for Beginners podcast. Today we have our friend Brett Schaefer back and today
+we're going to talk about Remittly versus Wise, the two remittance giants.
+And we thought we would discuss the companies, their strengths, their weaknesses, how they compete, and maybe
+some competitors against them and whatnot. So, this is one of Brett's largest positions in his portfolio. I
+for full disclosure do not own either of the companies but am intrigued beyond belief because of course I'm a payments
+geek. So there we go with that. Brett thanks for coming back to the show again from Chitchat stocks and let's let's
+talk about wise and ruin. Yeah let's do it. As a disclosure remittly is a stock that I hold in my
+No text
+portfolio. wise. I don't, but I like both businesses. And if you look at your favorite uh financial data provider of
+choice such as Fiscal AI, which I have loaded up right here, the growth rates of these businesses
+from both payment volume adoption, revenue, and now increasing earnings
+power should get you excited to research why these businesses are growing so quickly, why they're taking market
+share, and you know, whether they could be good stocks to own in your portfolio.
+Oh, yeah. That's great. So, who do who are they taking market share from? Let's start with that.
+Okay. Well, remittly and wise are a little bit different. So, Wise is
+No text
+digital only remittances. And for anyone that doesn't know the terminology, remittances just means crossborder
+transfers. So, for example, you are someone from the United States and you want to send money to someone in Europe,
+in France. Wise easily enables you to do that for a fee. Now remmitly is also a
+remittance provider but unlike wise remittly is so from from the sending
+person they are digital only. So mainly you know from a smartphone or from your computer but they do digital receiving
+or physical receiving which is popular in lower income countries that they target such as Mexico,
+India stuff like that where many of the people there still want physical cash payouts from their local banking or
+financial services provider. Now who are they taking market share from? With Remmitly, it's much easier to
+understand. They are taking market share from the traditional legacy players such as Western Union, Moneygram, and then
+there's also some such as PayPal that actually have high fee international transfer services.
+And one interesting thing you can do is look at Western Union versus Remittly's
+either revenue or payment volume. I don't know if Western Union discloses this. So you can use revenue but their
+payment volume from North America or revenue from North America has been converging where Western Union is
+declining and remitties is rising. So there's a lot of market share getting taken there. Now Wise is more of a
+European player. They're United Kingdom company. It started by I think two Estonian guys. at least one Estonian
+that was living in the United Kingdom that was the inspiration for starting the business and they're more say higher
+income not necessarily some worker that is living in for example the United
+States sending money back to Mexico or India but someone that's living in
+another country wants to spend in another country or send money to themselves business partners stuff like
+that digitally only um and they're disrupting I think more of the
+traditional banking system for international money transfers which are extremely high fee um also services such
+as PayPal kind of the legacy digital players and they're trying to reduce fees for customers that's their bread
+and butter now remittly focuses more on you know servicing the remittance core
+customer like a worker you know technology worker sending money back to Asia or something like that where wise
+is going for reducing fees as much as possible for those digitally native customers and trying to get them to
+switch from the traditional banking services to wise and there are many more products that they're working on to try
+to build each of them financial services ecosystems for international payments
+No text
+but I think that's where we should start and why these companies have grown in
+the last decade. Yeah, they and they've grown quite quickly. It's been pretty amazing to see
+the the the growth for for both businesses. I guess a question that I have about both of them is
+Wise is definitely going after the banking segment. For somebody who worked in the banking industry, I know wires,
+wire transfers very intimately. I became the wire guy at the branch that I worked at because I was lucky enough to
+successfully complete a lot of them. And so I got the joy of having to hey you got to do a wire go talk to Dave and
+they were lots of fun but they are slow and very very expensive and so Wise has
+definitely gone after that segment. I'm curious how remittly has gone after more
+of the physical. You mentioned that like the actual taking of money is that something they are kind of focusing on.
+So and you mean like dispersements in Yeah. Yeah. So like perfect example is you
+know a worker here sends money to India and so the person in India can
+physically take out the cash where wise they don't do that where where but with remitty they can do that.
+Yes. Exactly. So remitti is targeting those customers. They market specifically in the United States on
+billboards and areas where these communities are, you know, are congregated and they try to get say
+technology workers, agricultural workers, construction workers that want to send money back to these home
+countries and they essentially want to replicate the payout network that Western Union
+has through banking partners in all of these countries. I don't have the stats in front of me, but I think they have
+hundreds of thousands of payout partners. One example they like to give is that even in a place like the
+Dominican Republic where I think maybe for safety issues, I'm not sure exactly why they have this in that country, but
+there's home delivery for remittances. Maybe I'm not sure why it's there, but Remittly was, you know, smart enough or
+wanted to invest to replicate that part product from competitors to offer that to the receiving customer. So, they
+essentially want to replicate what Western Union has. they're going to have lower fees than them and that's going to
+convince the sender from say the United States, Canada or what have you. Could be any country sending, you know, it
+could be reverse. It could be someone sending from Brazil to the United States, something like that. They want
+to replicate that with lower fees to convince people to switch. Now, they're not going to have on the whole as low of
+fees as Wise because Wise doesn't have to deal with physical payouts and that's always going to come with higher costs.
+But Remittley is going to have better fees, really easy to use mobile app, and that's why they've been stealing market
+share from the likes of Western Union, and I think probably can for at least the next 5 to 10 years.
+Yeah. So, for sure. I'm curious how remitly tech works in that how does the
+money how does the money exchange hands? So, if I send money to you in Brazil,
+how does that process work? I I I can explain it for for Wise, but I'm not sure how it works with with remitty.
+Well, why don't you explain it for Wise? And I can maybe just say before you do
+that, that remitt I believe and you know they don't fully disclose this to
+investors. It's kind of trying to read through the teles a little bit. I think they are trying to replicate what Wise
+does, but they're not entirely there today. That's one advantage Wise has is from the digital infrastructure and
+payout perspective. they are at least today superior than Rentley and Remley's trying to catch up to them with that.
+Okay. All right. So from all my research and trying to and I've had AI kind of
+dumb it down for me a little bit so I could kind of understand it. So the easiest way that I can explain it is
+let's say that I'm sending money to Brett and Brett is in Brazil. I would the money would be and I'm doing it over
+the Wise platform. What would happen is Wise would take a
+$100 out of my Wise account. Whatever I I have connected, if I have a bank account or if I have a card with Wise,
+they would take $100 out of my account. They would put it in their local bank here in the United States. in Brazil,
+they would send an electronic message to a a regional bank wherever Brett was
+located that he would be banking at and they would send they would basically
+send a message saying take $100 worth of Hey out of Brett's, you know, out of
+this account and deposit it into Brett's account. This all happens very quickly
+in seconds. In some cases, 5 to 10 seconds. It can be very, very fast. So the money doesn't actually cross the
+border between the United States and Brazil until a later date. So the way the way the system works is it takes the
+money from me and it takes the money from and puts it in their account here. It takes the money from an account in
+Brazil and gives it to Brett. So the money doesn't actually exchange hands at this point. later on either through the
+Swift system or other systems they will they will do a ledger balance where they will do a bulk amount of money from the
+United States to Brazil and then withdraw money from Brazil and send it here to the United States so that
+everything would balance and so that's that's how they choose to send money
+throughout the world and that's how they do it. Now, the difference is again it goes directly to the account. So,
+there's not actual cash that is sent to Brent, but he has the $100 in hey ice in
+his account that he can use however he wishes to pay for it. Yep. That if I believe and again it's
+hard to get the nitty-gritty and all this payments infrastructure. I'm not sure an investor needs to understand
+every little thing that goes on, but essentially I think that is what they're doing. And when it's digital, it's much
+much easier to do that. And over time, you know, I think part of the maybe concern some investors have with
+Remittly is that over time, you would expect payouts to go fully digital. But
+from what they're doing and working on, it seems like they understand this. I would believe that they the management
+team, the founder, all the employees really understand that and they are working to replicate a lot of Wise's
+products to try to become more like them in the future. And these products are,
+you know, much much earlier. Wise has a lot more experience in them with them. But that's one way they're going to try
+to do that. And if you remember the famous quote where Netflix has to become
+more like HBO before HBO tries to become more like Netflix. I think that
+originally it was you know Wise wanted to become more like the banks and Remittly wanted to become more like
+Western Union at least from a services perspective but with lower fees. Now, Remittly and Wise are going to be trying
+to do the same thing with each other where I think Wise is going to be trying to maybe be a little bit more like
+Remittly, but Remittly is definitely going to try to replicate some of these things that Wise has. And when you talk
+about funding, we're going to mention stable coins, but on the recent conference call, Remittly talked about how when, let's see, I have it pulled up
+here. So when they put say integrating USDC stable coins on their balance
+sheet, it can really help fund again the liquidity you talked about in global markets. You can have as they say here
+near and this is a quote near instant settlement across time zones and weekends which will enable quicker
+transaction processing, greater reliability and lower cost when customers send money with us. So as Dave
+talked about, they don't necessarily send money every time. You just need to have funding sources in every country
+related to what the trends are on. You know, there's on average this amount of money sent in this direction, you know,
+from Mexico to Canada or to the United States, United States to Mexico over these hours, over these weeks, and we
+just need to have funding there that will reduce our costs and help us charge lower fees to customers while still
+generating a profit. Exactly. So, let's talk about the
+growth. Like what what kinds of growth are we seeing from these businesses? I'll pull it up right now. If we look at
+Remittley's revenue, which should track pretty much with payment volume growth,
+and it actually grows slower because they're trying to bring down their take rates over time. They have grown from in
+2019 $127 million in revenue to about 1 point just a tad under $1.5 billion over
+the last 12 months. So they've gained a tremendous amount of market share. Now gross profit has grown even faster
+because their costs have come down as they've tried to replicate some of Wise's funding there. So that's grown
+from 70 million to just under a billion dollars. And if we look at Wise, it's been a similar story. I'll pull up the
+numbers in front of me right now. So, they well, yeah, if we look at their total revenue, they go back a little bit
+farther, I think, because they went public earlier. In 2016, they only did
+28 million or actually, sorry, that's pounds, 28 million pounds of revenue.
+And over the last 12 months, which I guess ends March 2025, is their latest update. 1.6 billion pounds. So they're
+similarsized revenue businesses today. I think they both have and they target slightly different markets. You know,
+this is a ven diagram of overlapping customers. They definitely have specific customers that they target that the
+other one doesn't. But they have if you're you're going to talk the entire
+money transfer business uh across borders, whether individuals, businesses, whatever. They both have
+similar levels of market share. And from what you can from what they share and
+their estimates, it's about 3% maybe pushing 4% now given their recent growth
+each. So combined they're still under 10% and that should give them a lot of runway to grow going
+forward. Yeah, for sure. For sure. So I was reading Morning Star's report about Wise
+yesterday and I'm curious what your thoughts are on Remittly. Their take was
+that at this point they didn't really feel like Wise really had a moat or much
+of a moat. What what do you think about remittly in that regard?
+I think in the classical sense maybe the morning star definition sense you would
+argue today they don't have like a wide moat but I see ways that you
+could have an emerging moat. for example, you know, you're not going to have, I guess, the branding maybe
+matters um a little bit because you do have to trust your international remittance provider. You're going to send $1,000 back home. You need to
+definitely trust who you're dealing with. But I I kind of disagree because
+one I think with remittances there is the ability to build up a network effect
+where you have to get and this is underappreciated because there's 200 countries around the world or give or
+take 200 countries and it's not that you have to get enabled to send in 200
+countries. You have to have the ability to send from one country to 199 and then the second country to 199 and that can
+that is many many more corridors as they say than you would think and it takes tons of years to build up get the
+regulatory licenses all of that. So I think there's a network effect in that regard. There's also maybe even more
+with remitty than wise because they're digital only. The payout infrastructure is something you can't replicate
+overnight. But with Wise and Remittly in general, I do think there are economies
+of scale. As you get larger, you have a bigger balance sheet which can help cheap more cheaply fund uh payouts and
+what have you all the services you're providing at a lower cost. That allows
+you to have lower fees than the competition, which convinces customers to stay. And then the cycle repeats over
+where more customers are staying, you get larger, you reduce your cost, you add more services. I I I kind of think
+there are emerging modes here. And maybe more importantly today though, is the
+counterpositioning versus the existing banks. Western Union cannot, this is maybe
+speaking more with remitty, Western Union is not going to be able to get rid of their physical branches overnight.
+They definitely have technology debt. They can't replicate what remittly has
+unless they try to totally disrupt their entire business. And that's just a classic innovator's dilemma. Now with
+Wise, you have the banks that charge what maybe $50 flat fee for a wire
+transfer, give you a bad rate. That is another level of innovators dilemma that I think Wise has taken
+advantage of for years and years and years. So if they don't have a wide moat according to Morning Star, I think that's okay because the historical
+say situation within the remittance business that has allowed both of these companies to gain market share. I see no
+signs of that stopping over the next 5 or 10 years which should help them keep growing uh payment volume, revenue, and
+hopefully profits. Yeah, I would I would agree with that. Yeah, I I think that's a I think that's
+a really smart way to look at it. I I didn't agree with the Morning Star report. I thought it was a little
+narrow-minded and so I agree with what you're saying. I I'd like to talk a little bit about the cost aspect of what
+No text
+what both companies are really trying to do. And maybe you could talk about kind of the cost or the take rate versus the
+volume and how that's really playing into to both companies success in the future now and in the future.
+Well, when you look at both companies conference calls or investor
+presentations and this is why specifically they discuss their take rate and maybe bring it up in the
+segment and KPIs on Yeah. Okay. Great. They have it on fiscal AI. Um they have
+they have the take rate from the company. Yeah. Let me just do quarterly.
+So when they're talking with investors, when
+they're talking about bragging about their products, what have you, they always are trying to say that we're
+reducing our cost and then we're going to pass on these fees to customers. And I think as they keep lowering their
+cost, they are going to widen their competitive
+position versus any sort of now this is not necessarily because they already have they already have a better value
+proposition versus the banks. This is maybe more versus say another digital digitally native remittance provider
+someone that is trying to copywise that can give them an advantage versus
+that company. And then Remittly is similar. They say they want to provide the best fee for their services and that
+has come down over time and one way you can track it is if payment volume is growing slower than revenue. So if we
+look at we'll go to wise first total crossber revenue has grown at oh wait
+yeah total crossber revenue has grown at a 13% year-over-year rate since June of
+2022. And if we look at total, let's see, total volume, it's grown at a
+27% rate. So, they are reducing their fees a lot and they're making more
+money. And this is a little bit different than Reitly. This is part of the stuff that remitt
+um copy, I would say, over the next 5 to 10 years. Wise has a lot more services that they can make money on such as the
+business bank accounts with the high yield savings, the why can't I think of the name, the debit
+card. They're launching card services, spending services. So, not only sending money to someone else, they want to
+allow you to store and spend money. So, that's kind of the threelegged pillar
+and or three-legged stool. And that is another way for them to make money while
+reducing the fees but also you know having revenue earning potential from these customers. And if we look at I
+don't think I need to pull up the numbers directly here but remittley's uh send volume has grown consistently
+faster than their revenue which means that their take rate is going down and down and down. That means their fees to
+their customers keep going down and down and down but at the same time their gross margins are expanding. So that
+shows that at greater scale they're able to either a negotiate better rates with regulators, clean up their transfer
+processes, you know, just get more efficient and efficient every quarter with their payment infrastructure, and
+that I think that should only continue. Yeah, I I I 100% agree with with your
+analysis there. I think one of the things that makes both of these companies stand out, it reminds me a
+little bit of Ajin, the payments company from the Netherlands, where they are constantly trying to lower their costs,
+which they think will attract more and more customers and bigger customers. And
+as they can get a bigger volume, they can reduce their rates even more, but remain profitable and grow the profits
+because they can they can use that operating leverage that they generate to make more and more profits and it
+becomes a nice little flywheel for them. And so that's one of the things that attracted me about wise and I wasn't
+aware that remitt was doing the exact same thing. So that to me is very very
+attractive. Yeah. And with remitti, I don't think they have the exact same infrastructure
+as wise today, but again, and this is some of the bare case that I've read before, they are trying to replicate
+some of what what wise has done for digitally first sending. And I also think the aden um comparison works for
+the innovators dilemma and technological or just basically product expertise
+where remittly wise they started from scratch. They built a better product for mobile smartphones, easier to
+understand. And compared to the legacy players, it's so much easier. For example, if like
+this happened in my personal life, my friend was trying to convert money to yen for a trip to Japan
+and through his legacy, I always say legacy, but just one of the big banks in the United States, it was going to be a
+complicated service. You probably had to call the customer support rep. He couldn't really find what to do on the mobile application. It it was going to
+cost $50 flat, which was going to be a huge fee for the amount of money that he wanted on the trip. But if you open
+Wise, you can fund it very easily. You know, it's takes a little bit of time because you have to go through their
+security protocols. You know, they're trying to reduce fraud and stuff like that. But you can easily see on the
+mobile application what your rate is, what currency conversion level they're using, you know, from say that one
+currency to the other. and you can see upfront what the fee is going to be and
+it's generally going to be the cheapest out there. So that's something that the banks either don't want to or can't
+replicate because of their old solutions and
+I just think that gives Wise a huge advantage o over that. Yeah, that's true. Very true. So
+we've been we've been I think fairly bullish on the businesses so far. if you had to if you had to cover what could go
+No text
+wrong like where where could these where could investments in these companies go bad
+first with wise I think there are some neo banks that could potentially replicate some of their services for
+example you have and I know they don't play in the same exact markets but I think they actually partner with each
+other as new bank um there's you know people talk about
+how there's going to I don't know those ones, Revolute or SoFi or what have you that really offer
+great mobile applications, good products for customers, and
+they can have so much more of like the core personal finance app for an
+individual that if they added these international transfer services, maybe they would be able to take, you know,
+market share back from Wise because if someone can, they're just going to use one mobile application versus another.
+But I think one way Wise is trying to counterposition for this or prepare for this is and I forget what it's called.
+It might be called the Wise platform. They changed their name a lot where they
+are actually the ones powering the international money transfers for a company like New Bank or a company like
+Revolute and that allows them to one earn money from that get greater scale
+and make a friend out of a potential enemy. So I think they're doing quite
+well for that. Uh for remitly it's a little bit different and I guess one of these is also possibly applies to wise.
+No text
+There's one a stable coin uh fear which I maybe we can talk about a specific section but with remittly and this is
+why I think the stock has fallen this year is there's remittance outflows worries from the immigration crackdown
+in the United States and kind of the anti-globalization narrative around the world that hasn't shown up in their numbers yet but I think that is the
+biggest fear for remitti and then maybe comparing the two one thing I see from
+investors that kind of get fearful about Remittly and like Wise much more is that
+remittly has higher fees on average than Wise. But I think when you understand
+that Remittly has the physical payouts, you see that that that's not really an
+applesto apples comparison. So there are some things to worry about, but on the
+whole, I think both companies are dealing with them fine. And that the fact that they're gaining market share can help with any macroeconomic
+headwinds. And as we maybe discuss in a later section on this podcast, the
+stable coin initiative actually might or sorry, not initiative, the potential
+growth in stable coins, which I I don't know what the numbers are yet, but there's a whole narrative in the investing world about stable coin
+disruption for all sorts of payments. If that occurs, actually think it can help remittly and wise and not hurt them.
+I would agree. All right. So, one other thing I guess I would throw out there about Wise. It's this is I think more
+specific to them is one of their I guess revenue streams is the money that you
+mentioned that they hold in people's accounts. They they you know they charge interest rates, you know. So they
+because the rates here in the United States are normalized at the moment and are higher than they've been over the
+last few years, they're generating a little more income from that than they normally would. And so there are
+concerns that if you know the rates do fall that that could impact some of the
+growth of of the business. But at this point it's not a it's not a huge amount
+of revenue for the business. But as the company continues to push their cards
+and the bank part of the bank, it's not a bank, but the savings part of Wise as
+those deposits grow in theory, so should the interest rate that they earn on those savings accounts. And that could
+be a potential headwind if rates ever do change. So that's something definitely
+to keep an eye on as you as you look at a company like Wise over the years. It's something I wouldn't say it's like a
+death nail, but it's definitely something that could impact some of the growth of the business,
+right? Yeah. Because that's gone from close to zero to over 500 million pounds
+in the last 12 months. So, it's been a huge profit driver for them. They do break it out on their earnings that they
+kind of separate what the core profitability is and then they add back then interest income. I think that's,
+you know, on the one hand, yes, people are worried about interest rates being lowered. I I'm not sure if they will. I
+I think that's extremely hard to predict, if not impossible. But in general, the fact that they can
+invest the quote unquote float or what they hold on the balance sheet is a long-term advantage and an attractive
+part of the business model. Yeah, for sure. For sure. All right, so we've teased a whole bunch about the
+No text
+stable coin thing. Let's let's talk about that. How how is this how could this potentially impact both companies?
+is a good thing, bad thing. What are your what are your thoughts? Well, let's start with the narrative
+No text
+around stable coins and maybe we'll describe what they are first. So, stable coins are a cryptocurrency that's tied
+to the value of fiat currency. So if you have one USDC, which is the one from
+Circle, it is, you know, if you have put $1 in, you get $1 worth of USDC and it
+should track the value of the US dollar. So at least compared to other currencies
+and stuff like that. So if you deposit it and get you have one USDC,
+3 months later, you should be able to uh withdraw $1 US. Now the narrative around
+payments and this applies to not just wise remittly Western Union and the
+international money transfer business but it also has been applied from a narrative perspective to payment
+processors Visa and Mastercard anyone within the payments ecosystem. There is
+a thought that stable coins are going to eliminate fees for money transfers. It's
+going to be either free or extremely low cost and that is going to kill these
+businesses, right? Because wise and remittly their bread and butter is earning a small take in international money transfers and if that goes away
+your revenue goes away and you're in big big trouble.
+No text
+What I think the narrative misses though is that stable coins can exist.
+But you have to think about what they call on-ramp and off-ramp. And to
+illustrate, maybe we can go through an example of why someone is using remittlier wise to send money to another
+country. So you have say US dollars and then you're trying to get to your family
+member in Mexico to have Mexican pesos that they can spend on their daily
+goods, save up, maybe they have an healthcare expense, something that you're sending money back for. Whatever
+the reason is, you have to start with US dollars in the United States and you
+want to get to Mexican pesos in Mexico. Now, it doesn't matter if you are
+funding your remittley account or funding the money transfer with US
+dollars or USDC. But eventually once you get to that point in the transfer cycle, you have to
+because let's say the local Takaria or grocery
+store or Walmex, they don't accept USDC as a form of payment. you have to convert to pesos in
+the local bank account. Now, that's where the fees come in and that's where
+the costs come in and it's not going to be free. So, even if stable coins are used, it's not going to eliminate these
+fees that people have to pay or excuse me that remitt has to pay and then passes on to their customers.
+And it actually will be I I believe an advantage over the Western unions of the world because stable coins can be used
+as we talked about earlier to manage their balance sheet better for off-hour transfers. And if you want to fund your
+account, they've already announced that. I think it's not out today, but maybe it's coming out in a month. They were discussing it on the conference call
+that that was a couple weeks ago. they are already allowing people to use
+USDC as a funding source and as a way to pay out. But again, the fees aren't
+going to go away because eventually people want to spend in the country or the currency that you can actually use
+for spending what you want to use with your your money uh in these home markets.
+Yeah. And I think the other thing about the whole on-ramp off-ramp part of it,
+and you mentioned this, we were talking off air about this, is that it feels like everybody feels everybody's talking
+about the potential disruption, but they're not talking about that very important piece of the on-ramp off-ramp
+part of it, which in a lot of places, they don't have the technology yet to
+off-ramp something. So let's say it's coming from the United States and we have better technology and it's going to some very very small town in the middle
+of nowhere Brazil. They very most likely will not have the technology or the
+ability to convert that USDC into a local currency the hey ICE or whatever
+you know if they're in a bord of you know Uruguay then they may have you know a different issue changing that currency
+and so that could present a problem. And the other part of it too is the whole goal of wise and it appears remittly is
+to lower the costs to attract more people. And so if something like stable coins helps lower the cost of making the
+transfers, I'm not talking about the actual conversion to currency, but the actual transfer itself. I think they're
+going to be all for it. Visa and Mastercard are embracing this wholeheartedly because if it makes things cheaper, it makes business better
+for them and they're all for it. So, I think it feels like the off-ramp part of it is something that I don't think it's
+talked about quite enough yet and the technology doesn't feel like it's quite there yet because to your point, not
+every place will accept USDC. I would I would be hardressed here in the United States to figure out where I could use
+USDC to pay for something. I'm sure it's possible, but you know, in my ignorance, I don't know. So, I I think there's a
+lot of fears about what could potentially happen as opposed to what will happen.
+Oh, exactly. Exactly. And when you look at the stable coins, you
+have to they not only need to be accepted to just be used quote unquote
+of, oh, I can convert to a stable coin. Yes, sure. Now, you can buy a bunch of cryptocurrencies with that, but with
+these businesses, they're trying to operate in the physical world, buying goods around the the globe. And
+you're not going to replicate the acceptance of Visa or Mastercard overnight. And if you can't or you know,
+you need to get to physical currency, there's still going to be fees. No one is going, no one in this entire value
+chain, whether it's for Mitly, Wise, the local banks, Visa, Mastercard, what have
+you, they are not going to do anything for
+free or else they're just not going to perform the service. So regardless of it's stable coins USD or USDC
+I think the more digital transfers grow the more it benefits remittly and wise
+and I I really see no way for stable coins in their current existence to
+totally disrupt these businesses within within a decade. Yeah, I think that's it.
+Yeah. No, I I would I would agree with that. I think the other thing that's not discussed too is
+the current system that we have allows for any ambiguities that may happen in the
+payment. So I'll give you an example. Years ago when I was working in the bank, we did a wire transfer to Japan.
+Trans, you know, keep in mind transfers are different anywhere you go and wire transfers are a whole other beast. And
+but the point is is that the customer gave us the wrong account information.
+So unfortunately the money went to the wrong person's account. Now kind of the
+way wire transfers work is you know you track it from you know your bank to an international bank to a transfer bank to
+the local bank in Japan for example but you still have visibility in the
+transfer. You see where the money goes. You see who sent it. You see who touched it, if you will, and where it landed.
+And so because of that, you have the ability to recall the transfer. You can
+you can ask for the money back, and you in most cases, you can get the money back. With the way that crypto and and
+stable coins are set up, you don't have that ability. And so if a payment goes through or a transfer goes through and
+there's something wonky about it, let's say you have, you know, you you put a two instead of a one for the last digit
+on the account. If it goes to wrong account number, there's not a lot of ability to track that money and to get it back. And there's no way to dispute
+transfers or or payments with with those things as well, at least at this point.
+And so there is a certain trust factor that goes into using something like WIS
+or remittly because you you have faith Western Union the banks you have faith
+when you use those things that when you send it it's going to go where you want it to go and if there is a problem you
+have a way of rectifying the problem with some of the things that are going on with stable coins at this point as
+we're talking those things are not in place and so there's going to be some
+problems unfortunately So there there's going to be mistakes that are going to happen. And until that part of the
+process is really worked out, I I'm worried that I I I I fear that the total
+acceptance by the community I think will be less than I think what they're hoping for just because of that kind of, you
+know, KYC part of the equation. Oh yeah. And part of the reason the fees
+exist is to fund fraudulent transactions that not fund them but basically pay for
+stuff that goes wrong or mistakes or essentially things that criminals
+stealing stuff. It's the same thing with credit cards and how you know part of the fees get defunded there. I will
+mention there is a distinct difference here and I think this is again where Wise has the edge in part of their
+business over remittly where when Wise has been asked about stable coins they say and because they've and you talked
+about that wire transfer process they've totally eliminated the wire transfer process and that's how their fees are so low. They think and believe right now
+that stable coins do not offer them superior costs and therefore they're not going to use them. They said look we
+would use them if it reduces our cost but right now we don't see any ways you know they're exploring they want to keep reducing their cost but they don't see
+it now remittly has embraced stable coins and maybe that's because they are behind a bit in the payments
+infrastructure and one thing I should mention is that remitt and this might
+weaken their potential moat versus the competition they use what is called visa
+direct as a partner for realtime crossber remittances to say debit cards. Now that
+is something that Visa offers and they can not only offer to remmitely but anyone else. So I think Remittly is
+trying to build out their own infrastructure over time but Wise again
+is probably ahead of the game in this regard and you know it's helpful to have a partner like Visa to onboard
+customers. Um, they have stuff. I think this might be a little bit different. Again, it it can get confusing with with
+the payments infrastructure, but there's an integration that remitt now has with WhatsApp where you can talk with I think
+maybe even the Meta AI, but you can have a conversation with the bot. You can say, "Hey, look, I want to send the
+money here. What are your fees going to be? Here's the rate. Here's what it's going to end up in this person's
+account." So, you have this partnership and you have all that stuff that can help drive growth. Again, back to the
+cost thing. Remittly is using stable coins, I think, because maybe their infrastructure is not as good as Wises,
+and that's something to consider for investors. I don't think it makes Remittly a bad business. It's just Wise
+from the infrastructure perspective is superior. I'd almost consider them
+maybe remitt is the stripe and wise is the aden especially because wise
+and adinion are you know European versus stripe and remittly west coast United
+States. Yeah. Yeah, that's a that's a I think that's a pretty good analogy. And I
+wouldn't I wouldn't consider them a worse business. It's just different and they're using the tools that they have available to to do what they need to do
+for their customers. And that's bottom line that's really what matters the most. What what are your thoughts on the
+No text
+valuation of of remittly and maybe just a overview of of wise?
+So the reason I own remitt and not wise is because I think the valuation is
+significantly cheaper today. Remillian we just use for the podcast purposes
+market cap because you know enterprise value is a little less but we'll keep it simple. So they have 3.0 $.9 billion
+market cap over the last 12 months as I mentioned about $ 1.5 billion in
+revenue. They are guiding I think for in between and again exact numbers aren't important here but over 20% revenue this
+fiscal year. I think they can keep growing revenue at a pretty good clip. It's going to slow down at a larger
+number from a percentage basis, but I I see no reason they can't get to $2
+billion next year because they're they're going to do about 1.6 billion this year. I think they can get to 2
+billion next year and then within a few years $3 billion in revenue. Now their gross profit gross profit margin is over
+60%. And if we look at their cost so say their cost of revenue is going to be all
+the payment stuff uh that they include you know pay us to visa direct what have you.
+Now below that you have R&D for product and then marketing and then general and
+overhead. Now they're getting leverage consistently on these costs and general
+and overhead should and you know it's a red flag if it doesn't it should get a lot of leverage at scale. If it doesn't
+that kind of means the business is probably spending willy-nilly on corporate stuff, offices, company
+retreats, you know the Salesforce model. But right now they are spending a lot on product innovation and they're also
+spending a lot of money on marketing because they are attracting so many new customers and they're getting a huge
+return and a quick return on these customers that they're attracting. So right now their margins are pretty much
+close to zero. Their net income margin I think was 1%. Last quarter they generated like $1 million in earnings.
+But if you look at the potential leverage as they slow down marketing and you get more scale on your product
+development and that 60% gross margin, I think 20% profit margin is pretty doable
+at a good enough scale for this company. I think they could get there today if
+they wanted to just by maintaining their existing systems and and slowing down
+customer acquisition spend from marketing because they do spend a ton of money on marketing which I think is a
+good thing. So the way I look at it is okay well if
+you have $3 billion in revenue and a 20% profit margin which ar isn't there today
+but I think can be there with by 2030 that's $600 million in earnings versus a
+market cap below $4 billion today that's a PE ratio close to five maybe it's like
+seven that's ve I I think very very cheap for a company growing this
+quickly. It has three-year revenue cagger of 38%, 5-year revenue cagger of
+58%. Pretty darn good. Now, Wise a little bit different. They are trading at and some
+of it can be confusing because we're looking at British pounds, but just think of it, you know, fairly close
+transfer to US dollars. They're at market cap of 10 billion pounds. They
+do, as I mentioned, 1.6 billion in revenue. So if we think about
+their potential earnings power and they are more profitable than Remilli today
+but if we think on the whole their unit economics and cost should be similar
+they have very similar levels in revenue but one trades at a market cap of 10
+billion versus a market cap of 4 billion and wise is a great business. I think investors will do well owning this thing
+over the long term. Probably significantly better earlier this year
+or in late 2024 when the stock was at six British pounds versus 10 today, but
+still a little expensive. Uh but not not too bad.
+That's that's pretty good analysis. All right. So is there anything else about either one of these companies you feel
+like investors should know that we haven't touched on? So I'll speak on product development I
+No text
+think as the last one and this is where again wise today has more services for
+um you know say wealthier international customers or people that want to spend money, save money or or businesses. For
+example, my podcast, we use Wise since we have some international payouts we have to do and the fees are cheap, you
+know, cheaper than PayPal and they're pretty easy pretty easy to do.
+The problem is they have been a bit stagnant in adding new products. For example, we can't get a spending card
+with them. It just hasn't been approved. So, maybe they need more
+payout or sorry, they more product spending could be helpful. Maybe they need to reinvest in adding new services
+for the platform. Uh but with Remittly, they are and they have to execute first.
+They've been kind of hyping it up. They've been making a lot of these new products that are about to launch, I
+believe, in September for customers. One, some some they've already launched, but they've reenhanced their platform
+for small and micro businesses to try to compete more with Wise there because that is a huge market for sending money.
+For example, if you have a developer or some sort of worker in Asia, some other country and you're paying money to, you
+know, pay out their salary. They're also adding things such as the remittly wallet, which is going to be similar to
+the Y savings account. It's more of the storing money and not just sending money. And they're actually adding some
+new services such as, and I like the moniker here, send now, pay later, where
+for an extra fee or maybe a little bit of a loan. If you are short on cash and
+they, you know, maybe you're getting your paycheck later, but someone that you want to send money to needs the
+money now, you can get the money to them much much quicker and you have a
+bridging funding of that. So, they're adding all these new services. They're trying to build and expand more from
+just sending to all sorts of financial services for individuals and small
+businesses. And that's the overlap where over time and I think both players can win. It's a large market. It's not going
+to be a winner takes all scenario, but over time Wise and Ritley are going to try to copy each other's products. I
+wouldn't be surprised if a remitt debit card shows up, especially with that existing relationship with Visa.
+And I think both companies have a lot more potential
+to upsell their customers on new services over time. There's, for example, our small my small business. We
+want more products from Wise because we use them all the time. And I think there's we're not the only one out
+there. There's plenty of other people. Yeah. Yeah. For sure. And what is that saying? Imitation is the highest form of
+flattery. Exactly. Everyone wants to copywise and I don't blame them. They have the
+cheapest costs. Yep, they do. They do. All right. So, lots of great knowledge. You dropped
+again today as always. Where can people find more about what you have going on elsewhere?
+All right. Yeah. If you want detailed analysis on remitty in written form, I do have that over at our newsletter
+called Chitchat stocks. I also have a podcast called Chitchat stocks that you can find on YouTube, Spotify or Apple
+Podcasts. follow it there. We do coverage on companies such as remittly
+wise, all sorts of stuff, interviews covering super investors, and we have
+two episodes a week. So, if you like this show, I think you'll like it as well. We try to help investors learn and
+get better. Yep. It's well well worth your time. It's one of my favorite episodes to listen to every week. They have two
+shows and they have lots of great interviews and lots of great discussions about stocks, which there is not a lot
+of out there on the podcast world. And they're one of the few that do it. and they do it really well. So, it's definitely definitely worth your time.
+Highly, highly recommend it. So, with that, we'll go ahead and sign us off. You guys go out there and invest with a margin of safety emphasis on the safety.
+Have a great week and we'll talk to you'all next
