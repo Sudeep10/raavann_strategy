@@ -904,11 +904,6 @@ export const Companies: CompanyModel[] = [
       {
         strategyType: "Marketing",
         subStrategyType: "Channel Strategy",
-        text: "Hermès deliberately makes its most desired products hard to buy. Birkin and Kelly bags are not sold online and are only accessible through **in‑person appointments** in key flagship stores (Rue du Faubourg in Paris, Bond Street, Madison Avenue, etc.). Buying a bag is positioned as a 1–1.5 hour ceremony with tea or champagne and careful unboxing, not a simple transaction. Customers often join waiting lists that can last a year or more, and staff effectively *screen* who is offered a bag. This controlled, high‑friction buying process reinforces the idea that ownership is a privilege, not a purchase.",
-      },
-      {
-        strategyType: "Marketing",
-        subStrategyType: "Channel Strategy",
         text: "Distribution is **almost 100% through Hermès-owned stores**. They use only a small number of concessions in department stores where they don’t want to invest in a full store. Store count is kept low and highly selective (e.g., mid‑teens stores in all of China, versus hundreds for some peers), yet each location is extremely productive, with internal estimates of about €50,000 in sales per square meter. By owning the retail channel instead of wholesaling widely, Hermès tightly controls pricing, presentation, and who qualifies as a customer.",
       },
       {
