@@ -31,6 +31,7 @@ export default function RootLayout({
         defer
         src="https://analytics.raavann.com/script.js"
         data-website-id="b62d2055-f35b-4f9d-b86a-4713ee15f2de"
+        data-domains="raavann-strategy.vercel.app"
       />
       <body
         className={`font-sans ${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
