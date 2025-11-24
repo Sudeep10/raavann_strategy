@@ -419,18 +419,9 @@ const CompareDialog = () => {
       body: JSON.stringify({
         num: compareCompanies.length,
         prompt: `
-Compare the given companies **strictly and only** using the data points provided below.
-Do NOT use any external knowledge, assumptions, or information that is not explicitly included in the data points.
-
 Comparison basis: ${subStrategy ? subStrategy : strategy}
 
 ${prompt}
-
-Your comparison MUST:
-- rely exclusively on the above data points
-- ignore anything not provided
-- avoid adding facts, market knowledge, or invented details
-- make comparisons only where both sides have relevant data
 `,
       }),
     });

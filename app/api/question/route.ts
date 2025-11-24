@@ -34,15 +34,24 @@ export async function POST(req: Request) {
 	const response = await client.responses.parse({
 		model: "gpt-5.1",
 		reasoning: null,
-		input: `
-      Based on the following transcript of a company's information, answer the question below. Give no more than five brief answers, ensuring each one flows logically from the answer before it.. All answers should be based solely on the provided transcript. The answers must be highly detailed and not generic at all and tone must sound interesting while making sure it's easy to understand and read. If can't find the answer in the transcript, respond with "Answer not found"
+		input: [
+			{
+				role: "system",
+				content: `
+			You are an expert at answering questions based on company transcripts. Don't answer anything about where the transcript came from or any meta information. Just focus on the content. Generate no more than five brief answers, ensuring each one flows logically from the answer before it. All answers should be based solely on the provided transcript. The answers must be highly detailed and not generic at all and tone must sound interesting while making sure it's easy to understand and read. If you can't find the answer in the transcript, respond with "Answer not found"
 
-      Question:
-      ${question}
-
-      Transcript:
-      ${content}
-	    `,
+			Content:
+			${content}
+			`,
+			},
+			{
+				role: "user",
+				content: `
+				Question:
+				${question}
+			`,
+			},
+		],
 		text: {
 			format: zodTextFormat(answersSchema, "rows"),
 		},
