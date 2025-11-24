@@ -8,6 +8,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Companies, StrategyExplanations } from "@/constants/companies";
+import { cn } from "@/lib/utils";
 import { useUserStore } from "@/store/user";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
@@ -15,6 +16,85 @@ import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+
+const Tip = ({
+  content,
+  children,
+  className,
+}: React.PropsWithChildren<{
+  content: React.ReactNode;
+  className?: string;
+}>) => {
+  const [open, setOpen] = useState(false);
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
+  const contentOpen = useRef<boolean>(false);
+  const onTrigger = useRef<boolean>(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const handleTouchOutside = (e: TouchEvent) => {
+      if (
+        triggerRef.current &&
+        !triggerRef.current.contains(e.target as Node)
+      ) {
+        setOpen(false);
+      }
+    };
+
+    document.addEventListener("touchstart", handleTouchOutside);
+    return () => {
+      document.removeEventListener("touchstart", handleTouchOutside);
+    };
+  }, [open]);
+
+  return (
+    <Tooltip open={open}>
+      <TooltipTrigger asChild>
+        <button
+          ref={triggerRef}
+          type="button"
+          className={cn("cursor-pointer", className)}
+          onMouseEnter={() => {
+            setOpen(true);
+            onTrigger.current = true;
+          }}
+          onMouseLeave={() => {
+            onTrigger.current = false;
+            setTimeout(() => {
+              if (!contentOpen.current) {
+                setOpen(false);
+              }
+            }, 100);
+          }}
+          onTouchStart={() => setOpen((prev) => !prev)}
+          onKeyDown={(e) => {
+            if (e.key === "Escape") {
+              setOpen(false);
+            }
+          }}
+        >
+          {children}
+        </button>
+      </TooltipTrigger>
+      <TooltipContent
+        onMouseEnter={() => {
+          setOpen(true);
+          contentOpen.current = true;
+        }}
+        onMouseLeave={() => {
+          contentOpen.current = false;
+          setTimeout(() => {
+            if (!onTrigger.current) {
+              setOpen(false);
+            }
+          }, 100);
+        }}
+      >
+        {content}
+      </TooltipContent>
+    </Tooltip>
+  );
+};
 
 const CircleComponent = ({
   strategy,
@@ -167,18 +247,9 @@ const CircleComponent = ({
         />
 
         <foreignObject x="-40" y="-40" width="80" height="90">
-          <Tooltip delayDuration={0}>
-            <TooltipTrigger>
-              <Image
-                src={step.logo}
-                alt={step.name}
-                width="128"
-                height="128"
-                className="p-0.5 bg-white rounded-full border-2 shadow-md transition-all"
-              />
-            </TooltipTrigger>
-            <TooltipContent className="max-w-sm text-pretty">
-              <div className="flex flex-col p-2">
+          <Tip
+            content={
+              <div className="flex flex-col p-2 max-w-sm text-pretty">
                 <p className="text-lg font-semibold">{step.name}</p>
                 <div className="text-xs! font-medium prose prose-invert dark:prose prose-li:marker:text-background dark:prose-li:marker:text-background max-h-[300px] overflow-y-auto scrollbar-thin pr-2">
                   <Markdown remarkPlugins={[remarkGfm]}>{step.text}</Markdown>
@@ -201,8 +272,16 @@ const CircleComponent = ({
                   View Company
                 </p>
               </div>
-            </TooltipContent>
-          </Tooltip>
+            }
+          >
+            <Image
+              src={step.logo}
+              alt={step.name}
+              width="128"
+              height="128"
+              className="p-0.5 bg-white rounded-full border-2 shadow-md transition-all"
+            />
+          </Tip>
         </foreignObject>
       </g>
     );
